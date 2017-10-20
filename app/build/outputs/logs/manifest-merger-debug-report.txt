@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:8:5-26:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\c5f97188f3720495da4e3c526a9f2505b277a742\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\d320cad57792f0e9a3054b177ac8b9f69565dd9c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3e3b262945edf3fa23f9ac2a3bb78ad5a51c4091\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\cd440d7e9564ab53ba0d01d0b87f53a894d5b7f0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\38f0bae83362edc841d8a99e8cf4036c02102ff1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3160df4538319512366674fd6754f42cdb7abd04\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\6e96615852562e6dc814360d2156db8053f6959e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\74a39807f9d353b1f7295011c33af9049144e3a6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\ca689abe0ea2d7306357b77ea738c0afe21bfbdd\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:14:9-40
+activity#groupone.green_red.boihaat.activity.MainActivity
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:15:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:19:27-74
+activity#groupone.green_red.boihaat.MainActivityAfterVerify
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:22:9-24:72
+	android:label
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:23:13-52
+activity#groupone.green_red.boihaat.activity.AboutUsActivity
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:25:9-71
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:25:19-59
+uses-sdk
+INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\c5f97188f3720495da4e3c526a9f2505b277a742\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\d320cad57792f0e9a3054b177ac8b9f69565dd9c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\43fbe58e526a52300fc8e323c2fa3d7d41e753ea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3e3b262945edf3fa23f9ac2a3bb78ad5a51c4091\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\cd440d7e9564ab53ba0d01d0b87f53a894d5b7f0\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\38f0bae83362edc841d8a99e8cf4036c02102ff1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3160df4538319512366674fd6754f42cdb7abd04\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\6e96615852562e6dc814360d2156db8053f6959e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\74a39807f9d353b1f7295011c33af9049144e3a6\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\ca689abe0ea2d7306357b77ea738c0afe21bfbdd\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\c5f97188f3720495da4e3c526a9f2505b277a742\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\d320cad57792f0e9a3054b177ac8b9f69565dd9c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\43fbe58e526a52300fc8e323c2fa3d7d41e753ea\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3e3b262945edf3fa23f9ac2a3bb78ad5a51c4091\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\cd440d7e9564ab53ba0d01d0b87f53a894d5b7f0\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\38f0bae83362edc841d8a99e8cf4036c02102ff1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\3160df4538319512366674fd6754f42cdb7abd04\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\6e96615852562e6dc814360d2156db8053f6959e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\74a39807f9d353b1f7295011c33af9049144e3a6\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\ca689abe0ea2d7306357b77ea738c0afe21bfbdd\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\kh3la\.android\build-cache\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\output\AndroidManifest.xml:26:9-47
