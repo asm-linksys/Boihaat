@@ -9,7 +9,16 @@ public class Book {
     private String pubDate;
     private String price;
     private String format;
-    private String totalCopy;
+    private int totalCopy;
+    private String summary;
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
 
     public String getUniqueId() {
         return uniqueId;
@@ -55,7 +64,7 @@ public class Book {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
@@ -67,7 +76,7 @@ public class Book {
         this.format = format;
     }
 
-    public String getTotalCopy() {
+    public int getTotalCopy() {
         return totalCopy;
     }
 

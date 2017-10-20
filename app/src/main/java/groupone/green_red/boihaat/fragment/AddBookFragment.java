@@ -11,14 +11,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
+
 
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.app.AppConfig;
 import groupone.green_red.boihaat.models.RequestInterface;
 import groupone.green_red.boihaat.models.ServerRequest;
 import groupone.green_red.boihaat.models.ServerResponse;
-import groupone.green_red.boihaat.models.User;
+import groupone.green_red.boihaat.models.Book;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -26,30 +26,34 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class AddBookFragment extends Fragment implements View.OnClickListener {
     private AppCompatButton btn_add;
-    private EditText et_email, et_password, et_name;
-    private TextView tv_login;
+    private EditText et_unique_id, et_title, et_author,et_publisher,et_pubdate,et_price,et_format,et_total_copy,et_summary;
     private ProgressBar progress;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_register, container, false);
+        View view = inflater.inflate(R.layout.fragment_add_book, container, false);
         initViews(view);
         return view;
     }
 
     private void initViews(View view) {
 
-        btn_add = (AppCompatButton) view.findViewById(R.id.btn_register);
-        tv_login = (TextView) view.findViewById(R.id.tv_login);
-        et_name = (EditText) view.findViewById(R.id.et_name);
-        et_email = (EditText) view.findViewById(R.id.et_email);
-        et_password = (EditText) view.findViewById(R.id.et_password);
+        btn_add = (AppCompatButton) view.findViewById(R.id.btn_add);
+       et_unique_id=(EditText)view.findViewById(R.id.et_unique_id);
+        et_title=(EditText)view.findViewById(R.id.et_title);
+        et_author=(EditText)view.findViewById(R.id.et_author);
+        et_publisher=(EditText)view.findViewById(R.id.et_publisher);
+        et_pubdate=(EditText)view.findViewById(R.id.et_pubdate);
+        et_price=(EditText)view.findViewById(R.id.et_price);
+        et_format=(EditText)view.findViewById(R.id.et_format);
+        et_total_copy=(EditText)view.findViewById(R.id.et_total_copy);
+        et_summary=(EditText)view.findViewById(R.id.et_summary);
 
         progress = (ProgressBar) view.findViewById(R.id.progress);
 
         btn_add.setOnClickListener(this);
-        tv_login.setOnClickListener(this);
+
     }
 
 
@@ -58,19 +62,25 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
 
         switch (v.getId()) {
             case R.id.tv_login:
-                goToLogin();
+                goToLibrary();
                 break;
 
-            case R.id.btn_register:
+            case R.id.btn_add:
+                String uniqueId=et_unique_id.getText().toString();
+                String title = et_title.getText().toString();
+                String author = et_author.getText().toString();
+                String publisher = et_publisher.getText().toString();
+                String pubDate=et_pubdate.getText().toString();
+                String price=et_price.getText().toString();
+                String format=et_format.getText().toString();
+                String total_copy=et_total_copy.getText().toString();
+                String summary=et_summary.getText().toString();
 
-                String name = et_name.getText().toString();
-                String email = et_email.getText().toString();
-                String password = et_password.getText().toString();
 
-                if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty()) {
+                if (!uniqueId.isEmpty() && !title.isEmpty() && !author.isEmpty() && !publisher.isEmpty() && !pubDate.isEmpty() && !price.isEmpty() && !format.isEmpty() && !total_copy.isEmpty() && !summary.isEmpty()) {
 
                     progress.setVisibility(View.VISIBLE);
-                    registerProcess(name, email, password);
+                    registerProcess(uniqueId, title, author,publisher,pubDate,price,format,total_copy,summary);
 
                 } else {
 
@@ -82,7 +92,7 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
 
     }
 
-    private void registerProcess(String name, String email, String password) {
+    private void registerProcess(String uniqueId, String title, String author,String publisher,String pubDate,String price,String format,String totalCopy,String summary) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(AppConfig.BASE_URL)
@@ -90,14 +100,20 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
                 .build();
 
         RequestInterface requestInterface = retrofit.create(RequestInterface.class);
-
-        User user = new User();
-        user.setName(name);
-        user.setEmail(email);
-        user.setPassword(password);
+        int finalPrice=Integer.parseInt(price);
+        Book book=new Book();
+        book.setUniqueId(uniqueId);
+        book.setTitle(title);
+        book.setAuthorId(author);
+        book.setPublisherId(publisher);
+        book.setPubDate(pubDate);
+        book.setPrice(finalPrice);
+        book.setFormat(format);
+        book.setTotalCopy(totalCopy);
+        book.setSummary(summary);
         ServerRequest request = new ServerRequest();
         request.setOperation(AppConfig.ADD_BOOK_OPERATION);
-        request.setUser(user);
+        request.setBook(book);
         Call<ServerResponse> response = requestInterface.operation(request);
 
         response.enqueue(new Callback<ServerResponse>() {
@@ -121,11 +137,11 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
         });
     }
 
-    private void goToLogin() {
+    private void goToLibrary() {
 
-        Fragment login = new LoginFragment();
+        Fragment library = new LibraryFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, login);
+        ft.replace(R.id.fragment_frame, library);
         ft.commit();
     }
 }
