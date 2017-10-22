@@ -7,7 +7,7 @@ public class Book {
     private String authorId;
     private String publisherId;
     private String pubDate;
-    private String price;
+    private int price;
     private String format;
     private int totalCopy;
     private String summary;
@@ -60,7 +60,7 @@ public class Book {
         this.pubDate = pubDate;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
@@ -80,7 +80,7 @@ public class Book {
         return totalCopy;
     }
 
-    public void setTotalCopy(String totalCopy) {
+    public void setTotalCopy(int totalCopy) {
         this.totalCopy = totalCopy;
     }
 }

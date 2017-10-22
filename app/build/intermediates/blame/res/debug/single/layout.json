@@ -44,12 +44,12 @@
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\kh3la\\.android\\build-cache\\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\f7f5a7c3f1796db61c5cf9360ff8540b96085d7e\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\kh3la\\.android\\build-cache\\da639e3e48a1e4249b8e292ce2eb37027f6d4ee9\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

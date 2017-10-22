@@ -12,13 +12,12 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.app.AppConfig;
+import groupone.green_red.boihaat.models.Book;
 import groupone.green_red.boihaat.models.RequestInterface;
 import groupone.green_red.boihaat.models.ServerRequest;
 import groupone.green_red.boihaat.models.ServerResponse;
-import groupone.green_red.boihaat.models.Book;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -93,7 +92,7 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
     }
 
     private void registerProcess(String uniqueId, String title, String author,String publisher,String pubDate,String price,String format,String totalCopy,String summary) {
-
+        int finalTotatlCopy = Integer.parseInt(totalCopy);
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(AppConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -109,7 +108,7 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
         book.setPubDate(pubDate);
         book.setPrice(finalPrice);
         book.setFormat(format);
-        book.setTotalCopy(totalCopy);
+        book.setTotalCopy(finalTotatlCopy);
         book.setSummary(summary);
         ServerRequest request = new ServerRequest();
         request.setOperation(AppConfig.ADD_BOOK_OPERATION);

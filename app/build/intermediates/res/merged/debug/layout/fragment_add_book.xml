@@ -46,6 +46,21 @@
             android:inputType="number" />
 
     </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/et_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_email"
+            android:hint="Author Name"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -54,15 +69,29 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_passblisher"
+            android:id="@+id/et_publisher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
             android:hint="publisher  "
-            android:inputType="textPassword" />
+            android:inputType="textPersonName" />
 
     </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
 
+        <EditText
+            android:id="@+id/et_pubdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_key"
+            android:hint="publishing Date "
+            android:inputType="date" />
+
+    </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -128,20 +157,14 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btn_register"
+        android:id="@+id/btn_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:text="Register"
         android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/tv_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Already Registered ? Login Now !"
-        android:textColor="@color/colorAccent" />
+
 
     <ProgressBar
         android:id="@+id/progress"
