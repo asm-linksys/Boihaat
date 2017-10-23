@@ -1,12 +1,13 @@
 package groupone.green_red.boihaat.app;
 
+import groupone.green_red.boihaat.models.Author;
 import groupone.green_red.boihaat.models.Book;
 import groupone.green_red.boihaat.models.Comment;
+import groupone.green_red.boihaat.models.Image;
+import groupone.green_red.boihaat.models.Publisher;
+import groupone.green_red.boihaat.models.Rating;
 import groupone.green_red.boihaat.models.User;
 
-/**
- * Created by kh3la on 10/15/2017.
- */
 
 public class ServerResponse {
     private String result;
@@ -14,6 +15,30 @@ public class ServerResponse {
     private User user;
     private Book book;
     private Comment comment;
+    private Author author;
+    private Publisher publisher;
+    private Rating rating;
+    private Image image;
+
+    public Image getImage() {
+        return image;
+    }
+
+    public Comment getComment() {
+        return comment;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public Publisher getPublisher() {
+        return publisher;
+    }
+
+    public Rating getRating() {
+        return rating;
+    }
 
     public Book getBook() {
         return book;
