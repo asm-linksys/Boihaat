@@ -14,11 +14,29 @@ public class AppConfig {
     public static final String SUCCESS = "success";
     public static final String FAILURE = "failure";
     public static final String IS_LOGGED_IN = "isLoggedIn";
+    // User Table Information
 
     public static final String NAME = "name";
     public static final String EMAIL = "email";
     public static final String UNIQUE_ID = "unique_id";
     public static final String AGE = "age";
+
+    //Book Table Information
+
+    public static final String TITLE = "title";
+    public static final String AUTHOR = "author_id";
+    public static final String PUBLISHER = "publisher_id";
+    public static final String PUBDATE = "pub_date";
+    public static final String PRICE = "price";
+    public static final String FORMAT = "format";
+    public static final String TOTALCOPY = "total_copy";
+    public static final String RATING = "raing";
+
+    //Comment Table Information
+
+    public static final String COMMENT = "";
+
+
 
     public static final String TAG = "Boihaat";
 

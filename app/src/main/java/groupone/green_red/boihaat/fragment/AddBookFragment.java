@@ -14,10 +14,10 @@ import android.widget.ProgressBar;
 
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.app.AppConfig;
+import groupone.green_red.boihaat.app.RequestInterface;
+import groupone.green_red.boihaat.app.ServerRequest;
+import groupone.green_red.boihaat.app.ServerResponse;
 import groupone.green_red.boihaat.models.Book;
-import groupone.green_red.boihaat.models.RequestInterface;
-import groupone.green_red.boihaat.models.ServerRequest;
-import groupone.green_red.boihaat.models.ServerResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;

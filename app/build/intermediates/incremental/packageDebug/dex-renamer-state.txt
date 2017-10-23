@@ -1,7 +1,0 @@
-#Fri Oct 20 19:52:16 BDT 2017
-base.0=D\:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_708d668921b743515b6bf6441e5bb704a1fcb718
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_44f2e9895b978c1e2ad4aa869f073214a1228702\\classes.dex
-base.1=D\:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_44f2e9895b978c1e2ad4aa869f073214a1228702
-file.0=D\:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_708d668921b743515b6bf6441e5bb704a1fcb718\\classes.dex

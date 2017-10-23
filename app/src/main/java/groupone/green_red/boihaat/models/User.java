@@ -13,7 +13,7 @@ public class User {
     private String old_password;
     private String new_password;
     private String code;
-    private int age;
+    private String age;
     private String address;
 
     public String getCode() {
@@ -24,11 +24,11 @@ public class User {
         this.code = code;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
