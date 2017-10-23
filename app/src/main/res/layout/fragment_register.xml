@@ -95,6 +95,18 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/btn_upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_menu_camera"
+        android:text="Choose Image"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_register"
         android:layout_width="match_parent"

@@ -44,4 +44,5 @@
     <string name="boihaat_login">Boihaat Login</string>
     <string name="code">Code</string>
     <string name="title_activity_main_after_verify">MainActivityAfterVerify</string>
+    <string name="title_activity_main_second">MainActivitySecond</string>
 </resources>

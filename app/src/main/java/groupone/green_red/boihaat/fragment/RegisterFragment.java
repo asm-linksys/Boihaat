@@ -26,6 +26,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterFragment extends Fragment implements View.OnClickListener {
     private AppCompatButton btn_register;
+    private AppCompatButton btn_select_image;
+
+
     private EditText et_email, et_password, et_name, et_age, et_address;
     private TextView tv_login;
     private ProgressBar progress;
@@ -49,7 +52,8 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         et_age = (EditText) view.findViewById(R.id.et_age);
         et_address = (EditText) view.findViewById(R.id.et_address);
         progress = (ProgressBar) view.findViewById(R.id.progress);
-
+        btn_select_image = (AppCompatButton) view.findViewById(R.id.btn_upload_image);
+        btn_select_image.setOnClickListener(this);
         btn_register.setOnClickListener(this);
         tv_login.setOnClickListener(this);
     }
@@ -62,7 +66,6 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
             case R.id.tv_login:
                 goToLogin();
                 break;
-
             case R.id.btn_register:
 
                 String name = et_name.getText().toString();
@@ -136,4 +139,5 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         ft.replace(R.id.fragment_frame, login);
         ft.commit();
     }
+
 }
