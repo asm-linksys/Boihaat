@@ -10,10 +10,11 @@ public class AppConfig {
     public static final String UPDATE_BOOK_DETAILS = "updateBook";
     public static final String RESET_PASSWORD_INITIATE = "resPassReq";
     public static final String RESET_PASSWORD_FINISH = "resPass";
-
     public static final String SUCCESS = "success";
     public static final String FAILURE = "failure";
     public static final String IS_LOGGED_IN = "isLoggedIn";
+
+
     // User Table Information
 
     public static final String NAME = "name";
@@ -30,13 +31,33 @@ public class AppConfig {
     public static final String PRICE = "price";
     public static final String FORMAT = "format";
     public static final String TOTALCOPY = "total_copy";
-    public static final String RATING = "raing";
+    public static final String RATING = "rating";
 
     //Comment Table Information
 
-    public static final String COMMENT = "";
+    public static final String COMMENT = "comment";
+
+    //Author Table Information
+    public static final String AUTHORNAME = "name";
+    public static final String AUTHOREMAIL = "email";
+    public static final String AUTHORDOB = "dob";
+    public static final String AUTHORDETAILS = "details";
 
 
+    //Image Table information
+
+    public static final String IMAGETYPE = "image_type";
+    public static final String IMAGESIZE = "image_size";
+    public static final String IMAGECAT = "image_cat";
+    public static final String IMAGENAME = "image_name";
+
+    //Publisher Table information
+    public static final String PUBLISHERNAME = "name";
+    public static final String PUBLISHERADDRESS = "address";
+    public static final String PUBLISHERDETAIS = "details";
+
+    //Ratings table information
+    public static final String RATINGS = "rating";
 
     public static final String TAG = "Boihaat";
 

@@ -8,6 +8,7 @@ import android.support.v7.widget.AppCompatButton;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ public class BookDetails extends Fragment implements View.OnClickListener {
     private TextView tv_title, tv_author, tv_publisher, tv_pubDate, tv_price, tv_format, tv_total_copy, tv_rating, tv_uploader_id;
     private SharedPreferences pref;
     private AppCompatButton btn_details, btn_read, btn_exchange;
+    private Button btn_comment;
     private android.app.AlertDialog dialog;
     private ProgressBar progress;
 
@@ -40,9 +42,8 @@ public class BookDetails extends Fragment implements View.OnClickListener {
         pref = getActivity().getPreferences(0);
 
 
-        tv_name.setText("Welcome : " + pref.getString(AppConfig.NAME, ""));
-        tv_email.setText("Email :  : " + pref.getString(AppConfig.EMAIL, ""));
-        tv_age.setText("Age : " + pref.getInt(AppConfig.AGE, user.getAge()));
+        tv_title.setText("Welcome : " + pref.getString(AppConfig.TITLE, ""));
+        tv_author.setText("Email :  : " + pref.getString(AppConfig.AUTHOR, ""));
 
 
     }
@@ -53,6 +54,13 @@ public class BookDetails extends Fragment implements View.OnClickListener {
         ft.replace(R.id.fragment_frame, bookDetailsComments);
         ft.commit();
 
+    }
+
+    public void goToExchange() {
+        Fragment exchange = new ExchangeFragment();
+        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_frame, exchange);
+        fragmentTransaction.commit();
     }
 
     private void initViews(View view) {
@@ -66,6 +74,7 @@ public class BookDetails extends Fragment implements View.OnClickListener {
         tv_total_copy = (TextView) view.findViewById(R.id.tv_total_copy);
         tv_rating = (TextView) view.findViewById(R.id.tv_rating);
         tv_uploader_id = (TextView) view.findViewById(R.id.tv_uploader_id);
+        btn_comment = (Button) view.findViewById(R.id.btn_add_comment);
         btn_read = (AppCompatButton) view.findViewById(R.id.btn_read);
         btn_exchange = (AppCompatButton) view.findViewById(R.id.btn_exchange);
         btn_details = (AppCompatButton) view.findViewById(R.id.btn_details_comment);
@@ -75,15 +84,20 @@ public class BookDetails extends Fragment implements View.OnClickListener {
 
     }
 
+    public void commentView() {
+        btn_comment.setVisibility(View.VISIBLE);
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-
+            case R.id.btn_add_comment:
+                commentView();
+                break;
             case R.id.btn_details_comment:
                 goToDetails();
                 break;
-            case R.id.btn_logout:
-                logout();
+            case R.id.btn_exchange:
+                goToExchange();
                 break;
         }
     }
