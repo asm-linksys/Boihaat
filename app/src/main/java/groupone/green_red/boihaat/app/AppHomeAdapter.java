@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
  * Created by kh3la on 10/24/2017.
  */
 
+@SuppressWarnings("DefaultFileTemplate")
 public class AppHomeAdapter extends BaseAdapter {
     @Override
     public int getCount() {

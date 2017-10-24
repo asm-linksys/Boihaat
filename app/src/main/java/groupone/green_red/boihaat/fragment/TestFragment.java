@@ -44,35 +44,35 @@ public class TestFragment extends Fragment implements View.OnClickListener {
     public void gotoProfile() {
         Fragment profile = new ProfileFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, profile);
+        ft.replace(R.id.frame, profile);
         ft.commit();
     }
 
     public void gotoAddBook() {
         Fragment addBook = new AddBookFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, addBook);
+        ft.replace(R.id.frame, addBook);
         ft.commit();
     }
 
     public void gotoBookDetails() {
         Fragment bookDetails = new BookDetailsFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, bookDetails);
+        ft.replace(R.id.frame, bookDetails);
 
     }
 
     public void gotoExchange() {
         Fragment exchange = new ExchangeFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, exchange);
+        ft.replace(R.id.frame, exchange);
         ft.commit();
     }
 
     public void gotoHome() {
         Fragment home = new HomeFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, home);
+        ft.replace(R.id.frame, home);
         ft.commit();
 
     }
@@ -80,7 +80,7 @@ public class TestFragment extends Fragment implements View.OnClickListener {
     public void gotoLibrary() {
         Fragment library = new LibraryFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, library);
+        ft.replace(R.id.frame, library);
         ft.commit();
     }
 

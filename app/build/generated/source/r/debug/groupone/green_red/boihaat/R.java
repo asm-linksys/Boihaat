@@ -3635,13 +3635,13 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0d0030;
         public static final int expand_activities_button=0x7f0d006b;
         public static final int expanded_menu=0x7f0d007f;
-        public static final int fab=0x7f0d009c;
+        public static final int fab=0x7f0d009b;
         public static final int fill=0x7f0d004a;
         public static final int fill_horizontal=0x7f0d004b;
         public static final int fill_vertical=0x7f0d0041;
         public static final int fixed=0x7f0d0065;
         public static final int forever=0x7f0d004f;
-        public static final int fragment_frame=0x7f0d009a;
+        public static final int frame=0x7f0d009c;
         public static final int ghost_view=0x7f0d0004;
         public static final int home=0x7f0d0005;
         public static final int homeAsUp=0x7f0d0029;
@@ -3748,7 +3748,7 @@ containing a value of this type.
         public static final int titleDividerNoCustom=0x7f0d007e;
         public static final int titleTxt=0x7f0d00c8;
         public static final int title_template=0x7f0d007c;
-        public static final int toolbar=0x7f0d009b;
+        public static final int toolbar=0x7f0d009a;
         public static final int top=0x7f0d0045;
         public static final int topPanel=0x7f0d007b;
         public static final int touch_outside=0x7f0d00a1;

@@ -51,7 +51,7 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
     private void goToDetails() {
         Fragment bookDetailsComments = new BookComments();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, bookDetailsComments);
+        ft.replace(R.id.frame, bookDetailsComments);
         ft.commit();
 
     }
@@ -59,7 +59,7 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
     private void goToExchange() {
         Fragment exchange = new ExchangeFragment();
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_frame, exchange);
+        fragmentTransaction.replace(R.id.frame, exchange);
         fragmentTransaction.commit();
     }
 

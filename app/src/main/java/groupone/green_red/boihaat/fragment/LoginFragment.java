@@ -15,6 +15,9 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.activity.DrawerActivity;
 import groupone.green_red.boihaat.app.AppConfig;
@@ -58,7 +61,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         tv_register.setOnClickListener(this);
     }
 
-    @SuppressWarnings("ConstantConditions")
+
     @Override
     public void onClick(View v) {
 
@@ -88,9 +91,14 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
     private void loginProcess(String email, String password) {
 
+
+        Gson gson = new GsonBuilder()
+                .setLenient()
+                .create();
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(AppConfig.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
         RequestInterface requestInterface = retrofit.create(RequestInterface.class);
@@ -104,7 +112,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         Call<ServerResponse> response = requestInterface.operation(request);
 
         response.enqueue(new Callback<ServerResponse>() {
-            @SuppressWarnings("ConstantConditions")
+
             @Override
             public void onResponse(Call<ServerResponse> call, retrofit2.Response<ServerResponse> response) {
 
@@ -140,7 +148,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
         Fragment register = new RegisterFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, register);
+        ft.replace(R.id.frame, register);
+        ft.addToBackStack(null);
         ft.commit();
     }
 

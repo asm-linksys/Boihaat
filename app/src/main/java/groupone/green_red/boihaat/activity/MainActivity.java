@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             fragment = new LoginFragment();
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_frame, fragment);
+            ft.replace(R.id.frame, fragment);
             ft.commit();
         }
 

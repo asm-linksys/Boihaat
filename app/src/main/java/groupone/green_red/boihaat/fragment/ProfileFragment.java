@@ -141,7 +141,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
 
         Fragment login = new LoginFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, login);
+        ft.replace(R.id.frame, login);
         ft.commit();
     }
 

@@ -46,7 +46,7 @@ public class AppConfig {
 
     //Image Table information
 
-    public static final String IMAGETYPE = "image_type";
+    public static final String IMAGEURL = "image_url";
     public static final String IMAGESIZE = "image_size";
     public static final String IMAGECAT = "image_cat";
     public static final String IMAGENAME = "image_name";
