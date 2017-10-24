@@ -35,7 +35,6 @@ MERGED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-ca
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kh3la\.android\build-cache\b0945d903eae19e7da2eda24b5e64f75da20de9b\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\f0fb2cf7472721523535515de940026ddac3103d\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\26a5b1acfe929be927a4de95bba390d54e51eeba\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kh3la\.android\build-cache\5e1f7bd362f55b71dcf4fedf9b9306671ff982a8\output\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kh3la\.android\build-cache\dce6883b884ad988c4424fe69143506aa1c07882\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-plus:11.0.4] C:\Users\kh3la\.android\build-cache\e05f56cea43245431be471f91412234734521059\output\AndroidManifest.xml:18:5-19
@@ -45,8 +44,9 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\kh3l
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kh3la\.android\build-cache\d673049782b412bc163a7799f5a3fc2b726625e3\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b8ee4b8026690778054417638772074bb65a6499\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kh3la\.android\build-cache\19c1c4c5178e130b196f697e477724c2f484fcc5\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kh3la\.android\build-cache\936d6a66028a1bec7f114d5f02cb419f01c77c10\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b94285f4b4e93f9aa2198387d20bdfbcce4e164b\output\AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kh3la\.android\build-cache\f2340180fc16082d4f2e705cf844e2833a2d3e0d\output\AndroidManifest.xml:24:5-28:19
 	android:label
@@ -89,7 +89,6 @@ MERGED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-ca
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kh3la\.android\build-cache\b0945d903eae19e7da2eda24b5e64f75da20de9b\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\f0fb2cf7472721523535515de940026ddac3103d\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\26a5b1acfe929be927a4de95bba390d54e51eeba\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kh3la\.android\build-cache\5e1f7bd362f55b71dcf4fedf9b9306671ff982a8\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kh3la\.android\build-cache\dce6883b884ad988c4424fe69143506aa1c07882\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-plus:11.0.4] C:\Users\kh3la\.android\build-cache\e05f56cea43245431be471f91412234734521059\output\AndroidManifest.xml:17:5-43
@@ -99,8 +98,9 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\kh3l
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kh3la\.android\build-cache\d673049782b412bc163a7799f5a3fc2b726625e3\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b8ee4b8026690778054417638772074bb65a6499\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kh3la\.android\build-cache\19c1c4c5178e130b196f697e477724c2f484fcc5\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kh3la\.android\build-cache\936d6a66028a1bec7f114d5f02cb419f01c77c10\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b94285f4b4e93f9aa2198387d20bdfbcce4e164b\output\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kh3la\.android\build-cache\f2340180fc16082d4f2e705cf844e2833a2d3e0d\output\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
@@ -116,13 +116,13 @@ ADDED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-cac
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kh3la\.android\build-cache\b0945d903eae19e7da2eda24b5e64f75da20de9b\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\f0fb2cf7472721523535515de940026ddac3103d\output\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\26a5b1acfe929be927a4de95bba390d54e51eeba\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kh3la\.android\build-cache\5e1f7bd362f55b71dcf4fedf9b9306671ff982a8\output\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kh3la\.android\build-cache\d673049782b412bc163a7799f5a3fc2b726625e3\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b8ee4b8026690778054417638772074bb65a6499\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kh3la\.android\build-cache\19c1c4c5178e130b196f697e477724c2f484fcc5\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kh3la\.android\build-cache\936d6a66028a1bec7f114d5f02cb419f01c77c10\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kh3la\.android\build-cache\e2a8324342eeaf6fcf2aca2e66b6ab2838e5747a\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kh3la\.android\build-cache\e34fb64aa570a65c860dd416067b836a30705e7c\output\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kh3la\.android\build-cache\b94285f4b4e93f9aa2198387d20bdfbcce4e164b\output\AndroidManifest.xml:26:9-28:38
 	android:value
 		ADDED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-cache\cea3366e6b195a6d011a9272b6a6b823a26e1925\output\AndroidManifest.xml:28:13-35

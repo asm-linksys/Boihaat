@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
-        "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\layout\\activity_about_us.xml"
-    },
-    {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\b8ee4b8026690778054417638772074bb65a6499\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\layout\\activity_about_us.xml"
     },
     {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_book_comments.xml",

@@ -42,6 +42,8 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
 
         tv_title.setText("Welcome : " + pref.getString(AppConfig.TITLE, ""));
         tv_author.setText("Email :  : " + pref.getString(AppConfig.AUTHOR, ""));
+        tv_publisher.setText("Publisher : " + pref.getString(AppConfig.PUBLISHER, ""));
+        tv_pubDate.setText("Publication Date " + pref.getString(AppConfig.PUBDATE, ""));
 
 
     }

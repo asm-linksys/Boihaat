@@ -72,6 +72,10 @@
         "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\drawable\\ic_send_black.png"
     },
     {
+        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\facebook.xml",
+        "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\drawable\\facebook.xml"
+    },
+    {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\b0945d903eae19e7da2eda24b5e64f75da20de9b\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -184,12 +188,12 @@
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\b0945d903eae19e7da2eda24b5e64f75da20de9b\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_black.png",
-        "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\drawable\\ic_delete_black.png"
-    },
-    {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
         "source": "C:\\Users\\kh3la\\.android\\build-cache\\5e7699dfd4674602bab3659ebbe5b8cd54ea45d1\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_delete_black.png",
+        "source": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\src\\main\\res\\drawable\\ic_delete_black.png"
     },
     {
         "merged": "D:\\Files\\Personal\\MobileApplication\\BoiHaat\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
