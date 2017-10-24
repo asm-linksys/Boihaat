@@ -23,26 +23,25 @@ public final class R {
         public static final int design_bottom_sheet_slide_out=0x7f05000b;
         public static final int design_snackbar_in=0x7f05000c;
         public static final int design_snackbar_out=0x7f05000d;
+        public static final int tooltip_enter=0x7f05000e;
+        public static final int tooltip_exit=0x7f05000f;
     }
     public static final class animator {
         public static final int design_appbar_state_list_animator=0x7f060000;
-    }
-    public static final class array {
-        public static final int nav_item_activity_titles=0x7f0d0000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f010072;
+        public static final int actionBarDivider=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f010073;
+        public static final int actionBarItemBackground=0x7f01007b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f01006c;
+        public static final int actionBarPopupTheme=0x7f010074;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -60,117 +59,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010071;
+        public static final int actionBarSize=0x7f010079;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f01006e;
+        public static final int actionBarSplitStyle=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f01006d;
+        public static final int actionBarStyle=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010068;
+        public static final int actionBarTabBarStyle=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f010067;
+        public static final int actionBarTabStyle=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010069;
+        public static final int actionBarTabTextStyle=0x7f010071;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f01006f;
+        public static final int actionBarTheme=0x7f010077;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010070;
+        public static final int actionBarWidgetTheme=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f01008d;
+        public static final int actionButtonStyle=0x7f010095;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f010089;
+        public static final int actionDropDownStyle=0x7f010091;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f010104;
+        public static final int actionLayout=0x7f01011e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f010074;
+        public static final int actionMenuTextAppearance=0x7f01007c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f010075;
+        public static final int actionMenuTextColor=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010078;
+        public static final int actionModeBackground=0x7f010080;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f010077;
+        public static final int actionModeCloseButtonStyle=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f01007a;
+        public static final int actionModeCloseDrawable=0x7f010082;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f01007c;
+        public static final int actionModeCopyDrawable=0x7f010084;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f01007b;
+        public static final int actionModeCutDrawable=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010080;
+        public static final int actionModeFindDrawable=0x7f010088;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f01007d;
+        public static final int actionModePasteDrawable=0x7f010085;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010082;
+        public static final int actionModePopupWindowStyle=0x7f01008a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f01007e;
+        public static final int actionModeSelectAllDrawable=0x7f010086;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f01007f;
+        public static final int actionModeShareDrawable=0x7f010087;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010079;
+        public static final int actionModeSplitBackground=0x7f010081;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010076;
+        public static final int actionModeStyle=0x7f01007e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010081;
+        public static final int actionModeWebSearchDrawable=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f01006a;
+        public static final int actionOverflowButtonStyle=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f01006b;
+        public static final int actionOverflowMenuStyle=0x7f010073;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -178,7 +177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f010106;
+        public static final int actionProviderClass=0x7f010120;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -186,15 +185,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f010105;
+        public static final int actionViewClass=0x7f01011f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010095;
+        public static final int activityChooserViewStyle=0x7f01009d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogButtonGroupStyle=0x7f0100b9;
+        public static final int alertDialogButtonGroupStyle=0x7f0100c2;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -202,15 +201,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alertDialogCenterButtons=0x7f0100ba;
+        public static final int alertDialogCenterButtons=0x7f0100c3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogStyle=0x7f0100b8;
+        public static final int alertDialogStyle=0x7f0100c1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogTheme=0x7f0100bb;
+        public static final int alertDialogTheme=0x7f0100c4;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -218,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowStacking=0x7f0100d1;
+        public static final int allowStacking=0x7f0100dd;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -226,7 +225,22 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alpha=0x7f0100e3;
+        public static final int alpha=0x7f0100ef;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
+<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
+<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
+</table>
+         */
+        public static final int alphabeticModifiers=0x7f01011b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -236,7 +250,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f0100f5;
+        public static final int arrowHeadLength=0x7f010101;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -246,11 +260,56 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f0100f6;
+        public static final int arrowShaftLength=0x7f010102;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoCompleteTextViewStyle=0x7f0100c0;
+        public static final int autoCompleteTextViewStyle=0x7f0100c9;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int autoSizeMaxTextSize=0x7f010063;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int autoSizeMinTextSize=0x7f010062;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int autoSizePresetSizes=0x7f010061;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int autoSizeStepGranularity=0x7f010060;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>uniform</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int autoSizeTextType=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -275,7 +334,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f01016b;
+        public static final int backgroundTint=0x7f01018a;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -289,7 +348,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f01016c;
+        public static final int backgroundTintMode=0x7f01018b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -299,7 +358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f0100f7;
+        public static final int barLength=0x7f010103;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -307,7 +366,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_autoHide=0x7f0100fe;
+        public static final int behavior_autoHide=0x7f01010a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -315,7 +374,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_hideable=0x7f0100cf;
+        public static final int behavior_hideable=0x7f0100db;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -325,7 +384,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f01011f;
+        public static final int behavior_overlapTop=0x7f01013b;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -343,7 +402,7 @@ containing a value of this type.
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
          */
-        public static final int behavior_peekHeight=0x7f0100ce;
+        public static final int behavior_peekHeight=0x7f0100da;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -351,7 +410,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_skipCollapsed=0x7f0100d0;
+        public static final int behavior_skipCollapsed=0x7f0100dc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -361,39 +420,39 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int borderWidth=0x7f0100fc;
+        public static final int borderWidth=0x7f010108;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int borderlessButtonStyle=0x7f010092;
+        public static final int borderlessButtonStyle=0x7f01009a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetDialogTheme=0x7f0100ee;
+        public static final int bottomSheetDialogTheme=0x7f0100fa;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetStyle=0x7f0100ef;
+        public static final int bottomSheetStyle=0x7f0100fb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f01008f;
+        public static final int buttonBarButtonStyle=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNegativeButtonStyle=0x7f0100be;
+        public static final int buttonBarNegativeButtonStyle=0x7f0100c7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNeutralButtonStyle=0x7f0100bf;
+        public static final int buttonBarNeutralButtonStyle=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarPositiveButtonStyle=0x7f0100bd;
+        public static final int buttonBarPositiveButtonStyle=0x7f0100c6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f01008e;
+        public static final int buttonBarStyle=0x7f010096;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -404,19 +463,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
          */
-        public static final int buttonGravity=0x7f010160;
+        public static final int buttonGravity=0x7f01017f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonPanelSideLayout=0x7f01004d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int buttonSize=0x7f010149;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyle=0x7f0100c1;
+        public static final int buttonStyle=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyleSmall=0x7f0100c2;
+        public static final int buttonStyleSmall=0x7f0100cb;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -425,7 +498,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f0100e4;
+        public static final int buttonTint=0x7f0100f0;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -439,19 +512,27 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f0100e5;
+        public static final int buttonTintMode=0x7f0100f1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkboxStyle=0x7f0100c3;
+        public static final int checkboxStyle=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkedTextViewStyle=0x7f0100c4;
+        public static final int checkedTextViewStyle=0x7f0100cd;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f01011a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010124;
+        public static final int closeIcon=0x7f010140;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -463,11 +544,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f010162;
+        public static final int collapseContentDescription=0x7f010181;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010161;
+        public static final int collapseIcon=0x7f010180;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -486,11 +567,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int collapsedTitleGravity=0x7f0100de;
+        public static final int collapsedTitleGravity=0x7f0100ea;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapsedTitleTextAppearance=0x7f0100d8;
+        public static final int collapsedTitleTextAppearance=0x7f0100e4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -499,7 +580,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f0100f1;
+        public static final int color=0x7f0100fd;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -508,7 +589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f0100b0;
+        public static final int colorAccent=0x7f0100b9;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -517,7 +598,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorBackgroundFloating=0x7f0100b7;
+        public static final int colorBackgroundFloating=0x7f0100c0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -526,7 +607,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f0100b4;
+        public static final int colorButtonNormal=0x7f0100bd;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -535,7 +616,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f0100b2;
+        public static final int colorControlActivated=0x7f0100bb;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -544,7 +625,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f0100b3;
+        public static final int colorControlHighlight=0x7f0100bc;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -553,7 +634,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f0100b1;
+        public static final int colorControlNormal=0x7f0100ba;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int colorError=0x7f0100d9;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -562,7 +649,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f0100ae;
+        public static final int colorPrimary=0x7f0100b7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -571,7 +658,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f0100af;
+        public static final int colorPrimaryDark=0x7f0100b8;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int colorScheme=0x7f01014a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -580,11 +681,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f0100b5;
+        public static final int colorSwitchThumbNormal=0x7f0100be;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f010129;
+        public static final int commitIcon=0x7f010145;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -596,7 +697,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentDescription=0x7f010107;
+        public static final int contentDescription=0x7f010121;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -665,11 +766,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentScrim=0x7f0100d9;
+        public static final int contentScrim=0x7f0100e5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int controlBackground=0x7f0100b6;
+        public static final int controlBackground=0x7f0100bf;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -677,7 +778,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f01014d;
+        public static final int counterEnabled=0x7f01016c;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -685,15 +786,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f01014e;
+        public static final int counterMaxLength=0x7f01016d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f010150;
+        public static final int counterOverflowTextAppearance=0x7f01016f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f01014f;
+        public static final int counterTextAppearance=0x7f01016e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -705,7 +806,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f010123;
+        public static final int defaultQueryHint=0x7f01013f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -715,11 +816,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogPreferredPadding=0x7f010087;
+        public static final int dialogPreferredPadding=0x7f01008f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogTheme=0x7f010086;
+        public static final int dialogTheme=0x7f01008e;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -743,7 +844,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010094;
+        public static final int dividerHorizontal=0x7f01009c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -753,11 +854,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f010102;
+        public static final int dividerPadding=0x7f010117;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010093;
+        public static final int dividerVertical=0x7f01009b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -767,7 +868,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f0100f3;
+        public static final int drawableSize=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -775,7 +876,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f0100a6;
+        public static final int dropDownListViewStyle=0x7f0100ae;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -785,21 +886,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f01008a;
+        public static final int dropdownListPreferredItemHeight=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f01009b;
+        public static final int editTextBackground=0x7f0100a3;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f01009a;
+        public static final int editTextColor=0x7f0100a2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextStyle=0x7f0100c5;
+        public static final int editTextStyle=0x7f0100ce;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -817,11 +918,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f01014b;
+        public static final int errorEnabled=0x7f01016a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f01014c;
+        public static final int errorTextAppearance=0x7f01016b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -852,7 +953,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int expandedTitleGravity=0x7f0100df;
+        public static final int expandedTitleGravity=0x7f0100eb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -862,7 +963,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMargin=0x7f0100d2;
+        public static final int expandedTitleMargin=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -872,7 +973,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginBottom=0x7f0100d6;
+        public static final int expandedTitleMarginBottom=0x7f0100e2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -882,7 +983,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginEnd=0x7f0100d5;
+        public static final int expandedTitleMarginEnd=0x7f0100e1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -892,7 +993,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginStart=0x7f0100d3;
+        public static final int expandedTitleMarginStart=0x7f0100df;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -902,11 +1003,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginTop=0x7f0100d4;
+        public static final int expandedTitleMarginTop=0x7f0100e0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandedTitleTextAppearance=0x7f0100d7;
+        public static final int expandedTitleTextAppearance=0x7f0100e3;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -918,7 +1019,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int fabSize=0x7f0100fa;
+        public static final int fabSize=0x7f010106;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -926,23 +1027,109 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fastScrollEnabled=0x7f010119;
+        public static final int fastScrollEnabled=0x7f010135;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int fastScrollHorizontalThumbDrawable=0x7f01011c;
+        public static final int fastScrollHorizontalThumbDrawable=0x7f010138;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int fastScrollHorizontalTrackDrawable=0x7f01011d;
+        public static final int fastScrollHorizontalTrackDrawable=0x7f010139;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int fastScrollVerticalThumbDrawable=0x7f01011a;
+        public static final int fastScrollVerticalThumbDrawable=0x7f010136;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int fastScrollVerticalTrackDrawable=0x7f01011b;
+        public static final int fastScrollVerticalTrackDrawable=0x7f010137;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int font=0x7f010112;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontFamily=0x7f010064;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderAuthority=0x7f01010b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fontProviderCerts=0x7f01010e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
+<tr><td><code>async</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int fontProviderFetchStrategy=0x7f01010f;
+        /** <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
+</table>
+         */
+        public static final int fontProviderFetchTimeout=0x7f010110;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderPackage=0x7f01010c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderQuery=0x7f01010d;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>italic</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int fontStyle=0x7f010111;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontWeight=0x7f010113;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -950,7 +1137,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int foregroundInsidePadding=0x7f0100ff;
+        public static final int foregroundInsidePadding=0x7f010114;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -960,15 +1147,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f0100f4;
+        public static final int gapBetweenBars=0x7f010100;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010125;
+        public static final int goIcon=0x7f010141;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f010110;
+        public static final int headerLayout=0x7f01012c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -994,7 +1181,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f010151;
+        public static final int hintAnimationEnabled=0x7f010170;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1002,15 +1189,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintEnabled=0x7f01014a;
+        public static final int hintEnabled=0x7f010169;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f010149;
+        public static final int hintTextAppearance=0x7f010168;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01008c;
+        public static final int homeAsUpIndicator=0x7f010094;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1019,6 +1206,30 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int icon=0x7f010035;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int iconTint=0x7f010123;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+         */
+        public static final int iconTintMode=0x7f010124;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1026,11 +1237,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010121;
+        public static final int iconifiedByDefault=0x7f01013d;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010119;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f010118;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int imageButtonStyle=0x7f01009c;
+        public static final int imageButtonStyle=0x7f0100a4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1048,7 +1279,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f01011e;
+        public static final int insetForeground=0x7f01013a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1060,7 +1291,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f01010e;
+        public static final int itemBackground=0x7f01012a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1069,7 +1300,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f01010c;
+        public static final int itemIconTint=0x7f010128;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1083,7 +1314,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f01010f;
+        public static final int itemTextAppearance=0x7f01012b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1092,15 +1323,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f01010d;
+        public static final int itemTextColor=0x7f010129;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int keylines=0x7f0100e6;
+        public static final int keylines=0x7f0100f2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f010120;
+        public static final int layout=0x7f01013c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1108,11 +1339,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layoutManager=0x7f010115;
+        public static final int layoutManager=0x7f010131;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_anchor=0x7f0100e9;
+        public static final int layout_anchor=0x7f0100f5;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1135,7 +1366,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_anchorGravity=0x7f0100eb;
+        public static final int layout_anchorGravity=0x7f0100f7;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1143,7 +1374,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_behavior=0x7f0100e8;
+        public static final int layout_behavior=0x7f0100f4;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1155,7 +1386,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int layout_collapseMode=0x7f0100e1;
+        public static final int layout_collapseMode=0x7f0100ed;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1163,7 +1394,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_collapseParallaxMultiplier=0x7f0100e2;
+        public static final int layout_collapseParallaxMultiplier=0x7f0100ee;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1530,7 +1761,7 @@ containing a value of this type.
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
          */
-        public static final int layout_dodgeInsetEdges=0x7f0100ed;
+        public static final int layout_dodgeInsetEdges=0x7f0100f9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1626,7 +1857,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_insetEdge=0x7f0100ec;
+        public static final int layout_insetEdge=0x7f0100f8;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1634,7 +1865,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_keyline=0x7f0100ea;
+        public static final int layout_keyline=0x7f0100f6;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1669,11 +1900,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f0100ad;
+        public static final int listChoiceBackgroundIndicator=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listDividerAlertDialog=0x7f010088;
+        public static final int listDividerAlertDialog=0x7f010090;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1685,11 +1916,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listMenuViewStyle=0x7f0100cd;
+        public static final int listMenuViewStyle=0x7f0100d6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f0100a7;
+        public static final int listPopupWindowStyle=0x7f0100af;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1699,7 +1930,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f0100a1;
+        public static final int listPreferredItemHeight=0x7f0100a9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1709,7 +1940,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f0100a3;
+        public static final int listPreferredItemHeightLarge=0x7f0100ab;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1719,7 +1950,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f0100a2;
+        public static final int listPreferredItemHeightSmall=0x7f0100aa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1729,7 +1960,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f0100a4;
+        public static final int listPreferredItemPaddingLeft=0x7f0100ac;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1739,7 +1970,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f0100a5;
+        public static final int listPreferredItemPaddingRight=0x7f0100ad;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1751,7 +1982,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f010165;
+        public static final int logoDescription=0x7f010184;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1761,7 +1992,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxActionInlineWidth=0x7f01012d;
+        public static final int maxActionInlineWidth=0x7f01014c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1771,7 +2002,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f01015f;
+        public static final int maxButtonHeight=0x7f01017e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1779,11 +2010,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f010100;
+        public static final int measureWithLargestChild=0x7f010115;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f01010b;
+        public static final int menu=0x7f010127;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1795,11 +2026,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f010164;
+        public static final int navigationContentDescription=0x7f010183;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f010163;
+        public static final int navigationIcon=0x7f010182;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1812,6 +2043,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int navigationMode=0x7f010030;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
+<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
+<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
+</table>
+         */
+        public static final int numericModifiers=0x7f01011c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1819,7 +2065,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f010111;
+        public static final int overlapAnchor=0x7f01012d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1829,7 +2075,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingBottomNoButtons=0x7f010113;
+        public static final int paddingBottomNoButtons=0x7f01012f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1839,7 +2085,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010169;
+        public static final int paddingEnd=0x7f010188;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1849,7 +2095,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f010168;
+        public static final int paddingStart=0x7f010187;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1859,15 +2105,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingTopNoTitle=0x7f010114;
+        public static final int paddingTopNoTitle=0x7f010130;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f0100aa;
+        public static final int panelBackground=0x7f0100b3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f0100ac;
+        public static final int panelMenuListTheme=0x7f0100b5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1877,7 +2123,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f0100ab;
+        public static final int panelMenuListWidth=0x7f0100b4;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1885,11 +2131,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleContentDescription=0x7f010154;
+        public static final int passwordToggleContentDescription=0x7f010173;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int passwordToggleDrawable=0x7f010153;
+        public static final int passwordToggleDrawable=0x7f010172;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1897,7 +2143,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleEnabled=0x7f010152;
+        public static final int passwordToggleEnabled=0x7f010171;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1906,7 +2152,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int passwordToggleTint=0x7f010155;
+        public static final int passwordToggleTint=0x7f010174;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1920,11 +2166,11 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int passwordToggleTintMode=0x7f010156;
+        public static final int passwordToggleTintMode=0x7f010175;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f010098;
+        public static final int popupMenuStyle=0x7f0100a0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1932,7 +2178,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f010099;
+        public static final int popupWindowStyle=0x7f0100a1;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1940,7 +2186,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f010109;
+        public static final int preserveIconSpacing=0x7f010125;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1950,7 +2196,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pressedTranslationZ=0x7f0100fb;
+        public static final int pressedTranslationZ=0x7f010107;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1968,7 +2214,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f01012b;
+        public static final int queryBackground=0x7f010147;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1976,23 +2222,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010122;
+        public static final int queryHint=0x7f01013e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int radioButtonStyle=0x7f0100c6;
+        public static final int radioButtonStyle=0x7f0100cf;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyle=0x7f0100c7;
+        public static final int ratingBarStyle=0x7f0100d0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyleIndicator=0x7f0100c8;
+        public static final int ratingBarStyleIndicator=0x7f0100d1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyleSmall=0x7f0100c9;
+        public static final int ratingBarStyleSmall=0x7f0100d2;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2000,7 +2246,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int reverseLayout=0x7f010117;
+        public static final int reverseLayout=0x7f010133;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2009,7 +2255,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f0100f9;
+        public static final int rippleColor=0x7f010105;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int scopeUris=0x7f01014b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2017,7 +2268,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrimAnimationDuration=0x7f0100dd;
+        public static final int scrimAnimationDuration=0x7f0100e9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2027,31 +2278,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrimVisibleHeightTrigger=0x7f0100dc;
+        public static final int scrimVisibleHeightTrigger=0x7f0100e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f010127;
+        public static final int searchHintIcon=0x7f010143;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f010126;
+        public static final int searchIcon=0x7f010142;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f0100a0;
+        public static final int searchViewStyle=0x7f0100a8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int seekBarStyle=0x7f0100ca;
+        public static final int seekBarStyle=0x7f0100d3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f010090;
+        public static final int selectableItemBackground=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f010091;
+        public static final int selectableItemBackgroundBorderless=0x7f010099;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2065,7 +2316,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f010103;
+        public static final int showAsAction=0x7f01011d;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2078,7 +2329,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010101;
+        public static final int showDividers=0x7f010116;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2086,7 +2337,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010138;
+        public static final int showText=0x7f010157;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2106,7 +2357,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spanCount=0x7f010116;
+        public static final int spanCount=0x7f010132;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2114,15 +2365,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f0100f2;
+        public static final int spinBars=0x7f0100fe;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f01008b;
+        public static final int spinnerDropDownItemStyle=0x7f010093;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f0100cb;
+        public static final int spinnerStyle=0x7f0100d4;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2130,7 +2381,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010137;
+        public static final int splitTrack=0x7f010156;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2142,7 +2393,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f010118;
+        public static final int stackFromEnd=0x7f010134;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2150,7 +2401,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f010112;
+        public static final int state_above_anchor=0x7f01012e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2170,7 +2421,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int statusBarBackground=0x7f0100e7;
+        public static final int statusBarBackground=0x7f0100f3;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2179,15 +2430,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int statusBarScrim=0x7f0100da;
+        public static final int statusBarScrim=0x7f0100e6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subMenuArrow=0x7f01010a;
+        public static final int subMenuArrow=0x7f010126;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f01012c;
+        public static final int submitBackground=0x7f010148;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2199,7 +2450,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f010158;
+        public static final int subtitleTextAppearance=0x7f010177;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2208,7 +2459,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f010167;
+        public static final int subtitleTextColor=0x7f010186;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2216,7 +2467,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f01012a;
+        public static final int suggestionRowLayout=0x7f010146;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2226,7 +2477,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010135;
+        public static final int switchMinWidth=0x7f010154;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2236,19 +2487,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010136;
+        public static final int switchPadding=0x7f010155;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f0100cc;
+        public static final int switchStyle=0x7f0100d5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f010134;
+        public static final int switchTextAppearance=0x7f010153;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f01013c;
+        public static final int tabBackground=0x7f01015b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2258,7 +2509,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f01013b;
+        public static final int tabContentStart=0x7f01015a;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2269,7 +2520,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f01013e;
+        public static final int tabGravity=0x7f01015d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2278,7 +2529,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f010139;
+        public static final int tabIndicatorColor=0x7f010158;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2288,7 +2539,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f01013a;
+        public static final int tabIndicatorHeight=0x7f010159;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2298,7 +2549,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f010140;
+        public static final int tabMaxWidth=0x7f01015f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2308,7 +2559,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f01013f;
+        public static final int tabMinWidth=0x7f01015e;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2319,7 +2570,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f01013d;
+        public static final int tabMode=0x7f01015c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2329,7 +2580,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f010148;
+        public static final int tabPadding=0x7f010167;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2339,7 +2590,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f010147;
+        public static final int tabPaddingBottom=0x7f010166;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2349,7 +2600,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f010146;
+        public static final int tabPaddingEnd=0x7f010165;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2359,7 +2610,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f010144;
+        public static final int tabPaddingStart=0x7f010163;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2369,7 +2620,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f010145;
+        public static final int tabPaddingTop=0x7f010164;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2378,11 +2629,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f010143;
+        public static final int tabSelectedTextColor=0x7f010162;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f010141;
+        public static final int tabTextAppearance=0x7f010160;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2391,65 +2642,66 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f010142;
+        public static final int tabTextColor=0x7f010161;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f01005c;
+        public static final int textAllCaps=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f010083;
+        public static final int textAppearanceLargePopupMenu=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f0100a8;
+        public static final int textAppearanceListItem=0x7f0100b0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f0100a9;
+        public static final int textAppearanceListItemSecondary=0x7f0100b1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearancePopupMenuHeader=0x7f010085;
+        public static final int textAppearanceListItemSmall=0x7f0100b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f01009e;
+        public static final int textAppearancePopupMenuHeader=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f01009d;
+        public static final int textAppearanceSearchResultSubtitle=0x7f0100a6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f010084;
+        public static final int textAppearanceSearchResultTitle=0x7f0100a5;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceSmallPopupMenu=0x7f01008c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorAlertDialogListItem=0x7f0100bc;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColorError=0x7f0100f0;
+        public static final int textColorAlertDialogListItem=0x7f0100c5;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f01009f;
+        public static final int textColorError=0x7f0100fc;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f0100a7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f01016a;
+        public static final int theme=0x7f010189;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2459,7 +2711,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f0100f8;
+        public static final int thickness=0x7f010104;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2469,7 +2721,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f010133;
+        public static final int thumbTextPadding=0x7f010152;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2478,7 +2730,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTint=0x7f01012e;
+        public static final int thumbTint=0x7f01014d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2493,11 +2745,11 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int thumbTintMode=0x7f01012f;
+        public static final int thumbTintMode=0x7f01014e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tickMark=0x7f010059;
+        public static final int tickMark=0x7f01005b;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2506,7 +2758,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tickMarkTint=0x7f01005a;
+        public static final int tickMarkTint=0x7f01005c;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2521,7 +2773,30 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int tickMarkTintMode=0x7f01005b;
+        public static final int tickMarkTintMode=0x7f01005d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tint=0x7f010059;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int tintMode=0x7f01005a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2537,7 +2812,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleEnabled=0x7f0100e0;
+        public static final int titleEnabled=0x7f0100ec;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2547,7 +2822,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargin=0x7f010159;
+        public static final int titleMargin=0x7f010178;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2557,7 +2832,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f01015d;
+        public static final int titleMarginBottom=0x7f01017c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2567,7 +2842,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f01015b;
+        public static final int titleMarginEnd=0x7f01017a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2577,7 +2852,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f01015a;
+        public static final int titleMarginStart=0x7f010179;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2587,7 +2862,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f01015c;
+        public static final int titleMarginTop=0x7f01017b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2597,11 +2872,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f01015e;
+        public static final int titleMargins=0x7f01017d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f010157;
+        public static final int titleTextAppearance=0x7f010176;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2610,7 +2885,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f010166;
+        public static final int titleTextColor=0x7f010185;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2618,15 +2893,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarId=0x7f0100db;
+        public static final int toolbarId=0x7f0100e7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f010097;
+        public static final int toolbarNavigationButtonStyle=0x7f01009f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f010096;
+        public static final int toolbarStyle=0x7f01009e;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int tooltipForegroundColor=0x7f0100d8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int tooltipFrameBackground=0x7f0100d7;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2634,11 +2919,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tooltipText=0x7f010108;
+        public static final int tooltipText=0x7f010122;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f010130;
+        public static final int track=0x7f01014f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -2647,7 +2932,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int trackTint=0x7f010131;
+        public static final int trackTint=0x7f010150;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2662,7 +2947,7 @@ containing a value of this type.
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
          */
-        public static final int trackTintMode=0x7f010132;
+        public static final int trackTintMode=0x7f010151;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2670,11 +2955,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useCompatPadding=0x7f0100fd;
+        public static final int useCompatPadding=0x7f010109;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f010128;
+        public static final int voiceIcon=0x7f010144;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2682,7 +2967,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f01005d;
+        public static final int windowActionBar=0x7f010065;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2690,7 +2975,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f01005f;
+        public static final int windowActionBarOverlay=0x7f010067;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2698,7 +2983,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f010060;
+        public static final int windowActionModeOverlay=0x7f010068;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2711,7 +2996,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMajor=0x7f010064;
+        public static final int windowFixedHeightMajor=0x7f01006c;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2724,7 +3009,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMinor=0x7f010062;
+        public static final int windowFixedHeightMinor=0x7f01006a;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2737,7 +3022,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMajor=0x7f010061;
+        public static final int windowFixedWidthMajor=0x7f010069;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2750,7 +3035,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMinor=0x7f010063;
+        public static final int windowFixedWidthMinor=0x7f01006b;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2763,7 +3048,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMajor=0x7f010065;
+        public static final int windowMinWidthMajor=0x7f01006d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2776,7 +3061,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMinor=0x7f010066;
+        public static final int windowMinWidthMinor=0x7f01006e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2784,7 +3069,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowNoTitle=0x7f01005e;
+        public static final int windowNoTitle=0x7f010066;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs=0x7f0a0000;
@@ -2794,117 +3079,115 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0a0004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0c0056;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0c0057;
-        public static final int abc_btn_colored_borderless_text_material=0x7f0c0058;
-        public static final int abc_btn_colored_text_material=0x7f0c0059;
-        public static final int abc_color_highlight_material=0x7f0c005a;
-        public static final int abc_hint_foreground_material_dark=0x7f0c005b;
-        public static final int abc_hint_foreground_material_light=0x7f0c005c;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0c0052;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0c0053;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0c0054;
+        public static final int abc_btn_colored_text_material=0x7f0c0055;
+        public static final int abc_color_highlight_material=0x7f0c0056;
+        public static final int abc_hint_foreground_material_dark=0x7f0c0057;
+        public static final int abc_hint_foreground_material_light=0x7f0c0058;
         public static final int abc_input_method_navigation_guard=0x7f0c0001;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0c005d;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0c005e;
-        public static final int abc_primary_text_material_dark=0x7f0c005f;
-        public static final int abc_primary_text_material_light=0x7f0c0060;
-        public static final int abc_search_url_text=0x7f0c0061;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0c0059;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0c005a;
+        public static final int abc_primary_text_material_dark=0x7f0c005b;
+        public static final int abc_primary_text_material_light=0x7f0c005c;
+        public static final int abc_search_url_text=0x7f0c005d;
         public static final int abc_search_url_text_normal=0x7f0c0002;
         public static final int abc_search_url_text_pressed=0x7f0c0003;
         public static final int abc_search_url_text_selected=0x7f0c0004;
-        public static final int abc_secondary_text_material_dark=0x7f0c0062;
-        public static final int abc_secondary_text_material_light=0x7f0c0063;
-        public static final int abc_tint_btn_checkable=0x7f0c0064;
-        public static final int abc_tint_default=0x7f0c0065;
-        public static final int abc_tint_edittext=0x7f0c0066;
-        public static final int abc_tint_seek_thumb=0x7f0c0067;
-        public static final int abc_tint_spinner=0x7f0c0068;
-        public static final int abc_tint_switch_thumb=0x7f0c0069;
-        public static final int abc_tint_switch_track=0x7f0c006a;
+        public static final int abc_secondary_text_material_dark=0x7f0c005e;
+        public static final int abc_secondary_text_material_light=0x7f0c005f;
+        public static final int abc_tint_btn_checkable=0x7f0c0060;
+        public static final int abc_tint_default=0x7f0c0061;
+        public static final int abc_tint_edittext=0x7f0c0062;
+        public static final int abc_tint_seek_thumb=0x7f0c0063;
+        public static final int abc_tint_spinner=0x7f0c0064;
+        public static final int abc_tint_switch_track=0x7f0c0065;
         public static final int accent_material_dark=0x7f0c0005;
         public static final int accent_material_light=0x7f0c0006;
         public static final int background_floating_material_dark=0x7f0c0007;
         public static final int background_floating_material_light=0x7f0c0008;
         public static final int background_material_dark=0x7f0c0009;
         public static final int background_material_light=0x7f0c000a;
-        public static final int bg_login=0x7f0c000b;
-        public static final int bg_main=0x7f0c000c;
-        public static final int bg_register=0x7f0c000d;
-        public static final int bright_foreground_disabled_material_dark=0x7f0c000e;
-        public static final int bright_foreground_disabled_material_light=0x7f0c000f;
-        public static final int bright_foreground_inverse_material_dark=0x7f0c0010;
-        public static final int bright_foreground_inverse_material_light=0x7f0c0011;
-        public static final int bright_foreground_material_dark=0x7f0c0012;
-        public static final int bright_foreground_material_light=0x7f0c0013;
-        public static final int btn_login=0x7f0c0014;
-        public static final int btn_login_bg=0x7f0c0015;
-        public static final int btn_logut_bg=0x7f0c0016;
-        public static final int button_material_dark=0x7f0c0017;
-        public static final int button_material_light=0x7f0c0018;
-        public static final int colorAccent=0x7f0c0019;
-        public static final int colorPrimary=0x7f0c001a;
-        public static final int colorPrimaryDark=0x7f0c001b;
-        public static final int design_bottom_navigation_shadow_color=0x7f0c001c;
-        public static final int design_error=0x7f0c006b;
-        public static final int design_fab_shadow_end_color=0x7f0c001d;
-        public static final int design_fab_shadow_mid_color=0x7f0c001e;
-        public static final int design_fab_shadow_start_color=0x7f0c001f;
-        public static final int design_fab_stroke_end_inner_color=0x7f0c0020;
-        public static final int design_fab_stroke_end_outer_color=0x7f0c0021;
-        public static final int design_fab_stroke_top_inner_color=0x7f0c0022;
-        public static final int design_fab_stroke_top_outer_color=0x7f0c0023;
-        public static final int design_snackbar_background_color=0x7f0c0024;
-        public static final int design_textinput_error_color_dark=0x7f0c0025;
-        public static final int design_textinput_error_color_light=0x7f0c0026;
-        public static final int design_tint_password_toggle=0x7f0c006c;
+        public static final int bright_foreground_disabled_material_dark=0x7f0c000b;
+        public static final int bright_foreground_disabled_material_light=0x7f0c000c;
+        public static final int bright_foreground_inverse_material_dark=0x7f0c000d;
+        public static final int bright_foreground_inverse_material_light=0x7f0c000e;
+        public static final int bright_foreground_material_dark=0x7f0c000f;
+        public static final int bright_foreground_material_light=0x7f0c0010;
+        public static final int button_material_dark=0x7f0c0011;
+        public static final int button_material_light=0x7f0c0012;
+        public static final int colorAccent=0x7f0c0013;
+        public static final int colorPrimary=0x7f0c0014;
+        public static final int colorPrimaryDark=0x7f0c0015;
+        public static final int common_google_signin_btn_text_dark=0x7f0c0066;
+        public static final int common_google_signin_btn_text_dark_default=0x7f0c0016;
+        public static final int common_google_signin_btn_text_dark_disabled=0x7f0c0017;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f0c0018;
+        public static final int common_google_signin_btn_text_dark_pressed=0x7f0c0019;
+        public static final int common_google_signin_btn_text_light=0x7f0c0067;
+        public static final int common_google_signin_btn_text_light_default=0x7f0c001a;
+        public static final int common_google_signin_btn_text_light_disabled=0x7f0c001b;
+        public static final int common_google_signin_btn_text_light_focused=0x7f0c001c;
+        public static final int common_google_signin_btn_text_light_pressed=0x7f0c001d;
+        public static final int common_google_signin_btn_tint=0x7f0c0068;
+        public static final int design_bottom_navigation_shadow_color=0x7f0c001e;
+        public static final int design_error=0x7f0c0069;
+        public static final int design_fab_shadow_end_color=0x7f0c001f;
+        public static final int design_fab_shadow_mid_color=0x7f0c0020;
+        public static final int design_fab_shadow_start_color=0x7f0c0021;
+        public static final int design_fab_stroke_end_inner_color=0x7f0c0022;
+        public static final int design_fab_stroke_end_outer_color=0x7f0c0023;
+        public static final int design_fab_stroke_top_inner_color=0x7f0c0024;
+        public static final int design_fab_stroke_top_outer_color=0x7f0c0025;
+        public static final int design_snackbar_background_color=0x7f0c0026;
+        public static final int design_tint_password_toggle=0x7f0c006a;
         public static final int dim_foreground_disabled_material_dark=0x7f0c0027;
         public static final int dim_foreground_disabled_material_light=0x7f0c0028;
         public static final int dim_foreground_material_dark=0x7f0c0029;
         public static final int dim_foreground_material_light=0x7f0c002a;
-        public static final int foreground_material_dark=0x7f0c002b;
-        public static final int foreground_material_light=0x7f0c002c;
-        public static final int highlighted_text_material_dark=0x7f0c002d;
-        public static final int highlighted_text_material_light=0x7f0c002e;
-        public static final int input_login=0x7f0c002f;
-        public static final int input_login_hint=0x7f0c0030;
-        public static final int input_register=0x7f0c0031;
-        public static final int input_register_bg=0x7f0c0032;
-        public static final int input_register_hint=0x7f0c0033;
-        public static final int lbl_name=0x7f0c0034;
-        public static final int material_blue_grey_800=0x7f0c0035;
-        public static final int material_blue_grey_900=0x7f0c0036;
-        public static final int material_blue_grey_950=0x7f0c0037;
-        public static final int material_deep_teal_200=0x7f0c0038;
-        public static final int material_deep_teal_500=0x7f0c0039;
-        public static final int material_grey_100=0x7f0c003a;
-        public static final int material_grey_300=0x7f0c003b;
-        public static final int material_grey_50=0x7f0c003c;
-        public static final int material_grey_600=0x7f0c003d;
-        public static final int material_grey_800=0x7f0c003e;
-        public static final int material_grey_850=0x7f0c003f;
-        public static final int material_grey_900=0x7f0c0040;
+        public static final int error_color_material=0x7f0c002b;
+        public static final int foreground_material_dark=0x7f0c002c;
+        public static final int foreground_material_light=0x7f0c002d;
+        public static final int highlighted_text_material_dark=0x7f0c002e;
+        public static final int highlighted_text_material_light=0x7f0c002f;
+        public static final int material_blue_grey_800=0x7f0c0030;
+        public static final int material_blue_grey_900=0x7f0c0031;
+        public static final int material_blue_grey_950=0x7f0c0032;
+        public static final int material_deep_teal_200=0x7f0c0033;
+        public static final int material_deep_teal_500=0x7f0c0034;
+        public static final int material_grey_100=0x7f0c0035;
+        public static final int material_grey_300=0x7f0c0036;
+        public static final int material_grey_50=0x7f0c0037;
+        public static final int material_grey_600=0x7f0c0038;
+        public static final int material_grey_800=0x7f0c0039;
+        public static final int material_grey_850=0x7f0c003a;
+        public static final int material_grey_900=0x7f0c003b;
         public static final int notification_action_color_filter=0x7f0c0000;
-        public static final int notification_icon_bg_color=0x7f0c0041;
-        public static final int notification_material_background_media_default_color=0x7f0c0042;
-        public static final int primary_dark_material_dark=0x7f0c0043;
-        public static final int primary_dark_material_light=0x7f0c0044;
-        public static final int primary_material_dark=0x7f0c0045;
-        public static final int primary_material_light=0x7f0c0046;
-        public static final int primary_text_default_material_dark=0x7f0c0047;
-        public static final int primary_text_default_material_light=0x7f0c0048;
-        public static final int primary_text_disabled_material_dark=0x7f0c0049;
-        public static final int primary_text_disabled_material_light=0x7f0c004a;
-        public static final int ripple_material_dark=0x7f0c004b;
-        public static final int ripple_material_light=0x7f0c004c;
-        public static final int secondary_text_default_material_dark=0x7f0c004d;
-        public static final int secondary_text_default_material_light=0x7f0c004e;
-        public static final int secondary_text_disabled_material_dark=0x7f0c004f;
-        public static final int secondary_text_disabled_material_light=0x7f0c0050;
-        public static final int switch_thumb_disabled_material_dark=0x7f0c0051;
-        public static final int switch_thumb_disabled_material_light=0x7f0c0052;
-        public static final int switch_thumb_material_dark=0x7f0c006d;
-        public static final int switch_thumb_material_light=0x7f0c006e;
-        public static final int switch_thumb_normal_material_dark=0x7f0c0053;
-        public static final int switch_thumb_normal_material_light=0x7f0c0054;
-        public static final int white=0x7f0c0055;
+        public static final int notification_icon_bg_color=0x7f0c003c;
+        public static final int notification_material_background_media_default_color=0x7f0c003d;
+        public static final int primary_dark_material_dark=0x7f0c003e;
+        public static final int primary_dark_material_light=0x7f0c003f;
+        public static final int primary_material_dark=0x7f0c0040;
+        public static final int primary_material_light=0x7f0c0041;
+        public static final int primary_text_default_material_dark=0x7f0c0042;
+        public static final int primary_text_default_material_light=0x7f0c0043;
+        public static final int primary_text_disabled_material_dark=0x7f0c0044;
+        public static final int primary_text_disabled_material_light=0x7f0c0045;
+        public static final int ripple_material_dark=0x7f0c0046;
+        public static final int ripple_material_light=0x7f0c0047;
+        public static final int secondary_text_default_material_dark=0x7f0c0048;
+        public static final int secondary_text_default_material_light=0x7f0c0049;
+        public static final int secondary_text_disabled_material_dark=0x7f0c004a;
+        public static final int secondary_text_disabled_material_light=0x7f0c004b;
+        public static final int switch_thumb_disabled_material_dark=0x7f0c004c;
+        public static final int switch_thumb_disabled_material_light=0x7f0c004d;
+        public static final int switch_thumb_material_dark=0x7f0c006b;
+        public static final int switch_thumb_material_light=0x7f0c006c;
+        public static final int switch_thumb_normal_material_dark=0x7f0c004e;
+        public static final int switch_thumb_normal_material_light=0x7f0c004f;
+        public static final int tooltip_background_dark=0x7f0c0050;
+        public static final int tooltip_background_light=0x7f0c0051;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f08000c;
@@ -2983,78 +3266,90 @@ containing a value of this type.
         public static final int abc_text_size_title_material_toolbar=0x7f080004;
         public static final int activity_horizontal_margin=0x7f08001d;
         public static final int activity_vertical_margin=0x7f080057;
-        public static final int design_appbar_elevation=0x7f080058;
-        public static final int design_bottom_navigation_active_item_max_width=0x7f080059;
-        public static final int design_bottom_navigation_active_text_size=0x7f08005a;
-        public static final int design_bottom_navigation_elevation=0x7f08005b;
-        public static final int design_bottom_navigation_height=0x7f08005c;
-        public static final int design_bottom_navigation_item_max_width=0x7f08005d;
-        public static final int design_bottom_navigation_item_min_width=0x7f08005e;
-        public static final int design_bottom_navigation_margin=0x7f08005f;
-        public static final int design_bottom_navigation_shadow_height=0x7f080060;
-        public static final int design_bottom_navigation_text_size=0x7f080061;
-        public static final int design_bottom_sheet_modal_elevation=0x7f080062;
-        public static final int design_bottom_sheet_peek_height_min=0x7f080063;
-        public static final int design_fab_border_width=0x7f080064;
-        public static final int design_fab_elevation=0x7f080065;
-        public static final int design_fab_image_size=0x7f080066;
-        public static final int design_fab_size_mini=0x7f080067;
-        public static final int design_fab_size_normal=0x7f080068;
-        public static final int design_fab_translation_z_pressed=0x7f080069;
-        public static final int design_navigation_elevation=0x7f08006a;
-        public static final int design_navigation_icon_padding=0x7f08006b;
-        public static final int design_navigation_icon_size=0x7f08006c;
+        public static final int compat_button_inset_horizontal_material=0x7f080058;
+        public static final int compat_button_inset_vertical_material=0x7f080059;
+        public static final int compat_button_padding_horizontal_material=0x7f08005a;
+        public static final int compat_button_padding_vertical_material=0x7f08005b;
+        public static final int compat_control_corner_material=0x7f08005c;
+        public static final int design_appbar_elevation=0x7f08005d;
+        public static final int design_bottom_navigation_active_item_max_width=0x7f08005e;
+        public static final int design_bottom_navigation_active_text_size=0x7f08005f;
+        public static final int design_bottom_navigation_elevation=0x7f080060;
+        public static final int design_bottom_navigation_height=0x7f080061;
+        public static final int design_bottom_navigation_item_max_width=0x7f080062;
+        public static final int design_bottom_navigation_item_min_width=0x7f080063;
+        public static final int design_bottom_navigation_margin=0x7f080064;
+        public static final int design_bottom_navigation_shadow_height=0x7f080065;
+        public static final int design_bottom_navigation_text_size=0x7f080066;
+        public static final int design_bottom_sheet_modal_elevation=0x7f080067;
+        public static final int design_bottom_sheet_peek_height_min=0x7f080068;
+        public static final int design_fab_border_width=0x7f080069;
+        public static final int design_fab_elevation=0x7f08006a;
+        public static final int design_fab_image_size=0x7f08006b;
+        public static final int design_fab_size_mini=0x7f08006c;
+        public static final int design_fab_size_normal=0x7f08006d;
+        public static final int design_fab_translation_z_pressed=0x7f08006e;
+        public static final int design_navigation_elevation=0x7f08006f;
+        public static final int design_navigation_icon_padding=0x7f080070;
+        public static final int design_navigation_icon_size=0x7f080071;
         public static final int design_navigation_max_width=0x7f080010;
-        public static final int design_navigation_padding_bottom=0x7f08006d;
-        public static final int design_navigation_separator_vertical_padding=0x7f08006e;
+        public static final int design_navigation_padding_bottom=0x7f080072;
+        public static final int design_navigation_separator_vertical_padding=0x7f080073;
         public static final int design_snackbar_action_inline_max_width=0x7f080011;
         public static final int design_snackbar_background_corner_radius=0x7f080012;
-        public static final int design_snackbar_elevation=0x7f08006f;
+        public static final int design_snackbar_elevation=0x7f080074;
         public static final int design_snackbar_extra_spacing_horizontal=0x7f080013;
         public static final int design_snackbar_max_width=0x7f080014;
         public static final int design_snackbar_min_width=0x7f080015;
-        public static final int design_snackbar_padding_horizontal=0x7f080070;
-        public static final int design_snackbar_padding_vertical=0x7f080071;
+        public static final int design_snackbar_padding_horizontal=0x7f080075;
+        public static final int design_snackbar_padding_vertical=0x7f080076;
         public static final int design_snackbar_padding_vertical_2lines=0x7f080016;
-        public static final int design_snackbar_text_size=0x7f080072;
-        public static final int design_tab_max_width=0x7f080073;
+        public static final int design_snackbar_text_size=0x7f080077;
+        public static final int design_tab_max_width=0x7f080078;
         public static final int design_tab_scrollable_min_width=0x7f080017;
-        public static final int design_tab_text_size=0x7f080074;
-        public static final int design_tab_text_size_2line=0x7f080075;
-        public static final int disabled_alpha_material_dark=0x7f080076;
-        public static final int disabled_alpha_material_light=0x7f080077;
-        public static final int fab_margin=0x7f080078;
-        public static final int fastscroll_default_thickness=0x7f080079;
-        public static final int fastscroll_margin=0x7f08007a;
-        public static final int fastscroll_minimum_range=0x7f08007b;
-        public static final int highlight_alpha_material_colored=0x7f08007c;
-        public static final int highlight_alpha_material_dark=0x7f08007d;
-        public static final int highlight_alpha_material_light=0x7f08007e;
-        public static final int hint_alpha_material_dark=0x7f08007f;
-        public static final int hint_alpha_material_light=0x7f080080;
-        public static final int hint_pressed_alpha_material_dark=0x7f080081;
-        public static final int hint_pressed_alpha_material_light=0x7f080082;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f080083;
-        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f080084;
-        public static final int item_touch_helper_swipe_escape_velocity=0x7f080085;
-        public static final int navigation_drawer_width=0x7f080086;
-        public static final int notification_action_icon_size=0x7f080087;
-        public static final int notification_action_text_size=0x7f080088;
-        public static final int notification_big_circle_margin=0x7f080089;
+        public static final int design_tab_text_size=0x7f080079;
+        public static final int design_tab_text_size_2line=0x7f08007a;
+        public static final int disabled_alpha_material_dark=0x7f08007b;
+        public static final int disabled_alpha_material_light=0x7f08007c;
+        public static final int fab_margin=0x7f08007d;
+        public static final int fastscroll_default_thickness=0x7f08007e;
+        public static final int fastscroll_margin=0x7f08007f;
+        public static final int fastscroll_minimum_range=0x7f080080;
+        public static final int highlight_alpha_material_colored=0x7f080081;
+        public static final int highlight_alpha_material_dark=0x7f080082;
+        public static final int highlight_alpha_material_light=0x7f080083;
+        public static final int hint_alpha_material_dark=0x7f080084;
+        public static final int hint_alpha_material_light=0x7f080085;
+        public static final int hint_pressed_alpha_material_dark=0x7f080086;
+        public static final int hint_pressed_alpha_material_light=0x7f080087;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f080088;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f080089;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f08008a;
+        public static final int nav_header_height=0x7f08008b;
+        public static final int nav_header_vertical_spacing=0x7f08008c;
+        public static final int notification_action_icon_size=0x7f08008d;
+        public static final int notification_action_text_size=0x7f08008e;
+        public static final int notification_big_circle_margin=0x7f08008f;
         public static final int notification_content_margin_start=0x7f08001a;
-        public static final int notification_large_icon_height=0x7f08008a;
-        public static final int notification_large_icon_width=0x7f08008b;
+        public static final int notification_large_icon_height=0x7f080090;
+        public static final int notification_large_icon_width=0x7f080091;
         public static final int notification_main_column_padding_top=0x7f08001b;
         public static final int notification_media_narrow_margin=0x7f08001c;
-        public static final int notification_right_icon_size=0x7f08008c;
+        public static final int notification_right_icon_size=0x7f080092;
         public static final int notification_right_side_padding_top=0x7f080018;
-        public static final int notification_small_icon_background_padding=0x7f08008d;
-        public static final int notification_small_icon_size_as_large=0x7f08008e;
-        public static final int notification_subtext_size=0x7f08008f;
-        public static final int notification_top_pad=0x7f080090;
-        public static final int notification_top_pad_large_text=0x7f080091;
-        public static final int profile_height=0x7f080092;
-        public static final int profile_width=0x7f080093;
+        public static final int notification_small_icon_background_padding=0x7f080093;
+        public static final int notification_small_icon_size_as_large=0x7f080094;
+        public static final int notification_subtext_size=0x7f080095;
+        public static final int notification_top_pad=0x7f080096;
+        public static final int notification_top_pad_large_text=0x7f080097;
+        public static final int tooltip_corner_radius=0x7f080098;
+        public static final int tooltip_horizontal_padding=0x7f080099;
+        public static final int tooltip_margin=0x7f08009a;
+        public static final int tooltip_precise_anchor_extra_offset=0x7f08009b;
+        public static final int tooltip_precise_anchor_threshold=0x7f08009c;
+        public static final int tooltip_vertical_padding=0x7f08009d;
+        public static final int tooltip_y_offset_non_touch=0x7f08009e;
+        public static final int tooltip_y_offset_touch=0x7f08009f;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -3141,258 +3436,344 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02007a;
-        public static final int avd_hide_password_2=0x7f02007b;
-        public static final int avd_hide_password_3=0x7f02007c;
+        public static final int avd_hide_password_1=0x7f0200a0;
+        public static final int avd_hide_password_2=0x7f0200a1;
+        public static final int avd_hide_password_3=0x7f0200a2;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f02007d;
-        public static final int avd_show_password_2=0x7f02007e;
-        public static final int avd_show_password_3=0x7f02007f;
-        public static final int bg_circle=0x7f020055;
-        public static final int booktower=0x7f020056;
-        public static final int bookwithtea=0x7f020057;
-        public static final int design_bottom_navigation_item_background=0x7f020058;
-        public static final int design_fab_background=0x7f020059;
-        public static final int design_ic_visibility=0x7f02005a;
-        public static final int design_ic_visibility_off=0x7f02005b;
-        public static final int design_password_eye=0x7f02005c;
-        public static final int design_snackbar_background=0x7f02005d;
-        public static final int drawer_shadow=0x7f02005e;
-        public static final int ic_date_range_black_48dp=0x7f02005f;
-        public static final int ic_drawer=0x7f020060;
-        public static final int ic_email=0x7f020061;
-        public static final int ic_email_white_18dp=0x7f020062;
-        public static final int ic_error=0x7f020063;
-        public static final int ic_key=0x7f020064;
-        public static final int ic_menu_camera=0x7f020065;
-        public static final int ic_menu_gallery=0x7f020066;
-        public static final int ic_menu_manage=0x7f020067;
-        public static final int ic_menu_send=0x7f020068;
-        public static final int ic_menu_share=0x7f020069;
-        public static final int ic_menu_slideshow=0x7f02006a;
-        public static final int ic_person=0x7f02006b;
-        public static final int navigation_empty_icon=0x7f02006c;
-        public static final int notification_action_background=0x7f02006d;
-        public static final int notification_bg=0x7f02006e;
-        public static final int notification_bg_low=0x7f02006f;
-        public static final int notification_bg_low_normal=0x7f020070;
-        public static final int notification_bg_low_pressed=0x7f020071;
-        public static final int notification_bg_normal=0x7f020072;
-        public static final int notification_bg_normal_pressed=0x7f020073;
-        public static final int notification_icon_background=0x7f020074;
-        public static final int notification_template_icon_bg=0x7f020078;
-        public static final int notification_template_icon_low_bg=0x7f020079;
-        public static final int notification_tile_bg=0x7f020075;
-        public static final int notify_panel_notification_icon_bg=0x7f020076;
-        public static final int side_nav_bar=0x7f020077;
+        public static final int avd_show_password_1=0x7f0200a3;
+        public static final int avd_show_password_2=0x7f0200a4;
+        public static final int avd_show_password_3=0x7f0200a5;
+        public static final int background_material=0x7f020055;
+        public static final int bg_circle=0x7f020056;
+        public static final int booktower=0x7f020057;
+        public static final int bookwithtea=0x7f020058;
+        public static final int common_full_open_on_phone=0x7f020059;
+        public static final int common_google_signin_btn_icon_dark=0x7f02005a;
+        public static final int common_google_signin_btn_icon_dark_focused=0x7f02005b;
+        public static final int common_google_signin_btn_icon_dark_normal=0x7f02005c;
+        public static final int common_google_signin_btn_icon_dark_normal_background=0x7f02005d;
+        public static final int common_google_signin_btn_icon_disabled=0x7f02005e;
+        public static final int common_google_signin_btn_icon_light=0x7f02005f;
+        public static final int common_google_signin_btn_icon_light_focused=0x7f020060;
+        public static final int common_google_signin_btn_icon_light_normal=0x7f020061;
+        public static final int common_google_signin_btn_icon_light_normal_background=0x7f020062;
+        public static final int common_google_signin_btn_text_dark=0x7f020063;
+        public static final int common_google_signin_btn_text_dark_focused=0x7f020064;
+        public static final int common_google_signin_btn_text_dark_normal=0x7f020065;
+        public static final int common_google_signin_btn_text_dark_normal_background=0x7f020066;
+        public static final int common_google_signin_btn_text_disabled=0x7f020067;
+        public static final int common_google_signin_btn_text_light=0x7f020068;
+        public static final int common_google_signin_btn_text_light_focused=0x7f020069;
+        public static final int common_google_signin_btn_text_light_normal=0x7f02006a;
+        public static final int common_google_signin_btn_text_light_normal_background=0x7f02006b;
+        public static final int design_bottom_navigation_item_background=0x7f02006c;
+        public static final int design_fab_background=0x7f02006d;
+        public static final int design_ic_visibility=0x7f02006e;
+        public static final int design_ic_visibility_off=0x7f02006f;
+        public static final int design_password_eye=0x7f020070;
+        public static final int design_snackbar_background=0x7f020071;
+        public static final int drawer_shadow=0x7f020072;
+        public static final int googleg_disabled_color_18=0x7f020073;
+        public static final int googleg_standard_color_18=0x7f020074;
+        public static final int ic_date_range_black_48dp=0x7f020075;
+        public static final int ic_delete_black=0x7f020076;
+        public static final int ic_drafts_black=0x7f020077;
+        public static final int ic_drawer=0x7f020078;
+        public static final int ic_email=0x7f020079;
+        public static final int ic_email_black=0x7f02007a;
+        public static final int ic_email_white_18dp=0x7f02007b;
+        public static final int ic_error=0x7f02007c;
+        public static final int ic_error_black=0x7f02007d;
+        public static final int ic_home_black=0x7f02007e;
+        public static final int ic_inbox_black=0x7f02007f;
+        public static final int ic_key=0x7f020080;
+        public static final int ic_menu_camera=0x7f020081;
+        public static final int ic_menu_gallery=0x7f020082;
+        public static final int ic_menu_manage=0x7f020083;
+        public static final int ic_menu_send=0x7f020084;
+        public static final int ic_menu_share=0x7f020085;
+        public static final int ic_menu_slideshow=0x7f020086;
+        public static final int ic_person=0x7f020087;
+        public static final int ic_plusone_medium_off_client=0x7f020088;
+        public static final int ic_plusone_small_off_client=0x7f020089;
+        public static final int ic_plusone_standard_off_client=0x7f02008a;
+        public static final int ic_plusone_tall_off_client=0x7f02008b;
+        public static final int ic_send_black=0x7f02008c;
+        public static final int ic_star_black=0x7f02008d;
+        public static final int ic_star_rate_black=0x7f02008e;
+        public static final int navigation_empty_icon=0x7f02008f;
+        public static final int notification_action_background=0x7f020090;
+        public static final int notification_bg=0x7f020091;
+        public static final int notification_bg_low=0x7f020092;
+        public static final int notification_bg_low_normal=0x7f020093;
+        public static final int notification_bg_low_pressed=0x7f020094;
+        public static final int notification_bg_normal=0x7f020095;
+        public static final int notification_bg_normal_pressed=0x7f020096;
+        public static final int notification_icon_background=0x7f020097;
+        public static final int notification_template_icon_bg=0x7f02009e;
+        public static final int notification_template_icon_low_bg=0x7f02009f;
+        public static final int notification_tile_bg=0x7f020098;
+        public static final int notify_panel_notification_icon_bg=0x7f020099;
+        public static final int profile=0x7f02009a;
+        public static final int side_nav_bar=0x7f02009b;
+        public static final int tooltip_frame_dark=0x7f02009c;
+        public static final int tooltip_frame_light=0x7f02009d;
     }
     public static final class id {
-        public static final int action0=0x7f0e00af;
-        public static final int action_bar=0x7f0e006c;
-        public static final int action_bar_activity_content=0x7f0e0000;
-        public static final int action_bar_container=0x7f0e006b;
-        public static final int action_bar_root=0x7f0e0067;
-        public static final int action_bar_spinner=0x7f0e0001;
-        public static final int action_bar_subtitle=0x7f0e004a;
-        public static final int action_bar_title=0x7f0e0049;
-        public static final int action_container=0x7f0e00ac;
-        public static final int action_context_bar=0x7f0e006d;
-        public static final int action_divider=0x7f0e00b3;
-        public static final int action_example=0x7f0e00cb;
-        public static final int action_image=0x7f0e00ad;
-        public static final int action_logout=0x7f0e00cd;
-        public static final int action_menu_divider=0x7f0e0002;
-        public static final int action_menu_presenter=0x7f0e0003;
-        public static final int action_mode_bar=0x7f0e0069;
-        public static final int action_mode_bar_stub=0x7f0e0068;
-        public static final int action_mode_close_button=0x7f0e004b;
-        public static final int action_settings=0x7f0e00cc;
-        public static final int action_text=0x7f0e00ae;
-        public static final int actions=0x7f0e00bb;
-        public static final int activity_chooser_view_content=0x7f0e004c;
-        public static final int add=0x7f0e0027;
-        public static final int alertTitle=0x7f0e0060;
-        public static final int all=0x7f0e0015;
-        public static final int always=0x7f0e0042;
-        public static final int auto=0x7f0e002e;
-        public static final int basic=0x7f0e0016;
-        public static final int beginning=0x7f0e0040;
-        public static final int bottom=0x7f0e002f;
-        public static final int btn_add=0x7f0e0098;
-        public static final int btn_chg_password=0x7f0e009c;
-        public static final int btn_login=0x7f0e00a0;
-        public static final int btn_logout=0x7f0e009d;
-        public static final int btn_register=0x7f0e00a7;
-        public static final int btn_reset=0x7f0e00ab;
-        public static final int btn_upload_image=0x7f0e00a6;
-        public static final int buttonPanel=0x7f0e0053;
-        public static final int cancel_action=0x7f0e00b0;
-        public static final int center=0x7f0e0030;
-        public static final int center_horizontal=0x7f0e0031;
-        public static final int center_vertical=0x7f0e0032;
-        public static final int chains=0x7f0e0017;
-        public static final int checkbox=0x7f0e0063;
-        public static final int chronometer=0x7f0e00b8;
-        public static final int clip_horizontal=0x7f0e003b;
-        public static final int clip_vertical=0x7f0e003c;
-        public static final int collapseActionView=0x7f0e0043;
-        public static final int container=0x7f0e007d;
-        public static final int contentPanel=0x7f0e0056;
-        public static final int custom=0x7f0e005d;
-        public static final int customPanel=0x7f0e005c;
-        public static final int decor_content_parent=0x7f0e006a;
-        public static final int default_activity_button=0x7f0e004f;
-        public static final int design_bottom_sheet=0x7f0e0082;
-        public static final int design_menu_item_action_area=0x7f0e0089;
-        public static final int design_menu_item_action_area_stub=0x7f0e0088;
-        public static final int design_menu_item_text=0x7f0e0087;
-        public static final int design_navigation_view=0x7f0e0086;
-        public static final int disableHome=0x7f0e001c;
-        public static final int drawer_layout=0x7f0e007c;
-        public static final int edit_query=0x7f0e006e;
-        public static final int end=0x7f0e0033;
-        public static final int end_padder=0x7f0e00c2;
-        public static final int enterAlways=0x7f0e0022;
-        public static final int enterAlwaysCollapsed=0x7f0e0023;
-        public static final int et_address=0x7f0e00a5;
-        public static final int et_age=0x7f0e00a4;
-        public static final int et_author=0x7f0e0091;
-        public static final int et_code=0x7f0e00aa;
-        public static final int et_email=0x7f0e009e;
-        public static final int et_format=0x7f0e0096;
-        public static final int et_name=0x7f0e00a3;
-        public static final int et_new_password=0x7f0e008c;
-        public static final int et_old_password=0x7f0e008b;
-        public static final int et_password=0x7f0e009f;
-        public static final int et_price=0x7f0e0094;
-        public static final int et_pubdate=0x7f0e0093;
-        public static final int et_publisher=0x7f0e0092;
-        public static final int et_summary=0x7f0e0097;
-        public static final int et_title=0x7f0e008f;
-        public static final int et_total_copy=0x7f0e0095;
-        public static final int et_unique_id=0x7f0e0090;
-        public static final int exitUntilCollapsed=0x7f0e0024;
-        public static final int expand_activities_button=0x7f0e004d;
-        public static final int expanded_menu=0x7f0e0062;
-        public static final int fill=0x7f0e003d;
-        public static final int fill_horizontal=0x7f0e003e;
-        public static final int fill_vertical=0x7f0e0034;
-        public static final int fixed=0x7f0e0047;
-        public static final int fragment_frame=0x7f0e007b;
-        public static final int home=0x7f0e0004;
-        public static final int homeAsUp=0x7f0e001d;
-        public static final int icon=0x7f0e0051;
-        public static final int icon_group=0x7f0e00bc;
-        public static final int ifRoom=0x7f0e0044;
-        public static final int image=0x7f0e004e;
-        public static final int info=0x7f0e00b9;
-        public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int largeLabel=0x7f0e0080;
-        public static final int left=0x7f0e0035;
-        public static final int line1=0x7f0e00be;
-        public static final int line3=0x7f0e00c0;
-        public static final int listMode=0x7f0e0019;
-        public static final int list_item=0x7f0e0050;
-        public static final int masked=0x7f0e00c4;
-        public static final int media_actions=0x7f0e00b2;
-        public static final int middle=0x7f0e0041;
-        public static final int mini=0x7f0e003f;
-        public static final int multiply=0x7f0e0028;
-        public static final int nav_add_books=0x7f0e00c6;
-        public static final int nav_library=0x7f0e00c5;
-        public static final int nav_profile=0x7f0e00c7;
-        public static final int nav_send=0x7f0e00ca;
-        public static final int nav_setting=0x7f0e00c8;
-        public static final int nav_share=0x7f0e00c9;
-        public static final int navigation_drawer=0x7f0e007e;
-        public static final int navigation_header_container=0x7f0e0085;
-        public static final int never=0x7f0e0045;
-        public static final int none=0x7f0e0018;
-        public static final int normal=0x7f0e001a;
-        public static final int notification_background=0x7f0e00ba;
-        public static final int notification_main_column=0x7f0e00b5;
-        public static final int notification_main_column_container=0x7f0e00b4;
-        public static final int packed=0x7f0e0013;
-        public static final int parallax=0x7f0e0039;
-        public static final int parent=0x7f0e0010;
-        public static final int parentPanel=0x7f0e0055;
-        public static final int pin=0x7f0e003a;
-        public static final int progress=0x7f0e008e;
-        public static final int progress_circular=0x7f0e0006;
-        public static final int progress_horizontal=0x7f0e0007;
-        public static final int radio=0x7f0e0065;
-        public static final int right=0x7f0e0036;
-        public static final int right_icon=0x7f0e00bd;
-        public static final int right_side=0x7f0e00b6;
-        public static final int screen=0x7f0e0029;
-        public static final int scroll=0x7f0e0025;
-        public static final int scrollIndicatorDown=0x7f0e005b;
-        public static final int scrollIndicatorUp=0x7f0e0057;
-        public static final int scrollView=0x7f0e0058;
-        public static final int scrollable=0x7f0e0048;
-        public static final int search_badge=0x7f0e0070;
-        public static final int search_bar=0x7f0e006f;
-        public static final int search_button=0x7f0e0071;
-        public static final int search_close_btn=0x7f0e0076;
-        public static final int search_edit_frame=0x7f0e0072;
-        public static final int search_go_btn=0x7f0e0078;
-        public static final int search_mag_icon=0x7f0e0073;
-        public static final int search_plate=0x7f0e0074;
-        public static final int search_src_text=0x7f0e0075;
-        public static final int search_voice_btn=0x7f0e0079;
-        public static final int section_label=0x7f0e00a2;
-        public static final int select_dialog_listview=0x7f0e007a;
-        public static final int shortcut=0x7f0e0064;
-        public static final int showCustom=0x7f0e001e;
-        public static final int showHome=0x7f0e001f;
-        public static final int showTitle=0x7f0e0020;
-        public static final int smallLabel=0x7f0e007f;
-        public static final int snackbar_action=0x7f0e0084;
-        public static final int snackbar_text=0x7f0e0083;
-        public static final int snap=0x7f0e0026;
-        public static final int spacer=0x7f0e0054;
-        public static final int split_action_bar=0x7f0e0008;
-        public static final int spread=0x7f0e0011;
-        public static final int spread_inside=0x7f0e0014;
-        public static final int src_atop=0x7f0e002a;
-        public static final int src_in=0x7f0e002b;
-        public static final int src_over=0x7f0e002c;
-        public static final int start=0x7f0e0037;
-        public static final int status_bar_latest_event_content=0x7f0e00b1;
-        public static final int submenuarrow=0x7f0e0066;
-        public static final int submit_area=0x7f0e0077;
-        public static final int tabMode=0x7f0e001b;
-        public static final int text=0x7f0e00c1;
-        public static final int text2=0x7f0e00bf;
-        public static final int textSpacerNoButtons=0x7f0e005a;
-        public static final int textSpacerNoTitle=0x7f0e0059;
-        public static final int text_input_password_toggle=0x7f0e008a;
-        public static final int textinput_counter=0x7f0e0009;
-        public static final int textinput_error=0x7f0e000a;
-        public static final int time=0x7f0e00b7;
-        public static final int timer=0x7f0e00a9;
-        public static final int title=0x7f0e0052;
-        public static final int titleDividerNoCustom=0x7f0e0061;
-        public static final int title_template=0x7f0e005f;
-        public static final int top=0x7f0e0038;
-        public static final int topPanel=0x7f0e005e;
-        public static final int touch_outside=0x7f0e0081;
-        public static final int transition_current_scene=0x7f0e000b;
-        public static final int transition_layout_save=0x7f0e000c;
-        public static final int transition_scene_layoutid_cache=0x7f0e000d;
-        public static final int tv_age=0x7f0e009b;
-        public static final int tv_email=0x7f0e009a;
-        public static final int tv_login=0x7f0e00a8;
-        public static final int tv_message=0x7f0e008d;
-        public static final int tv_name=0x7f0e0099;
-        public static final int tv_register=0x7f0e00a1;
-        public static final int up=0x7f0e000e;
-        public static final int useLogo=0x7f0e0021;
-        public static final int view_offset_helper=0x7f0e000f;
-        public static final int visible=0x7f0e00c3;
-        public static final int withText=0x7f0e0046;
-        public static final int wrap=0x7f0e0012;
-        public static final int wrap_content=0x7f0e002d;
+        public static final int ALT=0x7f0d0055;
+        public static final int CTRL=0x7f0d0056;
+        public static final int FUNCTION=0x7f0d0057;
+        public static final int META=0x7f0d0058;
+        public static final int SHIFT=0x7f0d0059;
+        public static final int SYM=0x7f0d005a;
+        public static final int action0=0x7f0d00e4;
+        public static final int action_bar=0x7f0d0089;
+        public static final int action_bar_activity_content=0x7f0d0000;
+        public static final int action_bar_container=0x7f0d0088;
+        public static final int action_bar_root=0x7f0d0084;
+        public static final int action_bar_spinner=0x7f0d0001;
+        public static final int action_bar_subtitle=0x7f0d0068;
+        public static final int action_bar_title=0x7f0d0067;
+        public static final int action_container=0x7f0d00e1;
+        public static final int action_context_bar=0x7f0d008a;
+        public static final int action_divider=0x7f0d00e8;
+        public static final int action_image=0x7f0d00e2;
+        public static final int action_menu_divider=0x7f0d0002;
+        public static final int action_menu_presenter=0x7f0d0003;
+        public static final int action_mode_bar=0x7f0d0086;
+        public static final int action_mode_bar_stub=0x7f0d0085;
+        public static final int action_mode_close_button=0x7f0d0069;
+        public static final int action_settings=0x7f0d00fd;
+        public static final int action_text=0x7f0d00e3;
+        public static final int actions=0x7f0d00f0;
+        public static final int activity_chooser_view_content=0x7f0d006a;
+        public static final int add=0x7f0d0038;
+        public static final int adjust_height=0x7f0d0053;
+        public static final int adjust_width=0x7f0d0054;
+        public static final int alertTitle=0x7f0d007d;
+        public static final int all=0x7f0d0021;
+        public static final int always=0x7f0d005b;
+        public static final int async=0x7f0d004d;
+        public static final int auto=0x7f0d003b;
+        public static final int basic=0x7f0d0022;
+        public static final int beginning=0x7f0d0051;
+        public static final int blocking=0x7f0d004e;
+        public static final int bottom=0x7f0d003c;
+        public static final int btn_add=0x7f0d00b8;
+        public static final int btn_add_book_fragment=0x7f0d00da;
+        public static final int btn_add_comment=0x7f0d00c3;
+        public static final int btn_book_details_fragment=0x7f0d00db;
+        public static final int btn_book_exchange_fragment=0x7f0d00dc;
+        public static final int btn_book_home_fragment=0x7f0d00dd;
+        public static final int btn_book_library_fragment=0x7f0d00de;
+        public static final int btn_chg_password=0x7f0d00ce;
+        public static final int btn_details_comment=0x7f0d00c4;
+        public static final int btn_exchange=0x7f0d00c6;
+        public static final int btn_login=0x7f0d00c9;
+        public static final int btn_logout=0x7f0d00cf;
+        public static final int btn_profile_fragment=0x7f0d00d9;
+        public static final int btn_read=0x7f0d00c5;
+        public static final int btn_register=0x7f0d00d4;
+        public static final int btn_reset=0x7f0d00d8;
+        public static final int btn_upload_image=0x7f0d00d3;
+        public static final int buttonPanel=0x7f0d0070;
+        public static final int cancel_action=0x7f0d00e5;
+        public static final int center=0x7f0d003d;
+        public static final int center_horizontal=0x7f0d003e;
+        public static final int center_vertical=0x7f0d003f;
+        public static final int chains=0x7f0d0023;
+        public static final int checkbox=0x7f0d0080;
+        public static final int chronometer=0x7f0d00ed;
+        public static final int clip_horizontal=0x7f0d0048;
+        public static final int clip_vertical=0x7f0d0049;
+        public static final int collapseActionView=0x7f0d005c;
+        public static final int container=0x7f0d009f;
+        public static final int contentPanel=0x7f0d0073;
+        public static final int coordinator=0x7f0d00a0;
+        public static final int custom=0x7f0d007a;
+        public static final int customPanel=0x7f0d0079;
+        public static final int dark=0x7f0d0063;
+        public static final int decor_content_parent=0x7f0d0087;
+        public static final int default_activity_button=0x7f0d006d;
+        public static final int design_bottom_sheet=0x7f0d00a2;
+        public static final int design_menu_item_action_area=0x7f0d00a9;
+        public static final int design_menu_item_action_area_stub=0x7f0d00a8;
+        public static final int design_menu_item_text=0x7f0d00a7;
+        public static final int design_navigation_view=0x7f0d00a6;
+        public static final int disableHome=0x7f0d0028;
+        public static final int drawer_layout=0x7f0d0098;
+        public static final int edit_query=0x7f0d008b;
+        public static final int end=0x7f0d0040;
+        public static final int end_padder=0x7f0d00f3;
+        public static final int enterAlways=0x7f0d002e;
+        public static final int enterAlwaysCollapsed=0x7f0d002f;
+        public static final int et_address=0x7f0d00d2;
+        public static final int et_age=0x7f0d00d1;
+        public static final int et_author=0x7f0d00b1;
+        public static final int et_code=0x7f0d00d7;
+        public static final int et_email=0x7f0d00c7;
+        public static final int et_format=0x7f0d00b6;
+        public static final int et_name=0x7f0d00d0;
+        public static final int et_new_password=0x7f0d00ac;
+        public static final int et_old_password=0x7f0d00ab;
+        public static final int et_password=0x7f0d00c8;
+        public static final int et_price=0x7f0d00b4;
+        public static final int et_pubdate=0x7f0d00b3;
+        public static final int et_publisher=0x7f0d00b2;
+        public static final int et_summary=0x7f0d00b7;
+        public static final int et_title=0x7f0d00af;
+        public static final int et_total_copy=0x7f0d00b5;
+        public static final int et_unique_id=0x7f0d00b0;
+        public static final int exitUntilCollapsed=0x7f0d0030;
+        public static final int expand_activities_button=0x7f0d006b;
+        public static final int expanded_menu=0x7f0d007f;
+        public static final int fab=0x7f0d009c;
+        public static final int fill=0x7f0d004a;
+        public static final int fill_horizontal=0x7f0d004b;
+        public static final int fill_vertical=0x7f0d0041;
+        public static final int fixed=0x7f0d0065;
+        public static final int forever=0x7f0d004f;
+        public static final int fragment_frame=0x7f0d009a;
+        public static final int ghost_view=0x7f0d0004;
+        public static final int home=0x7f0d0005;
+        public static final int homeAsUp=0x7f0d0029;
+        public static final int icon=0x7f0d006f;
+        public static final int icon_group=0x7f0d00f1;
+        public static final int icon_only=0x7f0d0060;
+        public static final int ifRoom=0x7f0d005d;
+        public static final int image=0x7f0d006c;
+        public static final int imageView=0x7f0d00df;
+        public static final int imageview_book_image=0x7f0d00b9;
+        public static final int info=0x7f0d00ee;
+        public static final int italic=0x7f0d0050;
+        public static final int item_touch_helper_previous_elevation=0x7f0d0006;
+        public static final int largeLabel=0x7f0d009e;
+        public static final int left=0x7f0d0042;
+        public static final int light=0x7f0d0064;
+        public static final int line1=0x7f0d0007;
+        public static final int line3=0x7f0d0008;
+        public static final int listMode=0x7f0d0025;
+        public static final int list_item=0x7f0d006e;
+        public static final int masked=0x7f0d00f6;
+        public static final int media_actions=0x7f0d00e7;
+        public static final int message=0x7f0d00f4;
+        public static final int middle=0x7f0d0052;
+        public static final int mini=0x7f0d004c;
+        public static final int multiply=0x7f0d0033;
+        public static final int nav_camera=0x7f0d00f7;
+        public static final int nav_gallery=0x7f0d00f8;
+        public static final int nav_manage=0x7f0d00fa;
+        public static final int nav_send=0x7f0d00fc;
+        public static final int nav_share=0x7f0d00fb;
+        public static final int nav_slideshow=0x7f0d00f9;
+        public static final int nav_view=0x7f0d0099;
+        public static final int navigation_header_container=0x7f0d00a5;
+        public static final int never=0x7f0d005e;
+        public static final int none=0x7f0d0024;
+        public static final int normal=0x7f0d0026;
+        public static final int notification_background=0x7f0d00ef;
+        public static final int notification_main_column=0x7f0d00ea;
+        public static final int notification_main_column_container=0x7f0d00e9;
+        public static final int packed=0x7f0d001f;
+        public static final int parallax=0x7f0d0046;
+        public static final int parent=0x7f0d001c;
+        public static final int parentPanel=0x7f0d0072;
+        public static final int parent_matrix=0x7f0d0009;
+        public static final int pin=0x7f0d0047;
+        public static final int progress=0x7f0d00ae;
+        public static final int progress_circular=0x7f0d000a;
+        public static final int progress_horizontal=0x7f0d000b;
+        public static final int radio=0x7f0d0082;
+        public static final int right=0x7f0d0043;
+        public static final int right_icon=0x7f0d00f2;
+        public static final int right_side=0x7f0d00eb;
+        public static final int save_image_matrix=0x7f0d000c;
+        public static final int save_non_transition_alpha=0x7f0d000d;
+        public static final int save_scale_type=0x7f0d000e;
+        public static final int screen=0x7f0d0034;
+        public static final int scroll=0x7f0d0031;
+        public static final int scrollIndicatorDown=0x7f0d0078;
+        public static final int scrollIndicatorUp=0x7f0d0074;
+        public static final int scrollView=0x7f0d0075;
+        public static final int scrollable=0x7f0d0066;
+        public static final int search_badge=0x7f0d008d;
+        public static final int search_bar=0x7f0d008c;
+        public static final int search_button=0x7f0d008e;
+        public static final int search_close_btn=0x7f0d0093;
+        public static final int search_edit_frame=0x7f0d008f;
+        public static final int search_go_btn=0x7f0d0095;
+        public static final int search_mag_icon=0x7f0d0090;
+        public static final int search_plate=0x7f0d0091;
+        public static final int search_src_text=0x7f0d0092;
+        public static final int search_voice_btn=0x7f0d0096;
+        public static final int select_dialog_listview=0x7f0d0097;
+        public static final int shortcut=0x7f0d0081;
+        public static final int showCustom=0x7f0d002a;
+        public static final int showHome=0x7f0d002b;
+        public static final int showTitle=0x7f0d002c;
+        public static final int smallLabel=0x7f0d009d;
+        public static final int snackbar_action=0x7f0d00a4;
+        public static final int snackbar_text=0x7f0d00a3;
+        public static final int snap=0x7f0d0032;
+        public static final int spacer=0x7f0d0071;
+        public static final int split_action_bar=0x7f0d000f;
+        public static final int spread=0x7f0d001d;
+        public static final int spread_inside=0x7f0d0020;
+        public static final int src_atop=0x7f0d0035;
+        public static final int src_in=0x7f0d0036;
+        public static final int src_over=0x7f0d0037;
+        public static final int standard=0x7f0d0061;
+        public static final int start=0x7f0d0044;
+        public static final int status_bar_latest_event_content=0x7f0d00e6;
+        public static final int submenuarrow=0x7f0d0083;
+        public static final int submit_area=0x7f0d0094;
+        public static final int tabMode=0x7f0d0027;
+        public static final int text=0x7f0d0010;
+        public static final int text2=0x7f0d0011;
+        public static final int textSpacerNoButtons=0x7f0d0077;
+        public static final int textSpacerNoTitle=0x7f0d0076;
+        public static final int textView=0x7f0d00e0;
+        public static final int text_input_password_toggle=0x7f0d00aa;
+        public static final int textinput_counter=0x7f0d0012;
+        public static final int textinput_error=0x7f0d0013;
+        public static final int time=0x7f0d00ec;
+        public static final int timer=0x7f0d00d6;
+        public static final int title=0x7f0d0014;
+        public static final int titleDividerNoCustom=0x7f0d007e;
+        public static final int title_template=0x7f0d007c;
+        public static final int toolbar=0x7f0d009b;
+        public static final int top=0x7f0d0045;
+        public static final int topPanel=0x7f0d007b;
+        public static final int touch_outside=0x7f0d00a1;
+        public static final int transition_current_scene=0x7f0d0015;
+        public static final int transition_layout_save=0x7f0d0016;
+        public static final int transition_position=0x7f0d0017;
+        public static final int transition_scene_layoutid_cache=0x7f0d0018;
+        public static final int transition_transform=0x7f0d0019;
+        public static final int tv_age=0x7f0d00cd;
+        public static final int tv_author=0x7f0d00bb;
+        public static final int tv_email=0x7f0d00cc;
+        public static final int tv_format=0x7f0d00bf;
+        public static final int tv_login=0x7f0d00d5;
+        public static final int tv_message=0x7f0d00ad;
+        public static final int tv_name=0x7f0d00cb;
+        public static final int tv_price=0x7f0d00be;
+        public static final int tv_pub_date=0x7f0d00bd;
+        public static final int tv_publisher=0x7f0d00bc;
+        public static final int tv_rating=0x7f0d00c1;
+        public static final int tv_register=0x7f0d00ca;
+        public static final int tv_title=0x7f0d00ba;
+        public static final int tv_total_copy=0x7f0d00c0;
+        public static final int tv_uploader_id=0x7f0d00c2;
+        public static final int uniform=0x7f0d0039;
+        public static final int up=0x7f0d001a;
+        public static final int useLogo=0x7f0d002d;
+        public static final int view_offset_helper=0x7f0d001b;
+        public static final int visible=0x7f0d00f5;
+        public static final int wide=0x7f0d0062;
+        public static final int withText=0x7f0d005f;
+        public static final int wrap=0x7f0d001e;
+        public static final int wrap_content=0x7f0d003a;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0b0001;
@@ -3400,10 +3781,12 @@ containing a value of this type.
         public static final int app_bar_elevation_anim_duration=0x7f0b0003;
         public static final int bottom_sheet_slide_duration=0x7f0b0004;
         public static final int cancel_button_image_alpha=0x7f0b0005;
+        public static final int config_tooltipAnimTime=0x7f0b0006;
         public static final int design_snackbar_text_max_lines=0x7f0b0000;
-        public static final int hide_password_duration=0x7f0b0006;
-        public static final int show_password_duration=0x7f0b0007;
-        public static final int status_bar_notification_info_maxnum=0x7f0b0008;
+        public static final int google_play_services_version=0x7f0b0007;
+        public static final int hide_password_duration=0x7f0b0008;
+        public static final int show_password_duration=0x7f0b0009;
+        public static final int status_bar_notification_info_maxnum=0x7f0b000a;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f040000;
@@ -3434,63 +3817,63 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
         public static final int activity_about_us=0x7f04001b;
-        public static final int activity_main=0x7f04001c;
-        public static final int activity_main_second=0x7f04001d;
-        public static final int design_bottom_navigation_item=0x7f04001e;
-        public static final int design_bottom_sheet_dialog=0x7f04001f;
-        public static final int design_layout_snackbar=0x7f040020;
-        public static final int design_layout_snackbar_include=0x7f040021;
-        public static final int design_layout_tab_icon=0x7f040022;
-        public static final int design_layout_tab_text=0x7f040023;
-        public static final int design_menu_item_action_area=0x7f040024;
-        public static final int design_navigation_item=0x7f040025;
-        public static final int design_navigation_item_header=0x7f040026;
-        public static final int design_navigation_item_separator=0x7f040027;
-        public static final int design_navigation_item_subheader=0x7f040028;
-        public static final int design_navigation_menu=0x7f040029;
-        public static final int design_navigation_menu_item=0x7f04002a;
-        public static final int design_text_input_password_icon=0x7f04002b;
-        public static final int dialog_change_password=0x7f04002c;
-        public static final int drawer_main_activity_second=0x7f04002d;
-        public static final int fragment_add_book=0x7f04002e;
-        public static final int fragment_book_details=0x7f04002f;
-        public static final int fragment_exchange=0x7f040030;
-        public static final int fragment_home=0x7f040031;
-        public static final int fragment_library=0x7f040032;
-        public static final int fragment_login=0x7f040033;
-        public static final int fragment_main_activity_second=0x7f040034;
-        public static final int fragment_profile=0x7f040035;
-        public static final int fragment_register=0x7f040036;
-        public static final int fragment_reset_password=0x7f040037;
-        public static final int fragment_setting=0x7f040038;
-        public static final int menu_dot=0x7f040039;
-        public static final int notification_action=0x7f04003a;
-        public static final int notification_action_tombstone=0x7f04003b;
-        public static final int notification_media_action=0x7f04003c;
-        public static final int notification_media_cancel_action=0x7f04003d;
-        public static final int notification_template_big_media=0x7f04003e;
-        public static final int notification_template_big_media_custom=0x7f04003f;
-        public static final int notification_template_big_media_narrow=0x7f040040;
-        public static final int notification_template_big_media_narrow_custom=0x7f040041;
-        public static final int notification_template_custom_big=0x7f040042;
-        public static final int notification_template_icon_group=0x7f040043;
-        public static final int notification_template_lines_media=0x7f040044;
-        public static final int notification_template_media=0x7f040045;
-        public static final int notification_template_media_custom=0x7f040046;
-        public static final int notification_template_part_chronometer=0x7f040047;
-        public static final int notification_template_part_time=0x7f040048;
-        public static final int select_dialog_item_material=0x7f040049;
-        public static final int select_dialog_multichoice_material=0x7f04004a;
-        public static final int select_dialog_singlechoice_material=0x7f04004b;
-        public static final int support_simple_spinner_dropdown_item=0x7f04004c;
+        public static final int activity_drawer=0x7f04001c;
+        public static final int activity_main=0x7f04001d;
+        public static final int app_bar_drawer=0x7f04001e;
+        public static final int content_drawer=0x7f04001f;
+        public static final int design_bottom_navigation_item=0x7f040020;
+        public static final int design_bottom_sheet_dialog=0x7f040021;
+        public static final int design_layout_snackbar=0x7f040022;
+        public static final int design_layout_snackbar_include=0x7f040023;
+        public static final int design_layout_tab_icon=0x7f040024;
+        public static final int design_layout_tab_text=0x7f040025;
+        public static final int design_menu_item_action_area=0x7f040026;
+        public static final int design_navigation_item=0x7f040027;
+        public static final int design_navigation_item_header=0x7f040028;
+        public static final int design_navigation_item_separator=0x7f040029;
+        public static final int design_navigation_item_subheader=0x7f04002a;
+        public static final int design_navigation_menu=0x7f04002b;
+        public static final int design_navigation_menu_item=0x7f04002c;
+        public static final int design_text_input_password_icon=0x7f04002d;
+        public static final int dialog_change_password=0x7f04002e;
+        public static final int fragment_add_book=0x7f04002f;
+        public static final int fragment_book_comments=0x7f040030;
+        public static final int fragment_book_details=0x7f040031;
+        public static final int fragment_exchange=0x7f040032;
+        public static final int fragment_home=0x7f040033;
+        public static final int fragment_library=0x7f040034;
+        public static final int fragment_login=0x7f040035;
+        public static final int fragment_profile=0x7f040036;
+        public static final int fragment_register=0x7f040037;
+        public static final int fragment_reset_password=0x7f040038;
+        public static final int fragment_setting=0x7f040039;
+        public static final int fragment_test=0x7f04003a;
+        public static final int menu_dot=0x7f04003b;
+        public static final int nav_header_drawer=0x7f04003c;
+        public static final int notification_action=0x7f04003d;
+        public static final int notification_action_tombstone=0x7f04003e;
+        public static final int notification_media_action=0x7f04003f;
+        public static final int notification_media_cancel_action=0x7f040040;
+        public static final int notification_template_big_media=0x7f040041;
+        public static final int notification_template_big_media_custom=0x7f040042;
+        public static final int notification_template_big_media_narrow=0x7f040043;
+        public static final int notification_template_big_media_narrow_custom=0x7f040044;
+        public static final int notification_template_custom_big=0x7f040045;
+        public static final int notification_template_icon_group=0x7f040046;
+        public static final int notification_template_lines_media=0x7f040047;
+        public static final int notification_template_media=0x7f040048;
+        public static final int notification_template_media_custom=0x7f040049;
+        public static final int notification_template_part_chronometer=0x7f04004a;
+        public static final int notification_template_part_time=0x7f04004b;
+        public static final int select_dialog_item_material=0x7f04004c;
+        public static final int select_dialog_multichoice_material=0x7f04004d;
+        public static final int select_dialog_singlechoice_material=0x7f04004e;
+        public static final int support_simple_spinner_dropdown_item=0x7f04004f;
+        public static final int tooltip=0x7f040050;
     }
     public static final class menu {
-        public static final int activity_main_drawer=0x7f0f0000;
-        public static final int drawer=0x7f0f0001;
-        public static final int global=0x7f0f0002;
-        public static final int main=0x7f0f0003;
-        public static final int main_activity_after_verify=0x7f0f0004;
-        public static final int main_activity_second=0x7f0f0005;
+        public static final int activity_drawer=0x7f0e0000;
+        public static final int main=0x7f0e0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -3507,18 +3890,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f070007;
         public static final int abc_capital_off=0x7f070008;
         public static final int abc_capital_on=0x7f070009;
-        public static final int abc_font_family_body_1_material=0x7f070015;
-        public static final int abc_font_family_body_2_material=0x7f070016;
-        public static final int abc_font_family_button_material=0x7f070017;
-        public static final int abc_font_family_caption_material=0x7f070018;
-        public static final int abc_font_family_display_1_material=0x7f070019;
-        public static final int abc_font_family_display_2_material=0x7f07001a;
-        public static final int abc_font_family_display_3_material=0x7f07001b;
-        public static final int abc_font_family_display_4_material=0x7f07001c;
-        public static final int abc_font_family_headline_material=0x7f07001d;
-        public static final int abc_font_family_menu_material=0x7f07001e;
-        public static final int abc_font_family_subhead_material=0x7f07001f;
-        public static final int abc_font_family_title_material=0x7f070020;
+        public static final int abc_font_family_body_1_material=0x7f070026;
+        public static final int abc_font_family_body_2_material=0x7f070027;
+        public static final int abc_font_family_button_material=0x7f070028;
+        public static final int abc_font_family_caption_material=0x7f070029;
+        public static final int abc_font_family_display_1_material=0x7f07002a;
+        public static final int abc_font_family_display_2_material=0x7f07002b;
+        public static final int abc_font_family_display_3_material=0x7f07002c;
+        public static final int abc_font_family_display_4_material=0x7f07002d;
+        public static final int abc_font_family_headline_material=0x7f07002e;
+        public static final int abc_font_family_menu_material=0x7f07002f;
+        public static final int abc_font_family_subhead_material=0x7f070030;
+        public static final int abc_font_family_title_material=0x7f070031;
         public static final int abc_search_hint=0x7f07000a;
         public static final int abc_searchview_description_clear=0x7f07000b;
         public static final int abc_searchview_description_query=0x7f07000c;
@@ -3528,317 +3911,322 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action_example=0x7f070021;
-        public static final int action_settings=0x7f070022;
-        public static final int app_name=0x7f070023;
-        public static final int appbar_scrolling_view_behavior=0x7f070024;
-        public static final int boihaat_login=0x7f070025;
-        public static final int bottom_sheet_behavior=0x7f070026;
-        public static final int btn_link_to_login=0x7f070027;
-        public static final int btn_link_to_register=0x7f070028;
-        public static final int btn_login=0x7f070029;
-        public static final int btn_logout=0x7f07002a;
-        public static final int btn_register=0x7f07002b;
-        public static final int character_counter_pattern=0x7f07002c;
-        public static final int code=0x7f07002d;
-        public static final int email=0x7f07002e;
-        public static final int hello_blank_fragment=0x7f07002f;
-        public static final int hint_email=0x7f070030;
-        public static final int hint_name=0x7f070031;
-        public static final int hint_password=0x7f070032;
-        public static final int login=0x7f070033;
-        public static final int name=0x7f070034;
-        public static final int nav_about_us=0x7f070035;
-        public static final int nav_home=0x7f070036;
-        public static final int nav_movies=0x7f070037;
-        public static final int nav_notifications=0x7f070038;
-        public static final int nav_photos=0x7f070039;
-        public static final int nav_settings=0x7f07003a;
-        public static final int navigation_drawer_close=0x7f07003b;
-        public static final int navigation_drawer_open=0x7f07003c;
-        public static final int password=0x7f07003d;
-        public static final int password_toggle_content_description=0x7f07003e;
-        public static final int path_password_eye=0x7f07003f;
-        public static final int path_password_eye_mask_strike_through=0x7f070040;
-        public static final int path_password_eye_mask_visible=0x7f070041;
-        public static final int path_password_strike_through=0x7f070042;
-        public static final int register=0x7f070043;
-        public static final int search_menu_title=0x7f070013;
-        public static final int status_bar_notification_info_overflow=0x7f070014;
-        public static final int title_activity_drawer=0x7f070044;
-        public static final int title_activity_main_after_verify=0x7f070045;
-        public static final int title_activity_main_second=0x7f070046;
-        public static final int title_section1=0x7f070047;
-        public static final int title_section2=0x7f070048;
-        public static final int title_section3=0x7f070049;
-        public static final int welcome=0x7f07004a;
+        public static final int action_settings=0x7f070032;
+        public static final int app_name=0x7f070033;
+        public static final int appbar_scrolling_view_behavior=0x7f070034;
+        public static final int bottom_sheet_behavior=0x7f070035;
+        public static final int character_counter_pattern=0x7f070036;
+        public static final int code=0x7f070037;
+        public static final int common_google_play_services_enable_button=0x7f070013;
+        public static final int common_google_play_services_enable_text=0x7f070014;
+        public static final int common_google_play_services_enable_title=0x7f070015;
+        public static final int common_google_play_services_install_button=0x7f070016;
+        public static final int common_google_play_services_install_text=0x7f070017;
+        public static final int common_google_play_services_install_title=0x7f070018;
+        public static final int common_google_play_services_notification_ticker=0x7f070019;
+        public static final int common_google_play_services_unknown_issue=0x7f07001a;
+        public static final int common_google_play_services_unsupported_text=0x7f07001b;
+        public static final int common_google_play_services_update_button=0x7f07001c;
+        public static final int common_google_play_services_update_text=0x7f07001d;
+        public static final int common_google_play_services_update_title=0x7f07001e;
+        public static final int common_google_play_services_updating_text=0x7f07001f;
+        public static final int common_google_play_services_wear_update_text=0x7f070020;
+        public static final int common_open_on_phone=0x7f070021;
+        public static final int common_signin_button_text=0x7f070022;
+        public static final int common_signin_button_text_long=0x7f070023;
+        public static final int hello_blank_fragment=0x7f070038;
+        public static final int navigation_drawer_close=0x7f070039;
+        public static final int navigation_drawer_open=0x7f07003a;
+        public static final int password_toggle_content_description=0x7f07003b;
+        public static final int path_password_eye=0x7f07003c;
+        public static final int path_password_eye_mask_strike_through=0x7f07003d;
+        public static final int path_password_eye_mask_visible=0x7f07003e;
+        public static final int path_password_strike_through=0x7f07003f;
+        public static final int search_menu_title=0x7f070024;
+        public static final int status_bar_notification_info_overflow=0x7f070025;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0900a1;
-        public static final int AlertDialog_AppCompat_Light=0x7f0900a2;
-        public static final int Animation_AppCompat_Dialog=0x7f0900a3;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0900a4;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0900a5;
-        public static final int AppTheme=0x7f0900a6;
-        public static final int AppTheme_AppBarOverlay=0x7f0900a7;
-        public static final int AppTheme_NoActionBar=0x7f0900a8;
-        public static final int AppTheme_PopupOverlay=0x7f0900a9;
-        public static final int Base_AlertDialog_AppCompat=0x7f0900aa;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0900ab;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0900ac;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0900ad;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0900ae;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0900af;
-        public static final int Base_TextAppearance_AppCompat=0x7f090040;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f090041;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f090042;
+        public static final int AlertDialog_AppCompat=0x7f0900ab;
+        public static final int AlertDialog_AppCompat_Light=0x7f0900ac;
+        public static final int Animation_AppCompat_Dialog=0x7f0900ad;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0900ae;
+        public static final int Animation_AppCompat_Tooltip=0x7f0900af;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0900b0;
+        public static final int AppTheme=0x7f0900b1;
+        public static final int AppTheme_AppBarOverlay=0x7f0900b2;
+        public static final int AppTheme_NoActionBar=0x7f0900b3;
+        public static final int AppTheme_PopupOverlay=0x7f0900b4;
+        public static final int Base_AlertDialog_AppCompat=0x7f0900b5;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0900b6;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0900b7;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0900b8;
+        public static final int Base_Animation_AppCompat_Tooltip=0x7f0900b9;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0900ba;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0900bb;
+        public static final int Base_TextAppearance_AppCompat=0x7f09003a;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f09003b;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f09003c;
         public static final int Base_TextAppearance_AppCompat_Button=0x7f090028;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f090043;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f090044;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f090045;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f090046;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f090047;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f090048;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f09003d;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f09003e;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f09003f;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f090040;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f090041;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f090042;
         public static final int Base_TextAppearance_AppCompat_Inverse=0x7f09000c;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f090049;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f090043;
         public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f09000d;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f09004a;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f09004b;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f09004c;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f090044;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f090045;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f090046;
         public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f09000e;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f09004d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0900b0;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f09004e;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f09004f;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f090050;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f090047;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0900bc;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f090048;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f090049;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f09004a;
         public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f09000f;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f090051;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f09004b;
         public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f090010;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f090052;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f09004c;
         public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f090011;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f090096;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f090053;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f090054;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f090055;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f090056;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f090057;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f090058;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f090059;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f09009d;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f09009e;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f090097;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900b1;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f09005a;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f09005b;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f09005c;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f09005d;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f09005e;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0900b2;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f09005f;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090060;
-        public static final int Base_Theme_AppCompat=0x7f090061;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0900b3;
+        public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0900bd;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f09009b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f09004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f09004e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f09004f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f090050;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f090051;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f090052;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f090053;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0900a2;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0900a3;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f09009c;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900be;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f090054;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f090055;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f090056;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f090057;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f090058;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0900bf;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f090059;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f09005a;
+        public static final int Base_Theme_AppCompat=0x7f09005b;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0900c0;
         public static final int Base_Theme_AppCompat_Dialog=0x7f090012;
         public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f090013;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0900b4;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0900c1;
         public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f090014;
         public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f090002;
-        public static final int Base_Theme_AppCompat_Light=0x7f090062;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0900b5;
+        public static final int Base_Theme_AppCompat_Light=0x7f09005c;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0900c2;
         public static final int Base_Theme_AppCompat_Light_Dialog=0x7f090015;
         public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f090016;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0900b6;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0900c3;
         public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f090017;
         public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f090003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0900b7;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0900b8;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0900b9;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0900ba;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0900c4;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0900c5;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0900c6;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0900c7;
         public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f090018;
         public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f090019;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0900bb;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0900c8;
         public static final int Base_V11_Theme_AppCompat_Dialog=0x7f09001a;
         public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f09001b;
         public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f09001c;
         public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f090024;
         public static final int Base_V12_Widget_AppCompat_EditText=0x7f090025;
-        public static final int Base_V21_Theme_AppCompat=0x7f090063;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f090064;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f090065;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f090066;
-        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f090067;
-        public static final int Base_V22_Theme_AppCompat=0x7f090094;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f090095;
-        public static final int Base_V23_Theme_AppCompat=0x7f090098;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f090099;
-        public static final int Base_V7_Theme_AppCompat=0x7f0900bc;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0900bd;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0900be;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0900bf;
-        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0900c0;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0900c1;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0900c2;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0900c3;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0900c4;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0900c5;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f090068;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f090069;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f09006a;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f09006b;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f09006c;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0900c6;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0900c7;
+        public static final int Base_V14_Widget_Design_AppBarLayout=0x7f0900c9;
+        public static final int Base_V21_Theme_AppCompat=0x7f09005d;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f09005e;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f09005f;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f090060;
+        public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f090061;
+        public static final int Base_V21_Widget_Design_AppBarLayout=0x7f090062;
+        public static final int Base_V22_Theme_AppCompat=0x7f090099;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f09009a;
+        public static final int Base_V23_Theme_AppCompat=0x7f09009d;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f09009e;
+        public static final int Base_V26_Theme_AppCompat=0x7f0900a6;
+        public static final int Base_V26_Theme_AppCompat_Light=0x7f0900a7;
+        public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0900a8;
+        public static final int Base_V26_Widget_Design_AppBarLayout=0x7f0900a9;
+        public static final int Base_V7_Theme_AppCompat=0x7f0900ca;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0900cb;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0900cc;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0900cd;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0900ce;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0900cf;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0900d0;
+        public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0900d1;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0900d2;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0900d3;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0900d4;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f090063;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f090064;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f090065;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f090066;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f090067;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0900d5;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0900d6;
         public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f090026;
-        public static final int Base_Widget_AppCompat_Button=0x7f09006d;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f09006e;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f09006f;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0900c8;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f09009a;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f090070;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f090071;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0900c9;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f090072;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f090073;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0900ca;
+        public static final int Base_Widget_AppCompat_Button=0x7f090068;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f090069;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f09006a;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0900d7;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f09009f;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f09006b;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f09006c;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0900d8;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f09006d;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f09006e;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0900d9;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f090000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0900cb;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f090074;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0900da;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f09006f;
         public static final int Base_Widget_AppCompat_EditText=0x7f090027;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f090075;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0900cc;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0900cd;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0900ce;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f090076;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090077;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f090078;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f090079;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f09007a;
-        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0900cf;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f09007b;
-        public static final int Base_Widget_AppCompat_ListView=0x7f09007c;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f09007d;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f09007e;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f09007f;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f090080;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0900d0;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f090070;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0900db;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0900dc;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0900dd;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f090071;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f090072;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f090073;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f090074;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f090075;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0900de;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f090076;
+        public static final int Base_Widget_AppCompat_ListView=0x7f090077;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f090078;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f090079;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f09007a;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f09007b;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0900df;
         public static final int Base_Widget_AppCompat_ProgressBar=0x7f09001d;
         public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f09001e;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f090081;
-        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f09009b;
-        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f09009c;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0900d1;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0900d2;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f090082;
-        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0900d3;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f090083;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f09007c;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0900a0;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0900a1;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0900e0;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0900e1;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f09007d;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0900e2;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f09007e;
         public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f090004;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f090084;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0900d4;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f090085;
-        public static final int Base_Widget_Design_AppBarLayout=0x7f0900d5;
-        public static final int Base_Widget_Design_TabLayout=0x7f0900d6;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f09007f;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0900aa;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f090080;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f090081;
+        public static final int Base_Widget_Design_TabLayout=0x7f0900e3;
         public static final int Platform_AppCompat=0x7f09001f;
         public static final int Platform_AppCompat_Light=0x7f090020;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f090086;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f090087;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f090088;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f090082;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f090083;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f090084;
         public static final int Platform_V11_AppCompat=0x7f090021;
         public static final int Platform_V11_AppCompat_Light=0x7f090022;
         public static final int Platform_V14_AppCompat=0x7f090029;
         public static final int Platform_V14_AppCompat_Light=0x7f09002a;
-        public static final int Platform_V21_AppCompat=0x7f090089;
-        public static final int Platform_V21_AppCompat_Light=0x7f09008a;
-        public static final int Platform_V25_AppCompat=0x7f09009f;
-        public static final int Platform_V25_AppCompat_Light=0x7f0900a0;
+        public static final int Platform_V21_AppCompat=0x7f090085;
+        public static final int Platform_V21_AppCompat_Light=0x7f090086;
+        public static final int Platform_V25_AppCompat=0x7f0900a4;
+        public static final int Platform_V25_AppCompat_Light=0x7f0900a5;
         public static final int Platform_Widget_AppCompat_Spinner=0x7f090023;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f090032;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f090033;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f090034;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f090035;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f090036;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f090037;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f090038;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f090039;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f09003a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f09003b;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f09003c;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f09003d;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f09003e;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f09003f;
-        public static final int TextAppearance_AppCompat=0x7f0900d7;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0900d8;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0900d9;
-        public static final int TextAppearance_AppCompat_Button=0x7f0900da;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0900db;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0900dc;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0900dd;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0900de;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0900df;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0900e0;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0900e1;
-        public static final int TextAppearance_AppCompat_Large=0x7f0900e2;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0900e3;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0900e4;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0900e5;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0900e6;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0900e7;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0900e8;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0900e9;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0900ea;
-        public static final int TextAppearance_AppCompat_Notification=0x7f09002b;
-        public static final int TextAppearance_AppCompat_Notification_Info=0x7f09008b;
-        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f09008c;
-        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0900eb;
-        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0900ec;
-        public static final int TextAppearance_AppCompat_Notification_Media=0x7f09008d;
-        public static final int TextAppearance_AppCompat_Notification_Time=0x7f09008e;
-        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f09008f;
-        public static final int TextAppearance_AppCompat_Notification_Title=0x7f09002c;
-        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f090090;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0900ed;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0900ee;
-        public static final int TextAppearance_AppCompat_Small=0x7f0900ef;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0900f0;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0900f1;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0900f2;
-        public static final int TextAppearance_AppCompat_Title=0x7f0900f3;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0900f4;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0900f5;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0900f6;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0900f7;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0900f8;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0900f9;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0900fa;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0900fb;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0900fc;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0900fd;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0900fe;
-        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0900ff;
-        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f090100;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f090101;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f090102;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f090103;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f090104;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f090105;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f090106;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f090107;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f090108;
-        public static final int TextAppearance_Design_Counter=0x7f090109;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f09010a;
-        public static final int TextAppearance_Design_Error=0x7f09010b;
-        public static final int TextAppearance_Design_Hint=0x7f09010c;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f09010d;
-        public static final int TextAppearance_Design_Tab=0x7f09010e;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f09002d;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f09002e;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f09002f;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f090030;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f090031;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f09010f;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f090110;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090111;
-        public static final int Theme_AppCompat=0x7f090112;
-        public static final int Theme_AppCompat_CompactMenu=0x7f090113;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f09002c;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f09002d;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f09002e;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f09002f;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f090030;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f090031;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f090032;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f090033;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f090034;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f090035;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f090036;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f090037;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f090038;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f090039;
+        public static final int TextAppearance_AppCompat=0x7f0900e4;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0900e5;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0900e6;
+        public static final int TextAppearance_AppCompat_Button=0x7f0900e7;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0900e8;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0900e9;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0900ea;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0900eb;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0900ec;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0900ed;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0900ee;
+        public static final int TextAppearance_AppCompat_Large=0x7f0900ef;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0900f0;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0900f1;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0900f2;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0900f3;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0900f4;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0900f5;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0900f6;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0900f7;
+        public static final int TextAppearance_AppCompat_Notification=0x7f090087;
+        public static final int TextAppearance_AppCompat_Notification_Info=0x7f090088;
+        public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f090089;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0900f8;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0900f9;
+        public static final int TextAppearance_AppCompat_Notification_Media=0x7f09008a;
+        public static final int TextAppearance_AppCompat_Notification_Time=0x7f09008b;
+        public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f09008c;
+        public static final int TextAppearance_AppCompat_Notification_Title=0x7f09008d;
+        public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f09008e;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0900fa;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0900fb;
+        public static final int TextAppearance_AppCompat_Small=0x7f0900fc;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0900fd;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0900fe;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0900ff;
+        public static final int TextAppearance_AppCompat_Title=0x7f090100;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f090101;
+        public static final int TextAppearance_AppCompat_Tooltip=0x7f09002b;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f090102;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f090103;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f090104;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f090105;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f090106;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f090107;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f090108;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f090109;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f09010a;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f09010b;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f09010c;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f09010d;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f09010e;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f09010f;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f090110;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f090111;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f090112;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f090113;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f090114;
+        public static final int TextAppearance_Compat_Notification=0x7f09008f;
+        public static final int TextAppearance_Compat_Notification_Info=0x7f090090;
+        public static final int TextAppearance_Compat_Notification_Info_Media=0x7f090091;
+        public static final int TextAppearance_Compat_Notification_Line2=0x7f090115;
+        public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f090116;
+        public static final int TextAppearance_Compat_Notification_Media=0x7f090092;
+        public static final int TextAppearance_Compat_Notification_Time=0x7f090093;
+        public static final int TextAppearance_Compat_Notification_Time_Media=0x7f090094;
+        public static final int TextAppearance_Compat_Notification_Title=0x7f090095;
+        public static final int TextAppearance_Compat_Notification_Title_Media=0x7f090096;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f090117;
+        public static final int TextAppearance_Design_Counter=0x7f090118;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f090119;
+        public static final int TextAppearance_Design_Error=0x7f09011a;
+        public static final int TextAppearance_Design_Hint=0x7f09011b;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f09011c;
+        public static final int TextAppearance_Design_Tab=0x7f09011d;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f09011e;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f09011f;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090120;
+        public static final int Theme_AppCompat=0x7f090121;
+        public static final int Theme_AppCompat_CompactMenu=0x7f090122;
         public static final int Theme_AppCompat_DayNight=0x7f090005;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f090006;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f090007;
@@ -3846,116 +4234,116 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f090009;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f09000a;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f09000b;
-        public static final int Theme_AppCompat_Dialog=0x7f090114;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f090115;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f090116;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f090117;
-        public static final int Theme_AppCompat_Light=0x7f090118;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f090119;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f09011a;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f09011b;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f09011c;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f09011d;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f09011e;
-        public static final int Theme_AppCompat_NoActionBar=0x7f09011f;
-        public static final int Theme_Design=0x7f090120;
-        public static final int Theme_Design_BottomSheetDialog=0x7f090121;
-        public static final int Theme_Design_Light=0x7f090122;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f090123;
-        public static final int Theme_Design_Light_NoActionBar=0x7f090124;
-        public static final int Theme_Design_NoActionBar=0x7f090125;
-        public static final int ThemeOverlay_AppCompat=0x7f090126;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f090127;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f090128;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f090129;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f09012a;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f09012b;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f09012c;
-        public static final int Widget_AppCompat_ActionBar=0x7f09012d;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f09012e;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f09012f;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f090130;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f090131;
-        public static final int Widget_AppCompat_ActionButton=0x7f090132;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f090133;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f090134;
-        public static final int Widget_AppCompat_ActionMode=0x7f090135;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f090136;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f090137;
-        public static final int Widget_AppCompat_Button=0x7f090138;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f090139;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f09013a;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f09013b;
-        public static final int Widget_AppCompat_Button_Colored=0x7f09013c;
-        public static final int Widget_AppCompat_Button_Small=0x7f09013d;
-        public static final int Widget_AppCompat_ButtonBar=0x7f09013e;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f09013f;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f090140;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f090141;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f090142;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f090143;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f090144;
-        public static final int Widget_AppCompat_EditText=0x7f090145;
-        public static final int Widget_AppCompat_ImageButton=0x7f090146;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f090147;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f090148;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f090149;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f09014a;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f09014b;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f09014c;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f09014d;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f09014e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f09014f;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f090150;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f090151;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f090152;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f090153;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f090154;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f090155;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f090156;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f090157;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f090158;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f090159;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f09015a;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f09015b;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f09015c;
-        public static final int Widget_AppCompat_ListMenuView=0x7f09015d;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f09015e;
-        public static final int Widget_AppCompat_ListView=0x7f09015f;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f090160;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f090161;
-        public static final int Widget_AppCompat_NotificationActionContainer=0x7f090091;
-        public static final int Widget_AppCompat_NotificationActionText=0x7f090092;
-        public static final int Widget_AppCompat_PopupMenu=0x7f090162;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f090163;
-        public static final int Widget_AppCompat_PopupWindow=0x7f090164;
-        public static final int Widget_AppCompat_ProgressBar=0x7f090165;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f090166;
-        public static final int Widget_AppCompat_RatingBar=0x7f090167;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f090168;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f090169;
-        public static final int Widget_AppCompat_SearchView=0x7f09016a;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f09016b;
-        public static final int Widget_AppCompat_SeekBar=0x7f09016c;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f09016d;
-        public static final int Widget_AppCompat_Spinner=0x7f09016e;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f09016f;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f090170;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f090171;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090172;
-        public static final int Widget_AppCompat_Toolbar=0x7f090173;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090174;
-        public static final int Widget_Design_AppBarLayout=0x7f090093;
-        public static final int Widget_Design_BottomNavigationView=0x7f090175;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f090176;
-        public static final int Widget_Design_CollapsingToolbar=0x7f090177;
-        public static final int Widget_Design_CoordinatorLayout=0x7f090178;
-        public static final int Widget_Design_FloatingActionButton=0x7f090179;
-        public static final int Widget_Design_NavigationView=0x7f09017a;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f09017b;
-        public static final int Widget_Design_Snackbar=0x7f09017c;
+        public static final int Theme_AppCompat_Dialog=0x7f090123;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f090124;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f090125;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f090126;
+        public static final int Theme_AppCompat_Light=0x7f090127;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f090128;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f090129;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f09012a;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f09012b;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f09012c;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f09012d;
+        public static final int Theme_AppCompat_NoActionBar=0x7f09012e;
+        public static final int Theme_Design=0x7f09012f;
+        public static final int Theme_Design_BottomSheetDialog=0x7f090130;
+        public static final int Theme_Design_Light=0x7f090131;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f090132;
+        public static final int Theme_Design_Light_NoActionBar=0x7f090133;
+        public static final int Theme_Design_NoActionBar=0x7f090134;
+        public static final int ThemeOverlay_AppCompat=0x7f090135;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f090136;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f090137;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f090138;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f090139;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f09013a;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f09013b;
+        public static final int Widget_AppCompat_ActionBar=0x7f09013c;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f09013d;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f09013e;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f09013f;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f090140;
+        public static final int Widget_AppCompat_ActionButton=0x7f090141;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f090142;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f090143;
+        public static final int Widget_AppCompat_ActionMode=0x7f090144;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f090145;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f090146;
+        public static final int Widget_AppCompat_Button=0x7f090147;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f090148;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f090149;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f09014a;
+        public static final int Widget_AppCompat_Button_Colored=0x7f09014b;
+        public static final int Widget_AppCompat_Button_Small=0x7f09014c;
+        public static final int Widget_AppCompat_ButtonBar=0x7f09014d;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f09014e;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f09014f;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f090150;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f090151;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f090152;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f090153;
+        public static final int Widget_AppCompat_EditText=0x7f090154;
+        public static final int Widget_AppCompat_ImageButton=0x7f090155;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f090156;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f090157;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f090158;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f090159;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f09015a;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f09015b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f09015c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f09015d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f09015e;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f09015f;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f090160;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f090161;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f090162;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f090163;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f090164;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f090165;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f090166;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f090167;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f090168;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f090169;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f09016a;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f09016b;
+        public static final int Widget_AppCompat_ListMenuView=0x7f09016c;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f09016d;
+        public static final int Widget_AppCompat_ListView=0x7f09016e;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f09016f;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f090170;
+        public static final int Widget_AppCompat_PopupMenu=0x7f090171;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f090172;
+        public static final int Widget_AppCompat_PopupWindow=0x7f090173;
+        public static final int Widget_AppCompat_ProgressBar=0x7f090174;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f090175;
+        public static final int Widget_AppCompat_RatingBar=0x7f090176;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f090177;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f090178;
+        public static final int Widget_AppCompat_SearchView=0x7f090179;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f09017a;
+        public static final int Widget_AppCompat_SeekBar=0x7f09017b;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f09017c;
+        public static final int Widget_AppCompat_Spinner=0x7f09017d;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f09017e;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f09017f;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f090180;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f090181;
+        public static final int Widget_AppCompat_Toolbar=0x7f090182;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090183;
+        public static final int Widget_Compat_NotificationActionContainer=0x7f090097;
+        public static final int Widget_Compat_NotificationActionText=0x7f090098;
+        public static final int Widget_Design_AppBarLayout=0x7f090184;
+        public static final int Widget_Design_BottomNavigationView=0x7f090185;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f090186;
+        public static final int Widget_Design_CollapsingToolbar=0x7f090187;
+        public static final int Widget_Design_CoordinatorLayout=0x7f090188;
+        public static final int Widget_Design_FloatingActionButton=0x7f090189;
+        public static final int Widget_Design_NavigationView=0x7f09018a;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f09018b;
+        public static final int Widget_Design_Snackbar=0x7f09018c;
         public static final int Widget_Design_TabLayout=0x7f090001;
-        public static final int Widget_Design_TextInputLayout=0x7f09017d;
+        public static final int Widget_Design_TextInputLayout=0x7f09018d;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3964,35 +4352,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background groupone.green_red.boihaat:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit groupone.green_red.boihaat:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked groupone.green_red.boihaat:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd groupone.green_red.boihaat:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions groupone.green_red.boihaat:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft groupone.green_red.boihaat:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight groupone.green_red.boihaat:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart groupone.green_red.boihaat:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation groupone.green_red.boihaat:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout groupone.green_red.boihaat:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions groupone.green_red.boihaat:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider groupone.green_red.boihaat:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height groupone.green_red.boihaat:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll groupone.green_red.boihaat:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator groupone.green_red.boihaat:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout groupone.green_red.boihaat:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon groupone.green_red.boihaat:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle groupone.green_red.boihaat:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding groupone.green_red.boihaat:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo groupone.green_red.boihaat:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode groupone.green_red.boihaat:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme groupone.green_red.boihaat:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding groupone.green_red.boihaat:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle groupone.green_red.boihaat:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle groupone.green_red.boihaat:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle groupone.green_red.boihaat:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title groupone.green_red.boihaat:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle groupone.green_red.boihaat:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background green_red.groupone.boihaat:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit green_red.groupone.boihaat:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked green_red.groupone.boihaat:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd green_red.groupone.boihaat:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions green_red.groupone.boihaat:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft green_red.groupone.boihaat:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight green_red.groupone.boihaat:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart green_red.groupone.boihaat:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation green_red.groupone.boihaat:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout green_red.groupone.boihaat:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions green_red.groupone.boihaat:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider green_red.groupone.boihaat:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height green_red.groupone.boihaat:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll green_red.groupone.boihaat:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator green_red.groupone.boihaat:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout green_red.groupone.boihaat:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon green_red.groupone.boihaat:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle green_red.groupone.boihaat:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding green_red.groupone.boihaat:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo green_red.groupone.boihaat:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode green_red.groupone.boihaat:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme green_red.groupone.boihaat:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding green_red.groupone.boihaat:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle green_red.groupone.boihaat:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle green_red.groupone.boihaat:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle green_red.groupone.boihaat:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title green_red.groupone.boihaat:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle green_red.groupone.boihaat:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -4032,20 +4420,20 @@ containing a value of this type.
             0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
             0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
             0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049,
-            0x7f01008c
+            0x7f010094
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#background}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:background
+          @attr name green_red.groupone.boihaat:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4053,11 +4441,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:backgroundSplit
+          @attr name green_red.groupone.boihaat:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4065,11 +4453,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:backgroundStacked
+          @attr name green_red.groupone.boihaat:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4081,11 +4469,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetEnd
+          @attr name green_red.groupone.boihaat:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4097,11 +4485,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetEndWithActions
+          @attr name green_red.groupone.boihaat:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4113,11 +4501,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetLeft
+          @attr name green_red.groupone.boihaat:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4129,11 +4517,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetRight
+          @attr name green_red.groupone.boihaat:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4145,11 +4533,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetStart
+          @attr name green_red.groupone.boihaat:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4161,21 +4549,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetStartWithNavigation
+          @attr name green_red.groupone.boihaat:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:customNavigationLayout
+          @attr name green_red.groupone.boihaat:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4193,21 +4581,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:displayOptions
+          @attr name green_red.groupone.boihaat:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#divider}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:divider
+          @attr name green_red.groupone.boihaat:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4219,11 +4607,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#height}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4235,11 +4623,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:height
+          @attr name green_red.groupone.boihaat:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4249,51 +4637,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:hideOnContentScroll
+          @attr name green_red.groupone.boihaat:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:homeAsUpIndicator
+          @attr name green_red.groupone.boihaat:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:homeLayout
+          @attr name green_red.groupone.boihaat:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#icon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:icon
+          @attr name green_red.groupone.boihaat:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:indeterminateProgressStyle
+          @attr name green_red.groupone.boihaat:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4305,21 +4693,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:itemPadding
+          @attr name green_red.groupone.boihaat:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#logo}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:logo
+          @attr name green_red.groupone.boihaat:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4333,21 +4721,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:navigationMode
+          @attr name green_red.groupone.boihaat:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:popupTheme
+          @attr name green_red.groupone.boihaat:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4359,21 +4747,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:progressBarPadding
+          @attr name green_red.groupone.boihaat:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:progressBarStyle
+          @attr name green_red.groupone.boihaat:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4383,21 +4771,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:subtitle
+          @attr name green_red.groupone.boihaat:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:subtitleTextStyle
+          @attr name green_red.groupone.boihaat:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#title}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4407,17 +4795,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:title
+          @attr name green_red.groupone.boihaat:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:titleTextStyle
+          @attr name green_red.groupone.boihaat:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4469,12 +4857,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background groupone.green_red.boihaat:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit groupone.green_red.boihaat:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout groupone.green_red.boihaat:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height groupone.green_red.boihaat:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle groupone.green_red.boihaat:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle groupone.green_red.boihaat:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background green_red.groupone.boihaat:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit green_red.groupone.boihaat:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout green_red.groupone.boihaat:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height green_red.groupone.boihaat:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle green_red.groupone.boihaat:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle green_red.groupone.boihaat:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4488,17 +4876,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01003a, 0x7f01004a
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#background}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:background
+          @attr name green_red.groupone.boihaat:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4506,21 +4894,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:backgroundSplit
+          @attr name green_red.groupone.boihaat:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:closeItemLayout
+          @attr name green_red.groupone.boihaat:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#height}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4532,27 +4920,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:height
+          @attr name green_red.groupone.boihaat:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:subtitleTextStyle
+          @attr name green_red.groupone.boihaat:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:titleTextStyle
+          @attr name green_red.groupone.boihaat:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4561,8 +4949,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable groupone.green_red.boihaat:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount groupone.green_red.boihaat:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable green_red.groupone.boihaat:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount green_red.groupone.boihaat:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4571,17 +4959,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01004b, 0x7f01004c
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:expandActivityOverflowButtonDrawable
+          @attr name green_red.groupone.boihaat:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4591,7 +4979,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:initialActivityCount
+          @attr name green_red.groupone.boihaat:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4601,12 +4989,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout groupone.green_red.boihaat:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout groupone.green_red.boihaat:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout groupone.green_red.boihaat:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout groupone.green_red.boihaat:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle groupone.green_red.boihaat:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout groupone.green_red.boihaat:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout green_red.groupone.boihaat:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout green_red.groupone.boihaat:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout green_red.groupone.boihaat:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout green_red.groupone.boihaat:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle green_red.groupone.boihaat:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout green_red.groupone.boihaat:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4627,47 +5015,47 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonPanelSideLayout
+          @attr name green_red.groupone.boihaat:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listItemLayout
+          @attr name green_red.groupone.boihaat:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listLayout
+          @attr name green_red.groupone.boihaat:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:multiChoiceItemLayout
+          @attr name green_red.groupone.boihaat:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -4677,17 +5065,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:showTitle
+          @attr name green_red.groupone.boihaat:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:singleChoiceItemLayout
+          @attr name green_red.groupone.boihaat:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4697,15 +5085,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded groupone.green_red.boihaat:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded green_red.groupone.boihaat:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
+           @see #AppBarLayout_android_keyboardNavigationCluster
+           @see #AppBarLayout_android_touchscreenBlocksFocus
            @see #AppBarLayout_elevation
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x7f010048, 0x7f010053
+            0x010100d4, 0x0101048f, 0x01010540, 0x7f010048,
+            0x7f010053
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -4714,7 +5107,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link android.R.attr#keyboardNavigationCluster}
+          attribute's value can be found in the {@link #AppBarLayout} array.
+          @attr name android:keyboardNavigationCluster
+        */
+        public static final int AppBarLayout_android_keyboardNavigationCluster = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#touchscreenBlocksFocus}
+          attribute's value can be found in the {@link #AppBarLayout} array.
+          @attr name android:touchscreenBlocksFocus
+        */
+        public static final int AppBarLayout_android_touchscreenBlocksFocus = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4726,11 +5131,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
-        public static final int AppBarLayout_elevation = 1;
+        public static final int AppBarLayout_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expanded}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4740,17 +5145,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expanded
+          @attr name green_red.groupone.boihaat:expanded
         */
-        public static final int AppBarLayout_expanded = 2;
+        public static final int AppBarLayout_expanded = 4;
         /** Attributes that can be used with a AppBarLayoutStates.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed groupone.green_red.boihaat:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible groupone.green_red.boihaat:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed green_red.groupone.boihaat:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible green_red.groupone.boihaat:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -4759,7 +5164,7 @@ containing a value of this type.
             0x7f010054, 0x7f010055
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4769,11 +5174,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:state_collapsed
+          @attr name green_red.groupone.boihaat:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4783,7 +5188,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:state_collapsible
+          @attr name green_red.groupone.boihaat:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -4792,8 +5197,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags groupone.green_red.boihaat:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator groupone.green_red.boihaat:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags green_red.groupone.boihaat:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator green_red.groupone.boihaat:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -4802,7 +5207,7 @@ containing a value of this type.
             0x7f010056, 0x7f010057
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -4818,17 +5223,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_scrollFlags
+          @attr name green_red.groupone.boihaat:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:layout_scrollInterpolator
+          @attr name green_red.groupone.boihaat:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4838,13 +5243,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat groupone.green_red.boihaat:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat green_red.groupone.boihaat:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tint green_red.groupone.boihaat:tint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_tintMode green_red.groupone.boihaat:tintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
+           @see #AppCompatImageView_tint
+           @see #AppCompatImageView_tintMode
          */
         public static final int[] AppCompatImageView = {
-            0x01010119, 0x7f010058
+            0x01010119, 0x7f010058, 0x7f010059, 0x7f01005a
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4853,15 +5262,50 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:srcCompat
+          @attr name green_red.groupone.boihaat:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tint}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:tint
+        */
+        public static final int AppCompatImageView_tint = 2;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tintMode}
+          attribute's value can be found in the {@link #AppCompatImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:tintMode
+        */
+        public static final int AppCompatImageView_tintMode = 3;
         /** Attributes that can be used with a AppCompatSeekBar.
            <p>Includes the following attributes:</p>
            <table>
@@ -4869,9 +5313,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark groupone.green_red.boihaat:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint groupone.green_red.boihaat:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode groupone.green_red.boihaat:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark green_red.groupone.boihaat:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint green_red.groupone.boihaat:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode green_red.groupone.boihaat:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -4879,7 +5323,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatSeekBar_tickMarkTintMode
          */
         public static final int[] AppCompatSeekBar = {
-            0x01010142, 0x7f010059, 0x7f01005a, 0x7f01005b
+            0x01010142, 0x7f01005b, 0x7f01005c, 0x7f01005d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4888,17 +5332,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:tickMark
+          @attr name green_red.groupone.boihaat:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4909,11 +5353,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tickMarkTint
+          @attr name green_red.groupone.boihaat:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4930,7 +5374,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:tickMarkTintMode
+          @attr name green_red.groupone.boihaat:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -5008,13 +5452,26 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps groupone.green_red.boihaat:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize green_red.groupone.boihaat:autoSizeMaxTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize green_red.groupone.boihaat:autoSizeMinTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes green_red.groupone.boihaat:autoSizePresetSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity green_red.groupone.boihaat:autoSizeStepGranularity}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_autoSizeTextType green_red.groupone.boihaat:autoSizeTextType}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_fontFamily green_red.groupone.boihaat:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps green_red.groupone.boihaat:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
+           @see #AppCompatTextView_autoSizeMaxTextSize
+           @see #AppCompatTextView_autoSizeMinTextSize
+           @see #AppCompatTextView_autoSizePresetSizes
+           @see #AppCompatTextView_autoSizeStepGranularity
+           @see #AppCompatTextView_autoSizeTextType
+           @see #AppCompatTextView_fontFamily
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f01005c
+            0x01010034, 0x7f01005e, 0x7f01005f, 0x7f010060,
+            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5023,14 +5480,103 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoSizeMaxTextSize}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:autoSizeMaxTextSize
+        */
+        public static final int AppCompatTextView_autoSizeMaxTextSize = 6;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoSizeMinTextSize}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:autoSizeMinTextSize
+        */
+        public static final int AppCompatTextView_autoSizeMinTextSize = 5;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoSizePresetSizes}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name green_red.groupone.boihaat:autoSizePresetSizes
+        */
+        public static final int AppCompatTextView_autoSizePresetSizes = 4;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoSizeStepGranularity}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:autoSizeStepGranularity
+        */
+        public static final int AppCompatTextView_autoSizeStepGranularity = 3;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoSizeTextType}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>uniform</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:autoSizeTextType
+        */
+        public static final int AppCompatTextView_autoSizeTextType = 2;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontFamily}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontFamily
+        */
+        public static final int AppCompatTextView_fontFamily = 7;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name groupone.green_red.boihaat:textAllCaps
+          @attr name green_red.groupone.boihaat:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -5039,121 +5585,125 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider groupone.green_red.boihaat:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground groupone.green_red.boihaat:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme groupone.green_red.boihaat:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize groupone.green_red.boihaat:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle groupone.green_red.boihaat:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle groupone.green_red.boihaat:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle groupone.green_red.boihaat:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle groupone.green_red.boihaat:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle groupone.green_red.boihaat:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme groupone.green_red.boihaat:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme groupone.green_red.boihaat:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle groupone.green_red.boihaat:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle groupone.green_red.boihaat:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance groupone.green_red.boihaat:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor groupone.green_red.boihaat:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground groupone.green_red.boihaat:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle groupone.green_red.boihaat:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable groupone.green_red.boihaat:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable groupone.green_red.boihaat:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable groupone.green_red.boihaat:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable groupone.green_red.boihaat:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable groupone.green_red.boihaat:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle groupone.green_red.boihaat:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable groupone.green_red.boihaat:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable groupone.green_red.boihaat:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground groupone.green_red.boihaat:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle groupone.green_red.boihaat:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable groupone.green_red.boihaat:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle groupone.green_red.boihaat:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle groupone.green_red.boihaat:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle groupone.green_red.boihaat:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle groupone.green_red.boihaat:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons groupone.green_red.boihaat:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle groupone.green_red.boihaat:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme groupone.green_red.boihaat:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider green_red.groupone.boihaat:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground green_red.groupone.boihaat:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme green_red.groupone.boihaat:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize green_red.groupone.boihaat:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle green_red.groupone.boihaat:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle green_red.groupone.boihaat:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle green_red.groupone.boihaat:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle green_red.groupone.boihaat:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle green_red.groupone.boihaat:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme green_red.groupone.boihaat:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme green_red.groupone.boihaat:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle green_red.groupone.boihaat:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle green_red.groupone.boihaat:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance green_red.groupone.boihaat:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor green_red.groupone.boihaat:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground green_red.groupone.boihaat:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle green_red.groupone.boihaat:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable green_red.groupone.boihaat:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable green_red.groupone.boihaat:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable green_red.groupone.boihaat:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable green_red.groupone.boihaat:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable green_red.groupone.boihaat:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle green_red.groupone.boihaat:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable green_red.groupone.boihaat:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable green_red.groupone.boihaat:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground green_red.groupone.boihaat:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle green_red.groupone.boihaat:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable green_red.groupone.boihaat:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle green_red.groupone.boihaat:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle green_red.groupone.boihaat:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle green_red.groupone.boihaat:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle green_red.groupone.boihaat:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons green_red.groupone.boihaat:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle green_red.groupone.boihaat:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme green_red.groupone.boihaat:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle groupone.green_red.boihaat:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle groupone.green_red.boihaat:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle groupone.green_red.boihaat:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle groupone.green_red.boihaat:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle groupone.green_red.boihaat:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle groupone.green_red.boihaat:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle groupone.green_red.boihaat:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle groupone.green_red.boihaat:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall groupone.green_red.boihaat:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle groupone.green_red.boihaat:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle groupone.green_red.boihaat:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent groupone.green_red.boihaat:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating groupone.green_red.boihaat:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal groupone.green_red.boihaat:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated groupone.green_red.boihaat:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight groupone.green_red.boihaat:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal groupone.green_red.boihaat:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary groupone.green_red.boihaat:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark groupone.green_red.boihaat:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal groupone.green_red.boihaat:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground groupone.green_red.boihaat:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding groupone.green_red.boihaat:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme groupone.green_red.boihaat:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal groupone.green_red.boihaat:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical groupone.green_red.boihaat:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle groupone.green_red.boihaat:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight groupone.green_red.boihaat:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground groupone.green_red.boihaat:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor groupone.green_red.boihaat:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle groupone.green_red.boihaat:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator groupone.green_red.boihaat:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle groupone.green_red.boihaat:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator groupone.green_red.boihaat:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog groupone.green_red.boihaat:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle groupone.green_red.boihaat:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle groupone.green_red.boihaat:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight groupone.green_red.boihaat:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge groupone.green_red.boihaat:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall groupone.green_red.boihaat:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft groupone.green_red.boihaat:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight groupone.green_red.boihaat:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground groupone.green_red.boihaat:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme groupone.green_red.boihaat:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth groupone.green_red.boihaat:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle groupone.green_red.boihaat:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle groupone.green_red.boihaat:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle groupone.green_red.boihaat:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle groupone.green_red.boihaat:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator groupone.green_red.boihaat:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall groupone.green_red.boihaat:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle groupone.green_red.boihaat:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle groupone.green_red.boihaat:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground groupone.green_red.boihaat:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless groupone.green_red.boihaat:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle groupone.green_red.boihaat:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle groupone.green_red.boihaat:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle groupone.green_red.boihaat:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu groupone.green_red.boihaat:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem groupone.green_red.boihaat:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall groupone.green_red.boihaat:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader groupone.green_red.boihaat:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle groupone.green_red.boihaat:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle groupone.green_red.boihaat:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu groupone.green_red.boihaat:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem groupone.green_red.boihaat:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl groupone.green_red.boihaat:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle groupone.green_red.boihaat:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle groupone.green_red.boihaat:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar groupone.green_red.boihaat:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay groupone.green_red.boihaat:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay groupone.green_red.boihaat:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor groupone.green_red.boihaat:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor groupone.green_red.boihaat:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor groupone.green_red.boihaat:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor groupone.green_red.boihaat:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor groupone.green_red.boihaat:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor groupone.green_red.boihaat:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle groupone.green_red.boihaat:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle green_red.groupone.boihaat:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle green_red.groupone.boihaat:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle green_red.groupone.boihaat:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle green_red.groupone.boihaat:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle green_red.groupone.boihaat:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle green_red.groupone.boihaat:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle green_red.groupone.boihaat:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle green_red.groupone.boihaat:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall green_red.groupone.boihaat:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle green_red.groupone.boihaat:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle green_red.groupone.boihaat:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent green_red.groupone.boihaat:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating green_red.groupone.boihaat:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal green_red.groupone.boihaat:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated green_red.groupone.boihaat:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight green_red.groupone.boihaat:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal green_red.groupone.boihaat:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorError green_red.groupone.boihaat:colorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary green_red.groupone.boihaat:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark green_red.groupone.boihaat:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal green_red.groupone.boihaat:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground green_red.groupone.boihaat:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding green_red.groupone.boihaat:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme green_red.groupone.boihaat:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal green_red.groupone.boihaat:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical green_red.groupone.boihaat:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle green_red.groupone.boihaat:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight green_red.groupone.boihaat:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground green_red.groupone.boihaat:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor green_red.groupone.boihaat:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle green_red.groupone.boihaat:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator green_red.groupone.boihaat:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle green_red.groupone.boihaat:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator green_red.groupone.boihaat:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog green_red.groupone.boihaat:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle green_red.groupone.boihaat:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle green_red.groupone.boihaat:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight green_red.groupone.boihaat:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge green_red.groupone.boihaat:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall green_red.groupone.boihaat:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft green_red.groupone.boihaat:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight green_red.groupone.boihaat:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground green_red.groupone.boihaat:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme green_red.groupone.boihaat:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth green_red.groupone.boihaat:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle green_red.groupone.boihaat:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle green_red.groupone.boihaat:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle green_red.groupone.boihaat:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle green_red.groupone.boihaat:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator green_red.groupone.boihaat:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall green_red.groupone.boihaat:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle green_red.groupone.boihaat:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle green_red.groupone.boihaat:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground green_red.groupone.boihaat:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless green_red.groupone.boihaat:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle green_red.groupone.boihaat:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle green_red.groupone.boihaat:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle green_red.groupone.boihaat:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu green_red.groupone.boihaat:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem green_red.groupone.boihaat:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary green_red.groupone.boihaat:textAppearanceListItemSecondary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall green_red.groupone.boihaat:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader green_red.groupone.boihaat:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle green_red.groupone.boihaat:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle green_red.groupone.boihaat:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu green_red.groupone.boihaat:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem green_red.groupone.boihaat:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl green_red.groupone.boihaat:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle green_red.groupone.boihaat:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle green_red.groupone.boihaat:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor green_red.groupone.boihaat:tooltipForegroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground green_red.groupone.boihaat:tooltipFrameBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar green_red.groupone.boihaat:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay green_red.groupone.boihaat:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay green_red.groupone.boihaat:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor green_red.groupone.boihaat:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor green_red.groupone.boihaat:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor green_red.groupone.boihaat:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor green_red.groupone.boihaat:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor green_red.groupone.boihaat:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor green_red.groupone.boihaat:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle green_red.groupone.boihaat:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -5209,6 +5759,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_colorControlActivated
            @see #AppCompatTheme_colorControlHighlight
            @see #AppCompatTheme_colorControlNormal
+           @see #AppCompatTheme_colorError
            @see #AppCompatTheme_colorPrimary
            @see #AppCompatTheme_colorPrimaryDark
            @see #AppCompatTheme_colorSwitchThumbNormal
@@ -5251,6 +5802,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_switchStyle
            @see #AppCompatTheme_textAppearanceLargePopupMenu
            @see #AppCompatTheme_textAppearanceListItem
+           @see #AppCompatTheme_textAppearanceListItemSecondary
            @see #AppCompatTheme_textAppearanceListItemSmall
            @see #AppCompatTheme_textAppearancePopupMenuHeader
            @see #AppCompatTheme_textAppearanceSearchResultSubtitle
@@ -5260,6 +5812,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_textColorSearchUrl
            @see #AppCompatTheme_toolbarNavigationButtonStyle
            @see #AppCompatTheme_toolbarStyle
+           @see #AppCompatTheme_tooltipForegroundColor
+           @see #AppCompatTheme_tooltipFrameBackground
            @see #AppCompatTheme_windowActionBar
            @see #AppCompatTheme_windowActionBarOverlay
            @see #AppCompatTheme_windowActionModeOverlay
@@ -5272,9 +5826,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_windowNoTitle
          */
         public static final int[] AppCompatTheme = {
-            0x01010057, 0x010100ae, 0x7f01005d, 0x7f01005e,
-            0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062,
-            0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066,
+            0x01010057, 0x010100ae, 0x7f010065, 0x7f010066,
             0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a,
             0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e,
             0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072,
@@ -5300,40 +5852,43 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2,
             0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6,
             0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca,
-            0x7f0100cb, 0x7f0100cc, 0x7f0100cd
+            0x7f0100cb, 0x7f0100cc, 0x7f0100cd, 0x7f0100ce,
+            0x7f0100cf, 0x7f0100d0, 0x7f0100d1, 0x7f0100d2,
+            0x7f0100d3, 0x7f0100d4, 0x7f0100d5, 0x7f0100d6,
+            0x7f0100d7, 0x7f0100d8, 0x7f0100d9
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarDivider
+          @attr name green_red.groupone.boihaat:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarItemBackground
+          @attr name green_red.groupone.boihaat:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarPopupTheme
+          @attr name green_red.groupone.boihaat:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5353,111 +5908,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:actionBarSize
+          @attr name green_red.groupone.boihaat:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarSplitStyle
+          @attr name green_red.groupone.boihaat:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarStyle
+          @attr name green_red.groupone.boihaat:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarTabBarStyle
+          @attr name green_red.groupone.boihaat:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarTabStyle
+          @attr name green_red.groupone.boihaat:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarTabTextStyle
+          @attr name green_red.groupone.boihaat:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarTheme
+          @attr name green_red.groupone.boihaat:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionBarWidgetTheme
+          @attr name green_red.groupone.boihaat:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionButtonStyle
+          @attr name green_red.groupone.boihaat:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionDropDownStyle
+          @attr name green_red.groupone.boihaat:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionMenuTextAppearance
+          @attr name green_red.groupone.boihaat:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5465,181 +6020,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:actionMenuTextColor
+          @attr name green_red.groupone.boihaat:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeBackground
+          @attr name green_red.groupone.boihaat:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeCloseButtonStyle
+          @attr name green_red.groupone.boihaat:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeCloseDrawable
+          @attr name green_red.groupone.boihaat:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeCopyDrawable
+          @attr name green_red.groupone.boihaat:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeCutDrawable
+          @attr name green_red.groupone.boihaat:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeFindDrawable
+          @attr name green_red.groupone.boihaat:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModePasteDrawable
+          @attr name green_red.groupone.boihaat:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModePopupWindowStyle
+          @attr name green_red.groupone.boihaat:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeSelectAllDrawable
+          @attr name green_red.groupone.boihaat:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeShareDrawable
+          @attr name green_red.groupone.boihaat:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeSplitBackground
+          @attr name green_red.groupone.boihaat:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeStyle
+          @attr name green_red.groupone.boihaat:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionModeWebSearchDrawable
+          @attr name green_red.groupone.boihaat:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionOverflowButtonStyle
+          @attr name green_red.groupone.boihaat:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionOverflowMenuStyle
+          @attr name green_red.groupone.boihaat:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:activityChooserViewStyle
+          @attr name green_red.groupone.boihaat:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:alertDialogButtonGroupStyle
+          @attr name green_red.groupone.boihaat:alertDialogButtonGroupStyle
         */
-        public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
+        public static final int AppCompatTheme_alertDialogButtonGroupStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5649,29 +6204,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:alertDialogCenterButtons
+          @attr name green_red.groupone.boihaat:alertDialogCenterButtons
         */
-        public static final int AppCompatTheme_alertDialogCenterButtons = 95;
+        public static final int AppCompatTheme_alertDialogCenterButtons = 96;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:alertDialogStyle
+          @attr name green_red.groupone.boihaat:alertDialogStyle
         */
-        public static final int AppCompatTheme_alertDialogStyle = 93;
+        public static final int AppCompatTheme_alertDialogStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:alertDialogTheme
+          @attr name green_red.groupone.boihaat:alertDialogTheme
         */
-        public static final int AppCompatTheme_alertDialogTheme = 96;
+        public static final int AppCompatTheme_alertDialogTheme = 97;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5685,117 +6240,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:autoCompleteTextViewStyle
+          @attr name green_red.groupone.boihaat:autoCompleteTextViewStyle
         */
-        public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
+        public static final int AppCompatTheme_autoCompleteTextViewStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:borderlessButtonStyle
+          @attr name green_red.groupone.boihaat:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonBarButtonStyle
+          @attr name green_red.groupone.boihaat:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonBarNegativeButtonStyle
+          @attr name green_red.groupone.boihaat:buttonBarNegativeButtonStyle
         */
-        public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
+        public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonBarNeutralButtonStyle
+          @attr name green_red.groupone.boihaat:buttonBarNeutralButtonStyle
         */
-        public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
+        public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonBarPositiveButtonStyle
+          @attr name green_red.groupone.boihaat:buttonBarPositiveButtonStyle
         */
-        public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
+        public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonBarStyle
+          @attr name green_red.groupone.boihaat:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonStyle
+          @attr name green_red.groupone.boihaat:buttonStyle
         */
-        public static final int AppCompatTheme_buttonStyle = 102;
+        public static final int AppCompatTheme_buttonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:buttonStyleSmall
+          @attr name green_red.groupone.boihaat:buttonStyleSmall
         */
-        public static final int AppCompatTheme_buttonStyleSmall = 103;
+        public static final int AppCompatTheme_buttonStyleSmall = 104;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:checkboxStyle
+          @attr name green_red.groupone.boihaat:checkboxStyle
         */
-        public static final int AppCompatTheme_checkboxStyle = 104;
+        public static final int AppCompatTheme_checkboxStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:checkedTextViewStyle
+          @attr name green_red.groupone.boihaat:checkedTextViewStyle
         */
-        public static final int AppCompatTheme_checkedTextViewStyle = 105;
+        public static final int AppCompatTheme_checkedTextViewStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5806,11 +6361,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorAccent
+          @attr name green_red.groupone.boihaat:colorAccent
         */
-        public static final int AppCompatTheme_colorAccent = 85;
+        public static final int AppCompatTheme_colorAccent = 86;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5821,11 +6376,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorBackgroundFloating
+          @attr name green_red.groupone.boihaat:colorBackgroundFloating
         */
-        public static final int AppCompatTheme_colorBackgroundFloating = 92;
+        public static final int AppCompatTheme_colorBackgroundFloating = 93;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5836,11 +6391,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorButtonNormal
+          @attr name green_red.groupone.boihaat:colorButtonNormal
         */
-        public static final int AppCompatTheme_colorButtonNormal = 89;
+        public static final int AppCompatTheme_colorButtonNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5851,11 +6406,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorControlActivated
+          @attr name green_red.groupone.boihaat:colorControlActivated
         */
-        public static final int AppCompatTheme_colorControlActivated = 87;
+        public static final int AppCompatTheme_colorControlActivated = 88;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5866,11 +6421,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorControlHighlight
+          @attr name green_red.groupone.boihaat:colorControlHighlight
         */
-        public static final int AppCompatTheme_colorControlHighlight = 88;
+        public static final int AppCompatTheme_colorControlHighlight = 89;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5881,11 +6436,23 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorControlNormal
+          @attr name green_red.groupone.boihaat:colorControlNormal
         */
-        public static final int AppCompatTheme_colorControlNormal = 86;
+        public static final int AppCompatTheme_colorControlNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorError}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name green_red.groupone.boihaat:colorError
+        */
+        public static final int AppCompatTheme_colorError = 118;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5896,11 +6463,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorPrimary
+          @attr name green_red.groupone.boihaat:colorPrimary
         */
-        public static final int AppCompatTheme_colorPrimary = 83;
+        public static final int AppCompatTheme_colorPrimary = 84;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5911,11 +6478,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorPrimaryDark
+          @attr name green_red.groupone.boihaat:colorPrimaryDark
         */
-        public static final int AppCompatTheme_colorPrimaryDark = 84;
+        public static final int AppCompatTheme_colorPrimaryDark = 85;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5926,21 +6493,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:colorSwitchThumbNormal
+          @attr name green_red.groupone.boihaat:colorSwitchThumbNormal
         */
-        public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
+        public static final int AppCompatTheme_colorSwitchThumbNormal = 91;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:controlBackground
+          @attr name green_red.groupone.boihaat:controlBackground
         */
-        public static final int AppCompatTheme_controlBackground = 91;
+        public static final int AppCompatTheme_controlBackground = 92;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5952,51 +6519,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:dialogPreferredPadding
+          @attr name green_red.groupone.boihaat:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:dialogTheme
+          @attr name green_red.groupone.boihaat:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:dividerHorizontal
+          @attr name green_red.groupone.boihaat:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:dividerVertical
+          @attr name green_red.groupone.boihaat:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:dropDownListViewStyle
+          @attr name green_red.groupone.boihaat:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6008,21 +6575,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:dropdownListPreferredItemHeight
+          @attr name green_red.groupone.boihaat:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:editTextBackground
+          @attr name green_red.groupone.boihaat:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6030,81 +6597,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:editTextColor
+          @attr name green_red.groupone.boihaat:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:editTextStyle
+          @attr name green_red.groupone.boihaat:editTextStyle
         */
-        public static final int AppCompatTheme_editTextStyle = 106;
+        public static final int AppCompatTheme_editTextStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:homeAsUpIndicator
+          @attr name green_red.groupone.boihaat:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:imageButtonStyle
+          @attr name green_red.groupone.boihaat:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listChoiceBackgroundIndicator
+          @attr name green_red.groupone.boihaat:listChoiceBackgroundIndicator
         */
-        public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
+        public static final int AppCompatTheme_listChoiceBackgroundIndicator = 83;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listDividerAlertDialog
+          @attr name green_red.groupone.boihaat:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listMenuViewStyle
+          @attr name green_red.groupone.boihaat:listMenuViewStyle
         */
-        public static final int AppCompatTheme_listMenuViewStyle = 114;
+        public static final int AppCompatTheme_listMenuViewStyle = 115;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:listPopupWindowStyle
+          @attr name green_red.groupone.boihaat:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6116,11 +6683,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:listPreferredItemHeight
+          @attr name green_red.groupone.boihaat:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6132,11 +6699,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:listPreferredItemHeightLarge
+          @attr name green_red.groupone.boihaat:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6148,11 +6715,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:listPreferredItemHeightSmall
+          @attr name green_red.groupone.boihaat:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6164,11 +6731,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:listPreferredItemPaddingLeft
+          @attr name green_red.groupone.boihaat:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6180,31 +6747,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:listPreferredItemPaddingRight
+          @attr name green_red.groupone.boihaat:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:panelBackground
+          @attr name green_red.groupone.boihaat:panelBackground
         */
-        public static final int AppCompatTheme_panelBackground = 79;
+        public static final int AppCompatTheme_panelBackground = 80;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:panelMenuListTheme
+          @attr name green_red.groupone.boihaat:panelMenuListTheme
         */
-        public static final int AppCompatTheme_panelMenuListTheme = 81;
+        public static final int AppCompatTheme_panelMenuListTheme = 82;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6216,211 +6783,221 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:panelMenuListWidth
+          @attr name green_red.groupone.boihaat:panelMenuListWidth
         */
-        public static final int AppCompatTheme_panelMenuListWidth = 80;
+        public static final int AppCompatTheme_panelMenuListWidth = 81;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:popupMenuStyle
+          @attr name green_red.groupone.boihaat:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:popupWindowStyle
+          @attr name green_red.groupone.boihaat:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:radioButtonStyle
+          @attr name green_red.groupone.boihaat:radioButtonStyle
         */
-        public static final int AppCompatTheme_radioButtonStyle = 107;
+        public static final int AppCompatTheme_radioButtonStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:ratingBarStyle
+          @attr name green_red.groupone.boihaat:ratingBarStyle
         */
-        public static final int AppCompatTheme_ratingBarStyle = 108;
+        public static final int AppCompatTheme_ratingBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:ratingBarStyleIndicator
+          @attr name green_red.groupone.boihaat:ratingBarStyleIndicator
         */
-        public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
+        public static final int AppCompatTheme_ratingBarStyleIndicator = 110;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:ratingBarStyleSmall
+          @attr name green_red.groupone.boihaat:ratingBarStyleSmall
         */
-        public static final int AppCompatTheme_ratingBarStyleSmall = 110;
+        public static final int AppCompatTheme_ratingBarStyleSmall = 111;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:searchViewStyle
+          @attr name green_red.groupone.boihaat:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:seekBarStyle
+          @attr name green_red.groupone.boihaat:seekBarStyle
         */
-        public static final int AppCompatTheme_seekBarStyle = 111;
+        public static final int AppCompatTheme_seekBarStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:selectableItemBackground
+          @attr name green_red.groupone.boihaat:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:selectableItemBackgroundBorderless
+          @attr name green_red.groupone.boihaat:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:spinnerDropDownItemStyle
+          @attr name green_red.groupone.boihaat:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:spinnerStyle
+          @attr name green_red.groupone.boihaat:spinnerStyle
         */
-        public static final int AppCompatTheme_spinnerStyle = 112;
+        public static final int AppCompatTheme_spinnerStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:switchStyle
+          @attr name green_red.groupone.boihaat:switchStyle
         */
-        public static final int AppCompatTheme_switchStyle = 113;
+        public static final int AppCompatTheme_switchStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceLargePopupMenu
+          @attr name green_red.groupone.boihaat:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceListItem
+          @attr name green_red.groupone.boihaat:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceListItemSecondary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceListItemSmall
+          @attr name green_red.groupone.boihaat:textAppearanceListItemSecondary
         */
-        public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
+        public static final int AppCompatTheme_textAppearanceListItemSecondary = 78;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearancePopupMenuHeader
+          @attr name green_red.groupone.boihaat:textAppearanceListItemSmall
+        */
+        public static final int AppCompatTheme_textAppearanceListItemSmall = 79;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearancePopupMenuHeader}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name green_red.groupone.boihaat:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceSearchResultSubtitle
+          @attr name green_red.groupone.boihaat:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceSearchResultTitle
+          @attr name green_red.groupone.boihaat:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:textAppearanceSmallPopupMenu
+          @attr name green_red.groupone.boihaat:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6428,11 +7005,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:textColorAlertDialogListItem
+          @attr name green_red.groupone.boihaat:textColorAlertDialogListItem
         */
-        public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
+        public static final int AppCompatTheme_textColorAlertDialogListItem = 98;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6440,31 +7017,53 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:textColorSearchUrl
+          @attr name green_red.groupone.boihaat:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:toolbarNavigationButtonStyle
+          @attr name green_red.groupone.boihaat:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:toolbarStyle
+          @attr name green_red.groupone.boihaat:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tooltipForegroundColor}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name green_red.groupone.boihaat:tooltipForegroundColor
+        */
+        public static final int AppCompatTheme_tooltipForegroundColor = 117;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tooltipFrameBackground}
+          attribute's value can be found in the {@link #AppCompatTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name green_red.groupone.boihaat:tooltipFrameBackground
+        */
+        public static final int AppCompatTheme_tooltipFrameBackground = 116;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6474,11 +7073,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowActionBar
+          @attr name green_red.groupone.boihaat:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6488,11 +7087,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowActionBarOverlay
+          @attr name green_red.groupone.boihaat:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6502,11 +7101,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowActionModeOverlay
+          @attr name green_red.groupone.boihaat:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6521,11 +7120,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowFixedHeightMajor
+          @attr name green_red.groupone.boihaat:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6540,11 +7139,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowFixedHeightMinor
+          @attr name green_red.groupone.boihaat:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6559,11 +7158,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowFixedWidthMajor
+          @attr name green_red.groupone.boihaat:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6578,11 +7177,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowFixedWidthMinor
+          @attr name green_red.groupone.boihaat:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6597,11 +7196,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowMinWidthMajor
+          @attr name green_red.groupone.boihaat:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6616,11 +7215,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowMinWidthMinor
+          @attr name green_red.groupone.boihaat:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6630,7 +7229,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:windowNoTitle
+          @attr name green_red.groupone.boihaat:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
@@ -6639,11 +7238,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground groupone.green_red.boihaat:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint groupone.green_red.boihaat:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor groupone.green_red.boihaat:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu groupone.green_red.boihaat:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground green_red.groupone.boihaat:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint green_red.groupone.boihaat:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor green_red.groupone.boihaat:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu green_red.groupone.boihaat:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -6652,11 +7251,11 @@ containing a value of this type.
            @see #BottomNavigationView_menu
          */
         public static final int[] BottomNavigationView = {
-            0x7f010048, 0x7f01010b, 0x7f01010c, 0x7f01010d,
-            0x7f01010e
+            0x7f010048, 0x7f010127, 0x7f010128, 0x7f010129,
+            0x7f01012a
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6668,21 +7267,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
         public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:itemBackground
+          @attr name green_red.groupone.boihaat:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6693,11 +7292,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:itemIconTint
+          @attr name green_red.groupone.boihaat:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6708,17 +7307,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:itemTextColor
+          @attr name green_red.groupone.boihaat:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#menu}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:menu
+          @attr name green_red.groupone.boihaat:menu
         */
         public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -6727,19 +7326,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable groupone.green_red.boihaat:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight groupone.green_red.boihaat:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed groupone.green_red.boihaat:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable green_red.groupone.boihaat:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight green_red.groupone.boihaat:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed green_red.groupone.boihaat:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
            @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
          */
         public static final int[] BottomSheetBehavior_Layout = {
-            0x7f0100ce, 0x7f0100cf, 0x7f0100d0
+            0x7f0100da, 0x7f0100db, 0x7f0100dc
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6749,11 +7348,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:behavior_hideable
+          @attr name green_red.groupone.boihaat:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6773,11 +7372,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:behavior_peekHeight
+          @attr name green_red.groupone.boihaat:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6787,7 +7386,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:behavior_skipCollapsed
+          @attr name green_red.groupone.boihaat:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -6796,15 +7395,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking groupone.green_red.boihaat:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking green_red.groupone.boihaat:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f0100d1
+            0x7f0100dd
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -6814,7 +7413,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:allowStacking
+          @attr name green_red.groupone.boihaat:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6823,22 +7422,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity groupone.green_red.boihaat:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance groupone.green_red.boihaat:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim groupone.green_red.boihaat:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity groupone.green_red.boihaat:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin groupone.green_red.boihaat:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom groupone.green_red.boihaat:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd groupone.green_red.boihaat:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart groupone.green_red.boihaat:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop groupone.green_red.boihaat:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance groupone.green_red.boihaat:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration groupone.green_red.boihaat:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger groupone.green_red.boihaat:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim groupone.green_red.boihaat:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title groupone.green_red.boihaat:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled groupone.green_red.boihaat:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId groupone.green_red.boihaat:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity green_red.groupone.boihaat:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance green_red.groupone.boihaat:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim green_red.groupone.boihaat:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity green_red.groupone.boihaat:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin green_red.groupone.boihaat:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom green_red.groupone.boihaat:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd green_red.groupone.boihaat:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart green_red.groupone.boihaat:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop green_red.groupone.boihaat:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance green_red.groupone.boihaat:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration green_red.groupone.boihaat:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger green_red.groupone.boihaat:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim green_red.groupone.boihaat:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title green_red.groupone.boihaat:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled green_red.groupone.boihaat:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId green_red.groupone.boihaat:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6858,13 +7457,13 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f01002f, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4,
-            0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8,
-            0x7f0100d9, 0x7f0100da, 0x7f0100db, 0x7f0100dc,
-            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0
+            0x7f01002f, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1, 0x7f0100e2, 0x7f0100e3, 0x7f0100e4,
+            0x7f0100e5, 0x7f0100e6, 0x7f0100e7, 0x7f0100e8,
+            0x7f0100e9, 0x7f0100ea, 0x7f0100eb, 0x7f0100ec
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6885,21 +7484,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:collapsedTitleGravity
+          @attr name green_red.groupone.boihaat:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:collapsedTitleTextAppearance
+          @attr name green_red.groupone.boihaat:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6910,11 +7509,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentScrim
+          @attr name green_red.groupone.boihaat:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6935,11 +7534,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:expandedTitleGravity
+          @attr name green_red.groupone.boihaat:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6951,11 +7550,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expandedTitleMargin
+          @attr name green_red.groupone.boihaat:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6967,11 +7566,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expandedTitleMarginBottom
+          @attr name green_red.groupone.boihaat:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6983,11 +7582,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expandedTitleMarginEnd
+          @attr name green_red.groupone.boihaat:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6999,11 +7598,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expandedTitleMarginStart
+          @attr name green_red.groupone.boihaat:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7015,21 +7614,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:expandedTitleMarginTop
+          @attr name green_red.groupone.boihaat:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:expandedTitleTextAppearance
+          @attr name green_red.groupone.boihaat:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7039,11 +7638,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:scrimAnimationDuration
+          @attr name green_red.groupone.boihaat:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7055,11 +7654,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:scrimVisibleHeightTrigger
+          @attr name green_red.groupone.boihaat:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7070,11 +7669,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:statusBarScrim
+          @attr name green_red.groupone.boihaat:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#title}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7084,11 +7683,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:title
+          @attr name green_red.groupone.boihaat:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -7098,17 +7697,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleEnabled
+          @attr name green_red.groupone.boihaat:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:toolbarId
+          @attr name green_red.groupone.boihaat:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -7117,17 +7716,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode groupone.green_red.boihaat:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier groupone.green_red.boihaat:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode green_red.groupone.boihaat:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier green_red.groupone.boihaat:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingToolbarLayout_Layout = {
-            0x7f0100e1, 0x7f0100e2
+            0x7f0100ed, 0x7f0100ee
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7141,11 +7740,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_collapseMode
+          @attr name green_red.groupone.boihaat:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -7155,7 +7754,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_collapseParallaxMultiplier
+          @attr name green_red.groupone.boihaat:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -7164,7 +7763,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha groupone.green_red.boihaat:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha green_red.groupone.boihaat:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -7173,10 +7772,10 @@ containing a value of this type.
            @see #ColorStateListItem_android_color
          */
         public static final int[] ColorStateListItem = {
-            0x010101a5, 0x0101031f, 0x7f0100e3
+            0x010101a5, 0x0101031f, 0x7f0100ef
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#alpha}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -7186,7 +7785,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:alpha
+          @attr name green_red.groupone.boihaat:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -7208,15 +7807,15 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint groupone.green_red.boihaat:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode groupone.green_red.boihaat:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint green_red.groupone.boihaat:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode green_red.groupone.boihaat:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f0100e4, 0x7f0100e5
+            0x01010107, 0x7f0100f0, 0x7f0100f1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -7225,7 +7824,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7236,11 +7835,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:buttonTint
+          @attr name green_red.groupone.boihaat:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -7256,7 +7855,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:buttonTintMode
+          @attr name green_red.groupone.boihaat:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a ConstraintLayout_Layout.
@@ -7270,50 +7869,50 @@ containing a value of this type.
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet groupone.green_red.boihaat:constraintSet}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator groupone.green_red.boihaat:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf groupone.green_red.boihaat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator groupone.green_red.boihaat:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf groupone.green_red.boihaat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf groupone.green_red.boihaat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio groupone.green_red.boihaat:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf groupone.green_red.boihaat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf groupone.green_red.boihaat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin groupone.green_red.boihaat:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end groupone.green_red.boihaat:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent groupone.green_red.boihaat:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default groupone.green_red.boihaat:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max groupone.green_red.boihaat:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min groupone.green_red.boihaat:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias groupone.green_red.boihaat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle groupone.green_red.boihaat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight groupone.green_red.boihaat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator groupone.green_red.boihaat:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf groupone.green_red.boihaat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf groupone.green_red.boihaat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator groupone.green_red.boihaat:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf groupone.green_red.boihaat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf groupone.green_red.boihaat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf groupone.green_red.boihaat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf groupone.green_red.boihaat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator groupone.green_red.boihaat:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf groupone.green_red.boihaat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf groupone.green_red.boihaat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias groupone.green_red.boihaat:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle groupone.green_red.boihaat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight groupone.green_red.boihaat:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default groupone.green_red.boihaat:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max groupone.green_red.boihaat:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min groupone.green_red.boihaat:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX groupone.green_red.boihaat:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY groupone.green_red.boihaat:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom groupone.green_red.boihaat:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd groupone.green_red.boihaat:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft groupone.green_red.boihaat:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight groupone.green_red.boihaat:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart groupone.green_red.boihaat:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop groupone.green_red.boihaat:layout_goneMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel groupone.green_red.boihaat:layout_optimizationLevel}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet green_red.groupone.boihaat:constraintSet}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator green_red.groupone.boihaat:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf green_red.groupone.boihaat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator green_red.groupone.boihaat:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf green_red.groupone.boihaat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf green_red.groupone.boihaat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio green_red.groupone.boihaat:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf green_red.groupone.boihaat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf green_red.groupone.boihaat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin green_red.groupone.boihaat:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end green_red.groupone.boihaat:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent green_red.groupone.boihaat:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default green_red.groupone.boihaat:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max green_red.groupone.boihaat:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min green_red.groupone.boihaat:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias green_red.groupone.boihaat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle green_red.groupone.boihaat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight green_red.groupone.boihaat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator green_red.groupone.boihaat:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf green_red.groupone.boihaat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf green_red.groupone.boihaat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator green_red.groupone.boihaat:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf green_red.groupone.boihaat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf green_red.groupone.boihaat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf green_red.groupone.boihaat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf green_red.groupone.boihaat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator green_red.groupone.boihaat:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf green_red.groupone.boihaat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf green_red.groupone.boihaat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias green_red.groupone.boihaat:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle green_red.groupone.boihaat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight green_red.groupone.boihaat:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default green_red.groupone.boihaat:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max green_red.groupone.boihaat:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min green_red.groupone.boihaat:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX green_red.groupone.boihaat:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY green_red.groupone.boihaat:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom green_red.groupone.boihaat:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd green_red.groupone.boihaat:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft green_red.groupone.boihaat:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight green_red.groupone.boihaat:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart green_red.groupone.boihaat:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop green_red.groupone.boihaat:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel green_red.groupone.boihaat:layout_optimizationLevel}</code></td><td></td></tr>
            </table>
            @see #ConstraintLayout_Layout_android_maxHeight
            @see #ConstraintLayout_Layout_android_maxWidth
@@ -7411,17 +8010,17 @@ containing a value of this type.
         */
         public static final int ConstraintLayout_Layout_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#constraintSet}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#constraintSet}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:constraintSet
+          @attr name green_red.groupone.boihaat:constraintSet
         */
         public static final int ConstraintLayout_Layout_constraintSet = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7431,11 +8030,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintBaseline_creator
+          @attr name green_red.groupone.boihaat:layout_constraintBaseline_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7449,11 +8048,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBaseline_toBaselineOf
+          @attr name green_red.groupone.boihaat:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7463,11 +8062,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_creator
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7481,11 +8080,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_toBottomOf
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7499,11 +8098,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_toTopOf
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7513,11 +8112,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintDimensionRatio
+          @attr name green_red.groupone.boihaat:layout_constraintDimensionRatio
         */
         public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7531,11 +8130,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintEnd_toEndOf
+          @attr name green_red.groupone.boihaat:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7549,11 +8148,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintEnd_toStartOf
+          @attr name green_red.groupone.boihaat:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7565,11 +8164,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_begin
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_begin
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7581,11 +8180,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_end
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_end
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7595,11 +8194,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_percent
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_percent
         */
         public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7612,11 +8211,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_default
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_default = 17;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7628,11 +8227,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_max
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_max = 18;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7644,11 +8243,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_min
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintHeight_min = 19;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7658,11 +8257,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_bias
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 20;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7676,11 +8275,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_chainStyle
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 21;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7690,11 +8289,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_weight
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 22;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7704,11 +8303,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_creator
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 23;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7722,11 +8321,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_toLeftOf
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 24;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7740,11 +8339,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_toRightOf
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 25;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7754,11 +8353,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintRight_creator
+          @attr name green_red.groupone.boihaat:layout_constraintRight_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 26;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7772,11 +8371,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintRight_toLeftOf
+          @attr name green_red.groupone.boihaat:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 27;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7790,11 +8389,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintRight_toRightOf
+          @attr name green_red.groupone.boihaat:layout_constraintRight_toRightOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 28;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7808,11 +8407,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintStart_toEndOf
+          @attr name green_red.groupone.boihaat:layout_constraintStart_toEndOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 29;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7826,11 +8425,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintStart_toStartOf
+          @attr name green_red.groupone.boihaat:layout_constraintStart_toStartOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 30;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7840,11 +8439,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintTop_creator
+          @attr name green_red.groupone.boihaat:layout_constraintTop_creator
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 31;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7858,11 +8457,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintTop_toBottomOf
+          @attr name green_red.groupone.boihaat:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 32;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7876,11 +8475,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintTop_toTopOf
+          @attr name green_red.groupone.boihaat:layout_constraintTop_toTopOf
         */
         public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 33;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7890,11 +8489,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_bias
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_bias
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 34;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7908,11 +8507,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_chainStyle
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7922,11 +8521,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_weight
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_weight
         */
         public static final int ConstraintLayout_Layout_layout_constraintVertical_weight = 36;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7939,11 +8538,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_default
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_default
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_default = 37;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7955,11 +8554,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_max
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_max
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_max = 38;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7971,11 +8570,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_min
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_min
         */
         public static final int ConstraintLayout_Layout_layout_constraintWidth_min = 39;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -7987,11 +8586,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_editor_absoluteX
+          @attr name green_red.groupone.boihaat:layout_editor_absoluteX
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 40;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8003,11 +8602,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_editor_absoluteY
+          @attr name green_red.groupone.boihaat:layout_editor_absoluteY
         */
         public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 41;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8019,11 +8618,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginBottom
+          @attr name green_red.groupone.boihaat:layout_goneMarginBottom
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginBottom = 42;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8035,11 +8634,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginEnd
+          @attr name green_red.groupone.boihaat:layout_goneMarginEnd
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginEnd = 43;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8051,11 +8650,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginLeft
+          @attr name green_red.groupone.boihaat:layout_goneMarginLeft
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginLeft = 44;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8067,11 +8666,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginRight
+          @attr name green_red.groupone.boihaat:layout_goneMarginRight
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginRight = 45;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8083,11 +8682,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginStart
+          @attr name green_red.groupone.boihaat:layout_goneMarginStart
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginStart = 46;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8099,11 +8698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginTop
+          @attr name green_red.groupone.boihaat:layout_goneMarginTop
         */
         public static final int ConstraintLayout_Layout_layout_goneMarginTop = 47;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_optimizationLevel}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_optimizationLevel}
           attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
 
 
@@ -8118,7 +8717,7 @@ containing a value of this type.
 <tr><td><code>basic</code></td><td>4</td><td></td></tr>
 <tr><td><code>chains</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_optimizationLevel
+          @attr name green_red.groupone.boihaat:layout_optimizationLevel
         */
         public static final int ConstraintLayout_Layout_layout_optimizationLevel = 48;
         /** Attributes that can be used with a ConstraintSet.
@@ -8149,48 +8748,48 @@ containing a value of this type.
            <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
            <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator groupone.green_red.boihaat:layout_constraintBaseline_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf groupone.green_red.boihaat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator groupone.green_red.boihaat:layout_constraintBottom_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf groupone.green_red.boihaat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf groupone.green_red.boihaat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio groupone.green_red.boihaat:layout_constraintDimensionRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf groupone.green_red.boihaat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf groupone.green_red.boihaat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin groupone.green_red.boihaat:layout_constraintGuide_begin}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end groupone.green_red.boihaat:layout_constraintGuide_end}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent groupone.green_red.boihaat:layout_constraintGuide_percent}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default groupone.green_red.boihaat:layout_constraintHeight_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max groupone.green_red.boihaat:layout_constraintHeight_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min groupone.green_red.boihaat:layout_constraintHeight_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias groupone.green_red.boihaat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle groupone.green_red.boihaat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight groupone.green_red.boihaat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator groupone.green_red.boihaat:layout_constraintLeft_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf groupone.green_red.boihaat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf groupone.green_red.boihaat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator groupone.green_red.boihaat:layout_constraintRight_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf groupone.green_red.boihaat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf groupone.green_red.boihaat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf groupone.green_red.boihaat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf groupone.green_red.boihaat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator groupone.green_red.boihaat:layout_constraintTop_creator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf groupone.green_red.boihaat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf groupone.green_red.boihaat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias groupone.green_red.boihaat:layout_constraintVertical_bias}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle groupone.green_red.boihaat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight groupone.green_red.boihaat:layout_constraintVertical_weight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default groupone.green_red.boihaat:layout_constraintWidth_default}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max groupone.green_red.boihaat:layout_constraintWidth_max}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min groupone.green_red.boihaat:layout_constraintWidth_min}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX groupone.green_red.boihaat:layout_editor_absoluteX}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY groupone.green_red.boihaat:layout_editor_absoluteY}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom groupone.green_red.boihaat:layout_goneMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd groupone.green_red.boihaat:layout_goneMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft groupone.green_red.boihaat:layout_goneMarginLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight groupone.green_red.boihaat:layout_goneMarginRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart groupone.green_red.boihaat:layout_goneMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop groupone.green_red.boihaat:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator green_red.groupone.boihaat:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf green_red.groupone.boihaat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator green_red.groupone.boihaat:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf green_red.groupone.boihaat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf green_red.groupone.boihaat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio green_red.groupone.boihaat:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf green_red.groupone.boihaat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf green_red.groupone.boihaat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin green_red.groupone.boihaat:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end green_red.groupone.boihaat:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent green_red.groupone.boihaat:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default green_red.groupone.boihaat:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max green_red.groupone.boihaat:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min green_red.groupone.boihaat:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias green_red.groupone.boihaat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle green_red.groupone.boihaat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight green_red.groupone.boihaat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator green_red.groupone.boihaat:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf green_red.groupone.boihaat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf green_red.groupone.boihaat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator green_red.groupone.boihaat:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf green_red.groupone.boihaat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf green_red.groupone.boihaat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf green_red.groupone.boihaat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf green_red.groupone.boihaat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator green_red.groupone.boihaat:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf green_red.groupone.boihaat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf green_red.groupone.boihaat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias green_red.groupone.boihaat:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle green_red.groupone.boihaat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight green_red.groupone.boihaat:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default green_red.groupone.boihaat:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max green_red.groupone.boihaat:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min green_red.groupone.boihaat:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX green_red.groupone.boihaat:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY green_red.groupone.boihaat:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom green_red.groupone.boihaat:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd green_red.groupone.boihaat:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft green_red.groupone.boihaat:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight green_red.groupone.boihaat:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart green_red.groupone.boihaat:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop green_red.groupone.boihaat:layout_goneMarginTop}</code></td><td></td></tr>
            </table>
            @see #ConstraintSet_android_alpha
            @see #ConstraintSet_android_elevation
@@ -8408,7 +9007,7 @@ containing a value of this type.
         */
         public static final int ConstraintSet_android_visibility = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBaseline_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBaseline_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8418,11 +9017,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintBaseline_creator
+          @attr name green_red.groupone.boihaat:layout_constraintBaseline_creator
         */
         public static final int ConstraintSet_layout_constraintBaseline_creator = 22;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBaseline_toBaselineOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBaseline_toBaselineOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8436,11 +9035,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBaseline_toBaselineOf
+          @attr name green_red.groupone.boihaat:layout_constraintBaseline_toBaselineOf
         */
         public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf = 23;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8450,11 +9049,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_creator
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_creator
         */
         public static final int ConstraintSet_layout_constraintBottom_creator = 24;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_toBottomOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8468,11 +9067,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_toBottomOf
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toBottomOf = 25;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintBottom_toTopOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintBottom_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8486,11 +9085,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintBottom_toTopOf
+          @attr name green_red.groupone.boihaat:layout_constraintBottom_toTopOf
         */
         public static final int ConstraintSet_layout_constraintBottom_toTopOf = 26;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintDimensionRatio}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintDimensionRatio}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8500,11 +9099,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintDimensionRatio
+          @attr name green_red.groupone.boihaat:layout_constraintDimensionRatio
         */
         public static final int ConstraintSet_layout_constraintDimensionRatio = 27;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintEnd_toEndOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintEnd_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8518,11 +9117,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintEnd_toEndOf
+          @attr name green_red.groupone.boihaat:layout_constraintEnd_toEndOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toEndOf = 28;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintEnd_toStartOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintEnd_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8536,11 +9135,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintEnd_toStartOf
+          @attr name green_red.groupone.boihaat:layout_constraintEnd_toStartOf
         */
         public static final int ConstraintSet_layout_constraintEnd_toStartOf = 29;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_begin}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_begin}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8552,11 +9151,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_begin
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_begin
         */
         public static final int ConstraintSet_layout_constraintGuide_begin = 30;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_end}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_end}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8568,11 +9167,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_end
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_end
         */
         public static final int ConstraintSet_layout_constraintGuide_end = 31;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintGuide_percent}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintGuide_percent}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8582,11 +9181,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintGuide_percent
+          @attr name green_red.groupone.boihaat:layout_constraintGuide_percent
         */
         public static final int ConstraintSet_layout_constraintGuide_percent = 32;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_default}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8599,11 +9198,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_default
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_default
         */
         public static final int ConstraintSet_layout_constraintHeight_default = 33;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_max}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8615,11 +9214,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_max
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_max
         */
         public static final int ConstraintSet_layout_constraintHeight_max = 34;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHeight_min}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHeight_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8631,11 +9230,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHeight_min
+          @attr name green_red.groupone.boihaat:layout_constraintHeight_min
         */
         public static final int ConstraintSet_layout_constraintHeight_min = 35;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_bias}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8645,11 +9244,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_bias
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_bias
         */
         public static final int ConstraintSet_layout_constraintHorizontal_bias = 36;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_chainStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8663,11 +9262,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_chainStyle
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_chainStyle
         */
         public static final int ConstraintSet_layout_constraintHorizontal_chainStyle = 37;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintHorizontal_weight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintHorizontal_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8677,11 +9276,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintHorizontal_weight
+          @attr name green_red.groupone.boihaat:layout_constraintHorizontal_weight
         */
         public static final int ConstraintSet_layout_constraintHorizontal_weight = 38;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8691,11 +9290,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_creator
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_creator
         */
         public static final int ConstraintSet_layout_constraintLeft_creator = 39;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_toLeftOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8709,11 +9308,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_toLeftOf
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toLeftOf = 40;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintLeft_toRightOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintLeft_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8727,11 +9326,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintLeft_toRightOf
+          @attr name green_red.groupone.boihaat:layout_constraintLeft_toRightOf
         */
         public static final int ConstraintSet_layout_constraintLeft_toRightOf = 41;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8741,11 +9340,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintRight_creator
+          @attr name green_red.groupone.boihaat:layout_constraintRight_creator
         */
         public static final int ConstraintSet_layout_constraintRight_creator = 42;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_toLeftOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_toLeftOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8759,11 +9358,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintRight_toLeftOf
+          @attr name green_red.groupone.boihaat:layout_constraintRight_toLeftOf
         */
         public static final int ConstraintSet_layout_constraintRight_toLeftOf = 43;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintRight_toRightOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintRight_toRightOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8777,11 +9376,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintRight_toRightOf
+          @attr name green_red.groupone.boihaat:layout_constraintRight_toRightOf
         */
         public static final int ConstraintSet_layout_constraintRight_toRightOf = 44;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintStart_toEndOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintStart_toEndOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8795,11 +9394,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintStart_toEndOf
+          @attr name green_red.groupone.boihaat:layout_constraintStart_toEndOf
         */
         public static final int ConstraintSet_layout_constraintStart_toEndOf = 45;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintStart_toStartOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintStart_toStartOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8813,11 +9412,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintStart_toStartOf
+          @attr name green_red.groupone.boihaat:layout_constraintStart_toStartOf
         */
         public static final int ConstraintSet_layout_constraintStart_toStartOf = 46;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_creator}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_creator}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8827,11 +9426,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintTop_creator
+          @attr name green_red.groupone.boihaat:layout_constraintTop_creator
         */
         public static final int ConstraintSet_layout_constraintTop_creator = 47;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_toBottomOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_toBottomOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8845,11 +9444,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintTop_toBottomOf
+          @attr name green_red.groupone.boihaat:layout_constraintTop_toBottomOf
         */
         public static final int ConstraintSet_layout_constraintTop_toBottomOf = 48;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintTop_toTopOf}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintTop_toTopOf}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8863,11 +9462,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>parent</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintTop_toTopOf
+          @attr name green_red.groupone.boihaat:layout_constraintTop_toTopOf
         */
         public static final int ConstraintSet_layout_constraintTop_toTopOf = 49;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_bias}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_bias}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8877,11 +9476,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_bias
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_bias
         */
         public static final int ConstraintSet_layout_constraintVertical_bias = 50;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_chainStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_chainStyle}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8895,11 +9494,11 @@ containing a value of this type.
 <tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
 <tr><td><code>packed</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_chainStyle
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_chainStyle
         */
         public static final int ConstraintSet_layout_constraintVertical_chainStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintVertical_weight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintVertical_weight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8909,11 +9508,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintVertical_weight
+          @attr name green_red.groupone.boihaat:layout_constraintVertical_weight
         */
         public static final int ConstraintSet_layout_constraintVertical_weight = 52;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_default}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_default}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8926,11 +9525,11 @@ containing a value of this type.
 <tr><td><code>spread</code></td><td>0</td><td></td></tr>
 <tr><td><code>wrap</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_default
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_default
         */
         public static final int ConstraintSet_layout_constraintWidth_default = 53;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_max}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_max}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8942,11 +9541,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_max
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_max
         */
         public static final int ConstraintSet_layout_constraintWidth_max = 54;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_constraintWidth_min}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_constraintWidth_min}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8958,11 +9557,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_constraintWidth_min
+          @attr name green_red.groupone.boihaat:layout_constraintWidth_min
         */
         public static final int ConstraintSet_layout_constraintWidth_min = 55;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_editor_absoluteX}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_editor_absoluteX}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8974,11 +9573,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_editor_absoluteX
+          @attr name green_red.groupone.boihaat:layout_editor_absoluteX
         */
         public static final int ConstraintSet_layout_editor_absoluteX = 56;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_editor_absoluteY}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_editor_absoluteY}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -8990,11 +9589,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_editor_absoluteY
+          @attr name green_red.groupone.boihaat:layout_editor_absoluteY
         */
         public static final int ConstraintSet_layout_editor_absoluteY = 57;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginBottom}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginBottom}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9006,11 +9605,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginBottom
+          @attr name green_red.groupone.boihaat:layout_goneMarginBottom
         */
         public static final int ConstraintSet_layout_goneMarginBottom = 58;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginEnd}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9022,11 +9621,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginEnd
+          @attr name green_red.groupone.boihaat:layout_goneMarginEnd
         */
         public static final int ConstraintSet_layout_goneMarginEnd = 59;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginLeft}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginLeft}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9038,11 +9637,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginLeft
+          @attr name green_red.groupone.boihaat:layout_goneMarginLeft
         */
         public static final int ConstraintSet_layout_goneMarginLeft = 60;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginRight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginRight}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9054,11 +9653,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginRight
+          @attr name green_red.groupone.boihaat:layout_goneMarginRight
         */
         public static final int ConstraintSet_layout_goneMarginRight = 61;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginStart}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9070,11 +9669,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginStart
+          @attr name green_red.groupone.boihaat:layout_goneMarginStart
         */
         public static final int ConstraintSet_layout_goneMarginStart = 62;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_goneMarginTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_goneMarginTop}
           attribute's value can be found in the {@link #ConstraintSet} array.
 
 
@@ -9086,7 +9685,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_goneMarginTop
+          @attr name green_red.groupone.boihaat:layout_goneMarginTop
         */
         public static final int ConstraintSet_layout_goneMarginTop = 63;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -9095,33 +9694,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines groupone.green_red.boihaat:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground groupone.green_red.boihaat:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines green_red.groupone.boihaat:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground green_red.groupone.boihaat:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f0100e6, 0x7f0100e7
+            0x7f0100f2, 0x7f0100f3
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#keylines}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:keylines
+          @attr name green_red.groupone.boihaat:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:statusBarBackground
+          @attr name green_red.groupone.boihaat:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -9131,12 +9730,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor groupone.green_red.boihaat:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity groupone.green_red.boihaat:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior groupone.green_red.boihaat:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges groupone.green_red.boihaat:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge groupone.green_red.boihaat:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline groupone.green_red.boihaat:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor green_red.groupone.boihaat:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity green_red.groupone.boihaat:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior green_red.groupone.boihaat:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges green_red.groupone.boihaat:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge green_red.groupone.boihaat:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline green_red.groupone.boihaat:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -9147,8 +9746,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_Layout_layout_keyline
          */
         public static final int[] CoordinatorLayout_Layout = {
-            0x010100b3, 0x7f0100e8, 0x7f0100e9, 0x7f0100ea,
-            0x7f0100eb, 0x7f0100ec, 0x7f0100ed
+            0x010100b3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
+            0x7f0100f7, 0x7f0100f8, 0x7f0100f9
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -9157,17 +9756,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:layout_anchor
+          @attr name green_red.groupone.boihaat:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9192,11 +9791,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_anchorGravity
+          @attr name green_red.groupone.boihaat:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9206,11 +9805,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_behavior
+          @attr name green_red.groupone.boihaat:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9229,11 +9828,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_dodgeInsetEdges
+          @attr name green_red.groupone.boihaat:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9251,11 +9850,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:layout_insetEdge
+          @attr name green_red.groupone.boihaat:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -9265,7 +9864,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layout_keyline
+          @attr name green_red.groupone.boihaat:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -9274,50 +9873,47 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme groupone.green_red.boihaat:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle groupone.green_red.boihaat:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError groupone.green_red.boihaat:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme green_red.groupone.boihaat:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle green_red.groupone.boihaat:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError green_red.groupone.boihaat:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
            @see #DesignTheme_textColorError
          */
         public static final int[] DesignTheme = {
-            0x7f0100ee, 0x7f0100ef, 0x7f0100f0
+            0x7f0100fa, 0x7f0100fb, 0x7f0100fc
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:bottomSheetDialogTheme
+          @attr name green_red.groupone.boihaat:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:bottomSheetStyle
+          @attr name green_red.groupone.boihaat:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name groupone.green_red.boihaat:textColorError
+          @attr name green_red.groupone.boihaat:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -9326,14 +9922,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength groupone.green_red.boihaat:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength groupone.green_red.boihaat:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength groupone.green_red.boihaat:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color groupone.green_red.boihaat:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize groupone.green_red.boihaat:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars groupone.green_red.boihaat:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars groupone.green_red.boihaat:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness groupone.green_red.boihaat:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength green_red.groupone.boihaat:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength green_red.groupone.boihaat:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength green_red.groupone.boihaat:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color green_red.groupone.boihaat:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize green_red.groupone.boihaat:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars green_red.groupone.boihaat:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars green_red.groupone.boihaat:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness green_red.groupone.boihaat:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -9345,11 +9941,11 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f0100f1, 0x7f0100f2, 0x7f0100f3, 0x7f0100f4,
-            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8
+            0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100,
+            0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9361,11 +9957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:arrowHeadLength
+          @attr name green_red.groupone.boihaat:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9377,11 +9973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:arrowShaftLength
+          @attr name green_red.groupone.boihaat:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#barLength}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9393,11 +9989,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:barLength
+          @attr name green_red.groupone.boihaat:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#color}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9408,11 +10004,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:color
+          @attr name green_red.groupone.boihaat:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9424,11 +10020,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:drawableSize
+          @attr name green_red.groupone.boihaat:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9440,11 +10036,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:gapBetweenBars
+          @attr name green_red.groupone.boihaat:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9454,11 +10050,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:spinBars
+          @attr name green_red.groupone.boihaat:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#thickness}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -9470,7 +10066,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:thickness
+          @attr name green_red.groupone.boihaat:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -9479,14 +10075,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint groupone.green_red.boihaat:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode groupone.green_red.boihaat:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth groupone.green_red.boihaat:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize groupone.green_red.boihaat:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ groupone.green_red.boihaat:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor groupone.green_red.boihaat:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding groupone.green_red.boihaat:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint green_red.groupone.boihaat:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode green_red.groupone.boihaat:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth green_red.groupone.boihaat:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize green_red.groupone.boihaat:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ green_red.groupone.boihaat:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor green_red.groupone.boihaat:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding green_red.groupone.boihaat:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -9498,11 +10094,11 @@ containing a value of this type.
            @see #FloatingActionButton_useCompatPadding
          */
         public static final int[] FloatingActionButton = {
-            0x7f010048, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb,
-            0x7f0100fc, 0x7f0100fd, 0x7f01016b, 0x7f01016c
+            0x7f010048, 0x7f010105, 0x7f010106, 0x7f010107,
+            0x7f010108, 0x7f010109, 0x7f01018a, 0x7f01018b
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9513,11 +10109,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:backgroundTint
+          @attr name green_red.groupone.boihaat:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9533,11 +10129,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:backgroundTintMode
+          @attr name green_red.groupone.boihaat:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9549,11 +10145,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:borderWidth
+          @attr name green_red.groupone.boihaat:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9565,11 +10161,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9583,11 +10179,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:fabSize
+          @attr name green_red.groupone.boihaat:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9599,11 +10195,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:pressedTranslationZ
+          @attr name green_red.groupone.boihaat:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9614,11 +10210,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:rippleColor
+          @attr name green_red.groupone.boihaat:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -9628,7 +10224,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:useCompatPadding
+          @attr name green_red.groupone.boihaat:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -9637,15 +10233,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide groupone.green_red.boihaat:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide green_red.groupone.boihaat:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
         public static final int[] FloatingActionButton_Behavior_Layout = {
-            0x7f0100fe
+            0x7f01010a
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -9655,9 +10251,182 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:behavior_autoHide
+          @attr name green_red.groupone.boihaat:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
+        /** Attributes that can be used with a FontFamily.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderAuthority green_red.groupone.boihaat:fontProviderAuthority}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderCerts green_red.groupone.boihaat:fontProviderCerts}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy green_red.groupone.boihaat:fontProviderFetchStrategy}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout green_red.groupone.boihaat:fontProviderFetchTimeout}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderPackage green_red.groupone.boihaat:fontProviderPackage}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderQuery green_red.groupone.boihaat:fontProviderQuery}</code></td><td></td></tr>
+           </table>
+           @see #FontFamily_fontProviderAuthority
+           @see #FontFamily_fontProviderCerts
+           @see #FontFamily_fontProviderFetchStrategy
+           @see #FontFamily_fontProviderFetchTimeout
+           @see #FontFamily_fontProviderPackage
+           @see #FontFamily_fontProviderQuery
+         */
+        public static final int[] FontFamily = {
+            0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e,
+            0x7f01010f, 0x7f010110
+        };
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderAuthority}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontProviderAuthority
+        */
+        public static final int FontFamily_fontProviderAuthority = 0;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderCerts}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name green_red.groupone.boihaat:fontProviderCerts
+        */
+        public static final int FontFamily_fontProviderCerts = 3;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderFetchStrategy}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
+<tr><td><code>async</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:fontProviderFetchStrategy
+        */
+        public static final int FontFamily_fontProviderFetchStrategy = 4;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderFetchTimeout}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:fontProviderFetchTimeout
+        */
+        public static final int FontFamily_fontProviderFetchTimeout = 5;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderPackage}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontProviderPackage
+        */
+        public static final int FontFamily_fontProviderPackage = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontProviderQuery}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontProviderQuery
+        */
+        public static final int FontFamily_fontProviderQuery = 2;
+        /** Attributes that can be used with a FontFamilyFont.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FontFamilyFont_font green_red.groupone.boihaat:font}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontStyle green_red.groupone.boihaat:fontStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontWeight green_red.groupone.boihaat:fontWeight}</code></td><td></td></tr>
+           </table>
+           @see #FontFamilyFont_font
+           @see #FontFamilyFont_fontStyle
+           @see #FontFamilyFont_fontWeight
+         */
+        public static final int[] FontFamilyFont = {
+            0x7f010111, 0x7f010112, 0x7f010113
+        };
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#font}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name green_red.groupone.boihaat:font
+        */
+        public static final int FontFamilyFont_font = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontStyle}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>italic</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:fontStyle
+        */
+        public static final int FontFamilyFont_fontStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontWeight}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontWeight
+        */
+        public static final int FontFamilyFont_fontWeight = 2;
         /** Attributes that can be used with a ForegroundLinearLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -9666,14 +10435,14 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding groupone.green_red.boihaat:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding green_red.groupone.boihaat:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f0100ff
+            0x01010109, 0x01010200, 0x7f010114
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -9688,7 +10457,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -9698,7 +10467,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:foregroundInsidePadding
+          @attr name green_red.groupone.boihaat:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearConstraintLayout.
@@ -9731,10 +10500,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider groupone.green_red.boihaat:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding groupone.green_red.boihaat:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild groupone.green_red.boihaat:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers groupone.green_red.boihaat:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider green_red.groupone.boihaat:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding green_red.groupone.boihaat:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild green_red.groupone.boihaat:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers green_red.groupone.boihaat:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -9748,8 +10517,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f010037, 0x7f010100, 0x7f010101,
-            0x7f010102
+            0x01010128, 0x7f010037, 0x7f010115, 0x7f010116,
+            0x7f010117
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -9782,17 +10551,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#divider}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:divider
+          @attr name green_red.groupone.boihaat:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9804,11 +10573,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:dividerPadding
+          @attr name green_red.groupone.boihaat:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9818,11 +10587,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:measureWithLargestChild
+          @attr name green_red.groupone.boihaat:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9837,7 +10606,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:showDividers
+          @attr name green_red.groupone.boihaat:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -9910,6 +10679,69 @@ containing a value of this type.
           @attr name android:dropDownVerticalOffset
         */
         public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop green_red.groupone.boihaat:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio green_red.groupone.boihaat:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust green_red.groupone.boihaat:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f010118, 0x7f010119, 0x7f01011a
+        };
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>
@@ -9976,9 +10808,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout groupone.green_red.boihaat:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass groupone.green_red.boihaat:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass groupone.green_red.boihaat:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout green_red.groupone.boihaat:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass green_red.groupone.boihaat:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass green_red.groupone.boihaat:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_alphabeticModifiers green_red.groupone.boihaat:alphabeticModifiers}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -9992,13 +10825,17 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_contentDescription groupone.green_red.boihaat:contentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction groupone.green_red.boihaat:showAsAction}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_tooltipText groupone.green_red.boihaat:tooltipText}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_contentDescription green_red.groupone.boihaat:contentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTint green_red.groupone.boihaat:iconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_iconTintMode green_red.groupone.boihaat:iconTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_numericModifiers green_red.groupone.boihaat:numericModifiers}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction green_red.groupone.boihaat:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_tooltipText green_red.groupone.boihaat:tooltipText}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
            @see #MenuItem_actionViewClass
+           @see #MenuItem_alphabeticModifiers
            @see #MenuItem_android_alphabeticShortcut
            @see #MenuItem_android_checkable
            @see #MenuItem_android_checked
@@ -10013,6 +10850,9 @@ containing a value of this type.
            @see #MenuItem_android_titleCondensed
            @see #MenuItem_android_visible
            @see #MenuItem_contentDescription
+           @see #MenuItem_iconTint
+           @see #MenuItem_iconTintMode
+           @see #MenuItem_numericModifiers
            @see #MenuItem_showAsAction
            @see #MenuItem_tooltipText
          */
@@ -10020,21 +10860,22 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f010103, 0x7f010104, 0x7f010105,
-            0x7f010106, 0x7f010107, 0x7f010108
+            0x0101026f, 0x7f01011b, 0x7f01011c, 0x7f01011d,
+            0x7f01011e, 0x7f01011f, 0x7f010120, 0x7f010121,
+            0x7f010122, 0x7f010123, 0x7f010124
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:actionLayout
+          @attr name green_red.groupone.boihaat:actionLayout
         */
-        public static final int MenuItem_actionLayout = 14;
+        public static final int MenuItem_actionLayout = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -10044,11 +10885,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:actionProviderClass
+          @attr name green_red.groupone.boihaat:actionProviderClass
         */
-        public static final int MenuItem_actionProviderClass = 16;
+        public static final int MenuItem_actionProviderClass = 18;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -10058,9 +10899,30 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:actionViewClass
+          @attr name green_red.groupone.boihaat:actionViewClass
         */
-        public static final int MenuItem_actionViewClass = 15;
+        public static final int MenuItem_actionViewClass = 17;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#alphabeticModifiers}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
+<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
+<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:alphabeticModifiers
+        */
+        public static final int MenuItem_alphabeticModifiers = 13;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
           attribute's value can be found in the {@link #MenuItem} array.
@@ -10140,7 +11002,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentDescription}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentDescription}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -10150,11 +11012,68 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentDescription
+          @attr name green_red.groupone.boihaat:contentDescription
         */
-        public static final int MenuItem_contentDescription = 17;
+        public static final int MenuItem_contentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#iconTint}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:iconTint
+        */
+        public static final int MenuItem_iconTint = 21;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#iconTintMode}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+<tr><td><code>add</code></td><td>16</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:iconTintMode
+        */
+        public static final int MenuItem_iconTintMode = 22;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#numericModifiers}
+          attribute's value can be found in the {@link #MenuItem} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>META</code></td><td>0x10000</td><td></td></tr>
+<tr><td><code>CTRL</code></td><td>0x1000</td><td></td></tr>
+<tr><td><code>ALT</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>SHIFT</code></td><td>0x1</td><td></td></tr>
+<tr><td><code>SYM</code></td><td>0x4</td><td></td></tr>
+<tr><td><code>FUNCTION</code></td><td>0x8</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:numericModifiers
+        */
+        public static final int MenuItem_numericModifiers = 14;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -10170,11 +11089,11 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:showAsAction
+          @attr name green_red.groupone.boihaat:showAsAction
         */
-        public static final int MenuItem_showAsAction = 13;
+        public static final int MenuItem_showAsAction = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tooltipText}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tooltipText}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -10184,9 +11103,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tooltipText
+          @attr name green_red.groupone.boihaat:tooltipText
         */
-        public static final int MenuItem_tooltipText = 18;
+        public static final int MenuItem_tooltipText = 20;
         /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
@@ -10200,8 +11119,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing groupone.green_red.boihaat:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow groupone.green_red.boihaat:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing green_red.groupone.boihaat:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow green_red.groupone.boihaat:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -10215,8 +11134,8 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f010109,
-            0x7f01010a
+            0x0101012f, 0x01010130, 0x01010131, 0x7f010125,
+            0x7f010126
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -10261,7 +11180,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -10271,17 +11190,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:preserveIconSpacing
+          @attr name green_red.groupone.boihaat:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:subMenuArrow
+          @attr name green_red.groupone.boihaat:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -10293,13 +11212,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout groupone.green_red.boihaat:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground groupone.green_red.boihaat:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint groupone.green_red.boihaat:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance groupone.green_red.boihaat:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor groupone.green_red.boihaat:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu groupone.green_red.boihaat:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout green_red.groupone.boihaat:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground green_red.groupone.boihaat:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint green_red.groupone.boihaat:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance green_red.groupone.boihaat:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor green_red.groupone.boihaat:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu green_red.groupone.boihaat:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -10314,8 +11233,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] NavigationView = {
             0x010100d4, 0x010100dd, 0x0101011f, 0x7f010048,
-            0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e,
-            0x7f01010f, 0x7f010110
+            0x7f010127, 0x7f010128, 0x7f010129, 0x7f01012a,
+            0x7f01012b, 0x7f01012c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -10336,7 +11255,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -10348,31 +11267,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:headerLayout
+          @attr name green_red.groupone.boihaat:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:itemBackground
+          @attr name green_red.groupone.boihaat:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -10383,21 +11302,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:itemIconTint
+          @attr name green_red.groupone.boihaat:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:itemTextAppearance
+          @attr name green_red.groupone.boihaat:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -10408,17 +11327,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:itemTextColor
+          @attr name green_red.groupone.boihaat:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#menu}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:menu
+          @attr name green_red.groupone.boihaat:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -10429,14 +11348,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor groupone.green_red.boihaat:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor green_red.groupone.boihaat:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x010102c9, 0x7f010111
+            0x01010176, 0x010102c9, 0x7f01012d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupAnimationStyle}
@@ -10451,7 +11370,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -10461,7 +11380,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:overlapAnchor
+          @attr name green_red.groupone.boihaat:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -10470,15 +11389,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor groupone.green_red.boihaat:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor green_red.groupone.boihaat:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010112
+            0x7f01012e
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -10488,7 +11407,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:state_above_anchor
+          @attr name green_red.groupone.boihaat:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -10497,17 +11416,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons groupone.green_red.boihaat:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle groupone.green_red.boihaat:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons green_red.groupone.boihaat:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle green_red.groupone.boihaat:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
          */
         public static final int[] RecycleListView = {
-            0x7f010113, 0x7f010114
+            0x7f01012f, 0x7f010130
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -10519,11 +11438,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:paddingBottomNoButtons
+          @attr name green_red.groupone.boihaat:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -10535,7 +11454,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:paddingTopNoTitle
+          @attr name green_red.groupone.boihaat:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
@@ -10546,15 +11465,15 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollEnabled groupone.green_red.boihaat:fastScrollEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable groupone.green_red.boihaat:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable groupone.green_red.boihaat:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable groupone.green_red.boihaat:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable groupone.green_red.boihaat:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager groupone.green_red.boihaat:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout groupone.green_red.boihaat:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount groupone.green_red.boihaat:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd groupone.green_red.boihaat:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollEnabled green_red.groupone.boihaat:fastScrollEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable green_red.groupone.boihaat:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable green_red.groupone.boihaat:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable green_red.groupone.boihaat:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable green_red.groupone.boihaat:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager green_red.groupone.boihaat:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout green_red.groupone.boihaat:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount green_red.groupone.boihaat:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd green_red.groupone.boihaat:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -10569,9 +11488,9 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x010100f1, 0x7f010115, 0x7f010116,
-            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
-            0x7f01011b, 0x7f01011c, 0x7f01011d
+            0x010100c4, 0x010100f1, 0x7f010131, 0x7f010132,
+            0x7f010133, 0x7f010134, 0x7f010135, 0x7f010136,
+            0x7f010137, 0x7f010138, 0x7f010139
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
@@ -10586,7 +11505,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fastScrollEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fastScrollEnabled}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10596,51 +11515,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:fastScrollEnabled
+          @attr name green_red.groupone.boihaat:fastScrollEnabled
         */
         public static final int RecyclerView_fastScrollEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fastScrollHorizontalThumbDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fastScrollHorizontalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:fastScrollHorizontalThumbDrawable
+          @attr name green_red.groupone.boihaat:fastScrollHorizontalThumbDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fastScrollHorizontalTrackDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fastScrollHorizontalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:fastScrollHorizontalTrackDrawable
+          @attr name green_red.groupone.boihaat:fastScrollHorizontalTrackDrawable
         */
         public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fastScrollVerticalThumbDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fastScrollVerticalThumbDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:fastScrollVerticalThumbDrawable
+          @attr name green_red.groupone.boihaat:fastScrollVerticalThumbDrawable
         */
         public static final int RecyclerView_fastScrollVerticalThumbDrawable = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#fastScrollVerticalTrackDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fastScrollVerticalTrackDrawable}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:fastScrollVerticalTrackDrawable
+          @attr name green_red.groupone.boihaat:fastScrollVerticalTrackDrawable
         */
         public static final int RecyclerView_fastScrollVerticalTrackDrawable = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10650,11 +11569,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:layoutManager
+          @attr name green_red.groupone.boihaat:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10664,11 +11583,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:reverseLayout
+          @attr name green_red.groupone.boihaat:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10678,11 +11597,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:spanCount
+          @attr name green_red.groupone.boihaat:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10692,7 +11611,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:stackFromEnd
+          @attr name green_red.groupone.boihaat:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -10701,15 +11620,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground groupone.green_red.boihaat:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground green_red.groupone.boihaat:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f01011e
+            0x7f01013a
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -10717,7 +11636,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name groupone.green_red.boihaat:insetForeground
+          @attr name green_red.groupone.boihaat:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -10726,15 +11645,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop groupone.green_red.boihaat:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop green_red.groupone.boihaat:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Layout = {
-            0x7f01011f
+            0x7f01013b
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -10746,7 +11665,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:behavior_overlapTop
+          @attr name green_red.groupone.boihaat:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -10759,19 +11678,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon groupone.green_red.boihaat:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon groupone.green_red.boihaat:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint groupone.green_red.boihaat:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon groupone.green_red.boihaat:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault groupone.green_red.boihaat:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout groupone.green_red.boihaat:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground groupone.green_red.boihaat:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint groupone.green_red.boihaat:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon groupone.green_red.boihaat:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon groupone.green_red.boihaat:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground groupone.green_red.boihaat:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout groupone.green_red.boihaat:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon groupone.green_red.boihaat:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon green_red.groupone.boihaat:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon green_red.groupone.boihaat:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint green_red.groupone.boihaat:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon green_red.groupone.boihaat:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault green_red.groupone.boihaat:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout green_red.groupone.boihaat:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground green_red.groupone.boihaat:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint green_red.groupone.boihaat:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon green_red.groupone.boihaat:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon green_red.groupone.boihaat:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground green_red.groupone.boihaat:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout green_red.groupone.boihaat:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon green_red.groupone.boihaat:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -10793,10 +11712,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123,
-            0x7f010124, 0x7f010125, 0x7f010126, 0x7f010127,
-            0x7f010128, 0x7f010129, 0x7f01012a, 0x7f01012b,
-            0x7f01012c
+            0x7f01013c, 0x7f01013d, 0x7f01013e, 0x7f01013f,
+            0x7f010140, 0x7f010141, 0x7f010142, 0x7f010143,
+            0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147,
+            0x7f010148
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -10823,27 +11742,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:closeIcon
+          @attr name green_red.groupone.boihaat:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:commitIcon
+          @attr name green_red.groupone.boihaat:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10853,21 +11772,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:defaultQueryHint
+          @attr name green_red.groupone.boihaat:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:goIcon
+          @attr name green_red.groupone.boihaat:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10877,31 +11796,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:iconifiedByDefault
+          @attr name green_red.groupone.boihaat:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#layout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:layout
+          @attr name green_red.groupone.boihaat:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:queryBackground
+          @attr name green_red.groupone.boihaat:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10911,59 +11830,127 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:queryHint
+          @attr name green_red.groupone.boihaat:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:searchHintIcon
+          @attr name green_red.groupone.boihaat:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:searchIcon
+          @attr name green_red.groupone.boihaat:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:submitBackground
+          @attr name green_red.groupone.boihaat:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:suggestionRowLayout
+          @attr name green_red.groupone.boihaat:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:voiceIcon
+          @attr name green_red.groupone.boihaat:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
+        /** Attributes that can be used with a SignInButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize green_red.groupone.boihaat:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme green_red.groupone.boihaat:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris green_red.groupone.boihaat:scopeUris}</code></td><td></td></tr>
+           </table>
+           @see #SignInButton_buttonSize
+           @see #SignInButton_colorScheme
+           @see #SignInButton_scopeUris
+         */
+        public static final int[] SignInButton = {
+            0x7f010149, 0x7f01014a, 0x7f01014b
+        };
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonSize}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>wide</code></td><td>1</td><td></td></tr>
+<tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:buttonSize
+        */
+        public static final int SignInButton_buttonSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#colorScheme}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dark</code></td><td>0</td><td></td></tr>
+<tr><td><code>light</code></td><td>1</td><td></td></tr>
+<tr><td><code>auto</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name green_red.groupone.boihaat:colorScheme
+        */
+        public static final int SignInButton_colorScheme = 1;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#scopeUris}
+          attribute's value can be found in the {@link #SignInButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name green_red.groupone.boihaat:scopeUris
+        */
+        public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -10971,15 +11958,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation groupone.green_red.boihaat:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth groupone.green_red.boihaat:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation green_red.groupone.boihaat:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth green_red.groupone.boihaat:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f010048, 0x7f01012d
+            0x0101011f, 0x7f010048, 0x7f01014c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -10988,7 +11975,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#elevation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -11000,11 +11987,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:elevation
+          @attr name green_red.groupone.boihaat:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -11016,7 +12003,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:maxActionInlineWidth
+          @attr name green_red.groupone.boihaat:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -11029,7 +12016,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme groupone.green_red.boihaat:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme green_red.groupone.boihaat:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -11066,13 +12053,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:popupTheme
+          @attr name green_red.groupone.boihaat:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -11084,17 +12071,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText groupone.green_red.boihaat:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack groupone.green_red.boihaat:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth groupone.green_red.boihaat:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding groupone.green_red.boihaat:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance groupone.green_red.boihaat:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding groupone.green_red.boihaat:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint groupone.green_red.boihaat:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode groupone.green_red.boihaat:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track groupone.green_red.boihaat:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint groupone.green_red.boihaat:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode groupone.green_red.boihaat:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText green_red.groupone.boihaat:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack green_red.groupone.boihaat:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth green_red.groupone.boihaat:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding green_red.groupone.boihaat:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance green_red.groupone.boihaat:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding green_red.groupone.boihaat:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint green_red.groupone.boihaat:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode green_red.groupone.boihaat:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track green_red.groupone.boihaat:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint green_red.groupone.boihaat:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode green_red.groupone.boihaat:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -11112,10 +12099,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_trackTintMode
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f01012e,
-            0x7f01012f, 0x7f010130, 0x7f010131, 0x7f010132,
-            0x7f010133, 0x7f010134, 0x7f010135, 0x7f010136,
-            0x7f010137, 0x7f010138
+            0x01010124, 0x01010125, 0x01010142, 0x7f01014d,
+            0x7f01014e, 0x7f01014f, 0x7f010150, 0x7f010151,
+            0x7f010152, 0x7f010153, 0x7f010154, 0x7f010155,
+            0x7f010156, 0x7f010157
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -11136,7 +12123,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#showText}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11146,11 +12133,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:showText
+          @attr name green_red.groupone.boihaat:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11160,11 +12147,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:splitTrack
+          @attr name green_red.groupone.boihaat:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11176,11 +12163,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:switchMinWidth
+          @attr name green_red.groupone.boihaat:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11192,21 +12179,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:switchPadding
+          @attr name green_red.groupone.boihaat:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:switchTextAppearance
+          @attr name green_red.groupone.boihaat:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11218,11 +12205,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:thumbTextPadding
+          @attr name green_red.groupone.boihaat:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11233,11 +12220,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:thumbTint
+          @attr name green_red.groupone.boihaat:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11254,21 +12241,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:thumbTintMode
+          @attr name green_red.groupone.boihaat:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#track}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:track
+          @attr name green_red.groupone.boihaat:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11279,11 +12266,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:trackTint
+          @attr name green_red.groupone.boihaat:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11300,7 +12287,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:trackTintMode
+          @attr name green_red.groupone.boihaat:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -11344,22 +12331,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground groupone.green_red.boihaat:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart groupone.green_red.boihaat:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity groupone.green_red.boihaat:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor groupone.green_red.boihaat:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight groupone.green_red.boihaat:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth groupone.green_red.boihaat:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth groupone.green_red.boihaat:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode groupone.green_red.boihaat:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding groupone.green_red.boihaat:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom groupone.green_red.boihaat:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd groupone.green_red.boihaat:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart groupone.green_red.boihaat:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop groupone.green_red.boihaat:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor groupone.green_red.boihaat:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance groupone.green_red.boihaat:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor groupone.green_red.boihaat:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground green_red.groupone.boihaat:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart green_red.groupone.boihaat:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity green_red.groupone.boihaat:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor green_red.groupone.boihaat:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight green_red.groupone.boihaat:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth green_red.groupone.boihaat:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth green_red.groupone.boihaat:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode green_red.groupone.boihaat:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding green_red.groupone.boihaat:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom green_red.groupone.boihaat:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd green_red.groupone.boihaat:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart green_red.groupone.boihaat:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop green_red.groupone.boihaat:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor green_red.groupone.boihaat:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance green_red.groupone.boihaat:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor green_red.groupone.boihaat:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -11379,23 +12366,23 @@ containing a value of this type.
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f010139, 0x7f01013a, 0x7f01013b, 0x7f01013c,
-            0x7f01013d, 0x7f01013e, 0x7f01013f, 0x7f010140,
-            0x7f010141, 0x7f010142, 0x7f010143, 0x7f010144,
-            0x7f010145, 0x7f010146, 0x7f010147, 0x7f010148
+            0x7f010158, 0x7f010159, 0x7f01015a, 0x7f01015b,
+            0x7f01015c, 0x7f01015d, 0x7f01015e, 0x7f01015f,
+            0x7f010160, 0x7f010161, 0x7f010162, 0x7f010163,
+            0x7f010164, 0x7f010165, 0x7f010166, 0x7f010167
         };
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:tabBackground
+          @attr name green_red.groupone.boihaat:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11407,11 +12394,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabContentStart
+          @attr name green_red.groupone.boihaat:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11424,11 +12411,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:tabGravity
+          @attr name green_red.groupone.boihaat:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11439,11 +12426,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabIndicatorColor
+          @attr name green_red.groupone.boihaat:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11455,11 +12442,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabIndicatorHeight
+          @attr name green_red.groupone.boihaat:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11471,11 +12458,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabMaxWidth
+          @attr name green_red.groupone.boihaat:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11487,11 +12474,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabMinWidth
+          @attr name green_red.groupone.boihaat:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11504,11 +12491,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:tabMode
+          @attr name green_red.groupone.boihaat:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11520,11 +12507,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabPadding
+          @attr name green_red.groupone.boihaat:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11536,11 +12523,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabPaddingBottom
+          @attr name green_red.groupone.boihaat:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11552,11 +12539,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabPaddingEnd
+          @attr name green_red.groupone.boihaat:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11568,11 +12555,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabPaddingStart
+          @attr name green_red.groupone.boihaat:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11584,11 +12571,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabPaddingTop
+          @attr name green_red.groupone.boihaat:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11599,21 +12586,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabSelectedTextColor
+          @attr name green_red.groupone.boihaat:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:tabTextAppearance
+          @attr name green_red.groupone.boihaat:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11624,7 +12611,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:tabTextColor
+          @attr name green_red.groupone.boihaat:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -11633,57 +12620,70 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textColorHint android:textColorHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textColorLink android:textColorLink}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps groupone.green_red.boihaat:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_fontFamily green_red.groupone.boihaat:fontFamily}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps green_red.groupone.boihaat:textAllCaps}</code></td><td></td></tr>
            </table>
+           @see #TextAppearance_android_fontFamily
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
            @see #TextAppearance_android_shadowDy
            @see #TextAppearance_android_shadowRadius
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textColorHint
+           @see #TextAppearance_android_textColorLink
            @see #TextAppearance_android_textSize
            @see #TextAppearance_android_textStyle
            @see #TextAppearance_android_typeface
+           @see #TextAppearance_fontFamily
            @see #TextAppearance_textAllCaps
          */
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
-            0x0101009a, 0x01010161, 0x01010162, 0x01010163,
-            0x01010164, 0x7f01005c
+            0x0101009a, 0x0101009b, 0x01010161, 0x01010162,
+            0x01010163, 0x01010164, 0x010103ac, 0x7f01005e,
+            0x7f010064
         };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:fontFamily
+        */
+        public static final int TextAppearance_android_fontFamily = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowColor
         */
-        public static final int TextAppearance_android_shadowColor = 5;
+        public static final int TextAppearance_android_shadowColor = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDx
         */
-        public static final int TextAppearance_android_shadowDx = 6;
+        public static final int TextAppearance_android_shadowDx = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowDy
         */
-        public static final int TextAppearance_android_shadowDy = 7;
+        public static final int TextAppearance_android_shadowDy = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
           attribute's value can be found in the {@link #TextAppearance} array.
           @attr name android:shadowRadius
         */
-        public static final int TextAppearance_android_shadowRadius = 8;
+        public static final int TextAppearance_android_shadowRadius = 9;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColor}
           attribute's value can be found in the {@link #TextAppearance} array.
@@ -11696,6 +12696,12 @@ containing a value of this type.
           @attr name android:textColorHint
         */
         public static final int TextAppearance_android_textColorHint = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColorLink}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textColorLink
+        */
+        public static final int TextAppearance_android_textColorLink = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textSize}
           attribute's value can be found in the {@link #TextAppearance} array.
@@ -11715,16 +12721,30 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#fontFamily}
+          attribute's value can be found in the {@link #TextAppearance} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name green_red.groupone.boihaat:fontFamily
+        */
+        public static final int TextAppearance_fontFamily = 12;
+        /**
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name groupone.green_red.boihaat:textAllCaps
+          @attr name green_red.groupone.boihaat:textAllCaps
         */
-        public static final int TextAppearance_textAllCaps = 9;
+        public static final int TextAppearance_textAllCaps = 11;
         /** Attributes that can be used with a TextInputLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -11733,20 +12753,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled groupone.green_red.boihaat:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength groupone.green_red.boihaat:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance groupone.green_red.boihaat:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance groupone.green_red.boihaat:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled groupone.green_red.boihaat:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance groupone.green_red.boihaat:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled groupone.green_red.boihaat:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled groupone.green_red.boihaat:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance groupone.green_red.boihaat:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription groupone.green_red.boihaat:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable groupone.green_red.boihaat:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled groupone.green_red.boihaat:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint groupone.green_red.boihaat:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode groupone.green_red.boihaat:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled green_red.groupone.boihaat:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength green_red.groupone.boihaat:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance green_red.groupone.boihaat:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance green_red.groupone.boihaat:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled green_red.groupone.boihaat:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance green_red.groupone.boihaat:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled green_red.groupone.boihaat:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled green_red.groupone.boihaat:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance green_red.groupone.boihaat:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription green_red.groupone.boihaat:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable green_red.groupone.boihaat:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled green_red.groupone.boihaat:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint green_red.groupone.boihaat:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode green_red.groupone.boihaat:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -11766,10 +12786,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_passwordToggleTintMode
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010149, 0x7f01014a,
-            0x7f01014b, 0x7f01014c, 0x7f01014d, 0x7f01014e,
-            0x7f01014f, 0x7f010150, 0x7f010151, 0x7f010152,
-            0x7f010153, 0x7f010154, 0x7f010155, 0x7f010156
+            0x0101009a, 0x01010150, 0x7f010168, 0x7f010169,
+            0x7f01016a, 0x7f01016b, 0x7f01016c, 0x7f01016d,
+            0x7f01016e, 0x7f01016f, 0x7f010170, 0x7f010171,
+            0x7f010172, 0x7f010173, 0x7f010174, 0x7f010175
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -11784,7 +12804,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11794,11 +12814,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:counterEnabled
+          @attr name green_red.groupone.boihaat:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11808,31 +12828,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:counterMaxLength
+          @attr name green_red.groupone.boihaat:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:counterOverflowTextAppearance
+          @attr name green_red.groupone.boihaat:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:counterTextAppearance
+          @attr name green_red.groupone.boihaat:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11842,21 +12862,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:errorEnabled
+          @attr name green_red.groupone.boihaat:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:errorTextAppearance
+          @attr name green_red.groupone.boihaat:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11866,11 +12886,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:hintAnimationEnabled
+          @attr name green_red.groupone.boihaat:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11880,21 +12900,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:hintEnabled
+          @attr name green_red.groupone.boihaat:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:hintTextAppearance
+          @attr name green_red.groupone.boihaat:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11904,21 +12924,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:passwordToggleContentDescription
+          @attr name green_red.groupone.boihaat:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:passwordToggleDrawable
+          @attr name green_red.groupone.boihaat:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11928,11 +12948,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:passwordToggleEnabled
+          @attr name green_red.groupone.boihaat:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11943,11 +12963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:passwordToggleTint
+          @attr name green_red.groupone.boihaat:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11963,7 +12983,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:passwordToggleTintMode
+          @attr name green_red.groupone.boihaat:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
@@ -11974,33 +12994,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity groupone.green_red.boihaat:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription groupone.green_red.boihaat:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon groupone.green_red.boihaat:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd groupone.green_red.boihaat:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions groupone.green_red.boihaat:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft groupone.green_red.boihaat:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight groupone.green_red.boihaat:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart groupone.green_red.boihaat:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation groupone.green_red.boihaat:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo groupone.green_red.boihaat:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription groupone.green_red.boihaat:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight groupone.green_red.boihaat:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription groupone.green_red.boihaat:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon groupone.green_red.boihaat:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme groupone.green_red.boihaat:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle groupone.green_red.boihaat:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance groupone.green_red.boihaat:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor groupone.green_red.boihaat:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title groupone.green_red.boihaat:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin groupone.green_red.boihaat:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom groupone.green_red.boihaat:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd groupone.green_red.boihaat:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart groupone.green_red.boihaat:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop groupone.green_red.boihaat:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins groupone.green_red.boihaat:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance groupone.green_red.boihaat:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor groupone.green_red.boihaat:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity green_red.groupone.boihaat:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription green_red.groupone.boihaat:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon green_red.groupone.boihaat:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd green_red.groupone.boihaat:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions green_red.groupone.boihaat:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft green_red.groupone.boihaat:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight green_red.groupone.boihaat:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart green_red.groupone.boihaat:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation green_red.groupone.boihaat:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo green_red.groupone.boihaat:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription green_red.groupone.boihaat:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight green_red.groupone.boihaat:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription green_red.groupone.boihaat:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon green_red.groupone.boihaat:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme green_red.groupone.boihaat:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle green_red.groupone.boihaat:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance green_red.groupone.boihaat:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor green_red.groupone.boihaat:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title green_red.groupone.boihaat:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin green_red.groupone.boihaat:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom green_red.groupone.boihaat:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd green_red.groupone.boihaat:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart green_red.groupone.boihaat:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop green_red.groupone.boihaat:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins green_red.groupone.boihaat:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance green_red.groupone.boihaat:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor green_red.groupone.boihaat:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -12036,11 +13056,11 @@ containing a value of this type.
             0x010100af, 0x01010140, 0x7f01002f, 0x7f010032,
             0x7f010036, 0x7f010042, 0x7f010043, 0x7f010044,
             0x7f010045, 0x7f010046, 0x7f010047, 0x7f010049,
-            0x7f010157, 0x7f010158, 0x7f010159, 0x7f01015a,
-            0x7f01015b, 0x7f01015c, 0x7f01015d, 0x7f01015e,
-            0x7f01015f, 0x7f010160, 0x7f010161, 0x7f010162,
-            0x7f010163, 0x7f010164, 0x7f010165, 0x7f010166,
-            0x7f010167
+            0x7f010176, 0x7f010177, 0x7f010178, 0x7f010179,
+            0x7f01017a, 0x7f01017b, 0x7f01017c, 0x7f01017d,
+            0x7f01017e, 0x7f01017f, 0x7f010180, 0x7f010181,
+            0x7f010182, 0x7f010183, 0x7f010184, 0x7f010185,
+            0x7f010186
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -12055,7 +13075,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12068,11 +13088,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:buttonGravity
+          @attr name green_red.groupone.boihaat:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12082,21 +13102,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:collapseContentDescription
+          @attr name green_red.groupone.boihaat:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:collapseIcon
+          @attr name green_red.groupone.boihaat:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12108,11 +13128,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetEnd
+          @attr name green_red.groupone.boihaat:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12124,11 +13144,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetEndWithActions
+          @attr name green_red.groupone.boihaat:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12140,11 +13160,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetLeft
+          @attr name green_red.groupone.boihaat:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12156,11 +13176,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetRight
+          @attr name green_red.groupone.boihaat:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12172,11 +13192,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetStart
+          @attr name green_red.groupone.boihaat:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12188,21 +13208,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:contentInsetStartWithNavigation
+          @attr name green_red.groupone.boihaat:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#logo}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:logo
+          @attr name green_red.groupone.boihaat:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12212,11 +13232,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:logoDescription
+          @attr name green_red.groupone.boihaat:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12228,11 +13248,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:maxButtonHeight
+          @attr name green_red.groupone.boihaat:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12242,31 +13262,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:navigationContentDescription
+          @attr name green_red.groupone.boihaat:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:navigationIcon
+          @attr name green_red.groupone.boihaat:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:popupTheme
+          @attr name green_red.groupone.boihaat:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12276,21 +13296,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:subtitle
+          @attr name green_red.groupone.boihaat:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:subtitleTextAppearance
+          @attr name green_red.groupone.boihaat:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12301,11 +13321,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:subtitleTextColor
+          @attr name green_red.groupone.boihaat:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#title}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12315,11 +13335,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:title
+          @attr name green_red.groupone.boihaat:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12331,11 +13351,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMargin
+          @attr name green_red.groupone.boihaat:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12347,11 +13367,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMarginBottom
+          @attr name green_red.groupone.boihaat:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12363,11 +13383,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMarginEnd
+          @attr name green_red.groupone.boihaat:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12379,11 +13399,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMarginStart
+          @attr name green_red.groupone.boihaat:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12395,11 +13415,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMarginTop
+          @attr name green_red.groupone.boihaat:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12411,21 +13431,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleMargins
+          @attr name green_red.groupone.boihaat:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:titleTextAppearance
+          @attr name green_red.groupone.boihaat:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12436,7 +13456,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:titleTextColor
+          @attr name green_red.groupone.boihaat:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -12447,9 +13467,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd groupone.green_red.boihaat:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart groupone.green_red.boihaat:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme groupone.green_red.boihaat:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd green_red.groupone.boihaat:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart green_red.groupone.boihaat:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme green_red.groupone.boihaat:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -12458,8 +13478,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f010168, 0x7f010169,
-            0x7f01016a
+            0x01010000, 0x010100da, 0x7f010187, 0x7f010188,
+            0x7f010189
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -12474,7 +13494,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12486,11 +13506,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:paddingEnd
+          @attr name green_red.groupone.boihaat:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12502,17 +13522,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:paddingStart
+          @attr name green_red.groupone.boihaat:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#theme}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name groupone.green_red.boihaat:theme
+          @attr name green_red.groupone.boihaat:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -12522,15 +13542,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint groupone.green_red.boihaat:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode groupone.green_red.boihaat:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint green_red.groupone.boihaat:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode green_red.groupone.boihaat:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f01016b, 0x7f01016c
+            0x010100d4, 0x7f01018a, 0x7f01018b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -12539,7 +13559,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12550,11 +13570,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name groupone.green_red.boihaat:backgroundTint
+          @attr name green_red.groupone.boihaat:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link groupone.green_red.boihaat.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link green_red.groupone.boihaat.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12570,7 +13590,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name groupone.green_red.boihaat:backgroundTintMode
+          @attr name green_red.groupone.boihaat:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

@@ -26,13 +26,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterFragment extends Fragment implements View.OnClickListener {
     private AppCompatButton btn_register;
-    private AppCompatButton btn_select_image;
+    // private AppCompatButton btn_select_image;
 
 
     private EditText et_email, et_password, et_name, et_age, et_address;
     private TextView tv_login;
     private ProgressBar progress;
-    private int finalAge;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -52,8 +52,8 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         et_age = (EditText) view.findViewById(R.id.et_age);
         et_address = (EditText) view.findViewById(R.id.et_address);
         progress = (ProgressBar) view.findViewById(R.id.progress);
-        btn_select_image = (AppCompatButton) view.findViewById(R.id.btn_upload_image);
-        btn_select_image.setOnClickListener(this);
+//        btn_select_image = (AppCompatButton) view.findViewById(R.id.btn_upload_image);
+//        btn_select_image.setOnClickListener(this);
         btn_register.setOnClickListener(this);
         tv_login.setOnClickListener(this);
     }
@@ -72,7 +72,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
                 String email = et_email.getText().toString();
                 String password = et_password.getText().toString();
                 String age = et_age.getText().toString();
-                this.finalAge = Integer.parseInt(age);
+                //  this.finalAge = Integer.parseInt(age);
                 String address = et_address.getText().toString();
 
                 if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty() && !age.isEmpty() && !address.isEmpty()) {
@@ -104,7 +104,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         user.setName(name);
         user.setEmail(email);
         user.setPassword(password);
-        user.setAge(finalAge);
+        user.setAge(age);
         user.setAddress(address);
         ServerRequest request = new ServerRequest();
         request.setOperation(AppConfig.REGISTER_OPERATION);

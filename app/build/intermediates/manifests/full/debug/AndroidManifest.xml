@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="groupone.green_red.boihaat"
+    package="green_red.groupone.boihaat"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,10 +12,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
-
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
 
     <application
         android:allowBackup="true"
@@ -32,9 +28,22 @@
             </intent-filter>
         </activity>
         <activity android:name="groupone.green_red.boihaat.activity.AboutUsActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
         <activity
-            android:name="groupone.green_red.boihaat.MainActivitySecond"
-            android:label="@string/title_activity_main_second" />
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

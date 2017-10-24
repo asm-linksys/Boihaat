@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="groupone.green_red.boihaat.test">
+    package="green_red.groupone.boihaat.test" >
 
-    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="26" />
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for green_red.groupone.boihaat"
+        android:targetPackage="green_red.groupone.boihaat" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
-                     android:targetPackage="groupone.green_red.boihaat"
-                     android:handleProfiling="false"
-                     android:functionalTest="false"
-                     android:label="Tests for groupone.green_red.boihaat"/>
 </manifest>

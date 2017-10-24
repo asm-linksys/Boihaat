@@ -51,7 +51,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         pref = getActivity().getPreferences(0);
         tv_name.setText("Welcome : " + pref.getString(AppConfig.NAME, ""));
         tv_email.setText("Email :  : " + pref.getString(AppConfig.EMAIL, ""));
-        tv_age.setText("Age : " + pref.getInt(AppConfig.AGE, user.getAge()));
+        tv_age.setText("Age : " + pref.getString(AppConfig.AGE, ""));
 
 
     }

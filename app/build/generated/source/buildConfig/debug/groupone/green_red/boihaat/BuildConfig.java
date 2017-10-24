@@ -5,7 +5,7 @@ package groupone.green_red.boihaat;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "groupone.green_red.boihaat";
+  public static final String APPLICATION_ID = "green_red.groupone.boihaat";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 1;
