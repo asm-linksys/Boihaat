@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment;
         if (pref.getBoolean(AppConfig.IS_LOGGED_IN, false)) {
             Intent intent = new Intent(MainActivity.this, DrawerActivity.class);
+            startActivity(intent);
             // fragment = new TestFragment();
         } else {
             fragment = new LoginFragment();

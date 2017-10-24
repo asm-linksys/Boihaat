@@ -1,7 +1,6 @@
 package groupone.green_red.boihaat.fragment;
 
 import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.AppCompatButton;
@@ -25,7 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class AddBookFragment extends Fragment implements View.OnClickListener {
     private AppCompatButton btn_add;
-    private EditText et_unique_id, et_title, et_author,et_publisher,et_pubdate,et_price,et_format,et_total_copy,et_summary;
+    private EditText et_unique_id, et_title, et_author, et_publisher, et_pubdate, et_price, et_format, et_total_copy, et_summary;
     private ProgressBar progress;
 
     @Override
@@ -38,18 +37,18 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
 
     private void initViews(View view) {
 
-        btn_add = (AppCompatButton) view.findViewById(R.id.btn_add);
-       et_unique_id=(EditText)view.findViewById(R.id.et_unique_id);
-        et_title=(EditText)view.findViewById(R.id.et_title);
-        et_author=(EditText)view.findViewById(R.id.et_author);
-        et_publisher=(EditText)view.findViewById(R.id.et_publisher);
-        et_pubdate=(EditText)view.findViewById(R.id.et_pubdate);
-        et_price=(EditText)view.findViewById(R.id.et_price);
-        et_format=(EditText)view.findViewById(R.id.et_format);
-        et_total_copy=(EditText)view.findViewById(R.id.et_total_copy);
-        et_summary=(EditText)view.findViewById(R.id.et_summary);
+        btn_add = view.findViewById(R.id.btn_add);
+        et_unique_id = view.findViewById(R.id.et_unique_id);
+        et_title = view.findViewById(R.id.et_title);
+        et_author = view.findViewById(R.id.et_author);
+        et_publisher = view.findViewById(R.id.et_publisher);
+        et_pubdate = view.findViewById(R.id.et_pubdate);
+        et_price = view.findViewById(R.id.et_price);
+        et_format = view.findViewById(R.id.et_format);
+        et_total_copy = view.findViewById(R.id.et_total_copy);
+        et_summary = view.findViewById(R.id.et_summary);
 
-        progress = (ProgressBar) view.findViewById(R.id.progress);
+        progress = view.findViewById(R.id.progress);
 
         btn_add.setOnClickListener(this);
 
@@ -60,26 +59,23 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case R.id.tv_login:
-                goToLibrary();
-                break;
 
             case R.id.btn_add:
-                String uniqueId=et_unique_id.getText().toString();
+                String uniqueId = et_unique_id.getText().toString();
                 String title = et_title.getText().toString();
                 String author = et_author.getText().toString();
                 String publisher = et_publisher.getText().toString();
-                String pubDate=et_pubdate.getText().toString();
-                String price=et_price.getText().toString();
-                String format=et_format.getText().toString();
-                String total_copy=et_total_copy.getText().toString();
-                String summary=et_summary.getText().toString();
+                String pubDate = et_pubdate.getText().toString();
+                String price = et_price.getText().toString();
+                String format = et_format.getText().toString();
+                String total_copy = et_total_copy.getText().toString();
+                String summary = et_summary.getText().toString();
 
 
                 if (!uniqueId.isEmpty() && !title.isEmpty() && !author.isEmpty() && !publisher.isEmpty() && !pubDate.isEmpty() && !price.isEmpty() && !format.isEmpty() && !total_copy.isEmpty() && !summary.isEmpty()) {
 
                     progress.setVisibility(View.VISIBLE);
-                    registerProcess(uniqueId, title, author,publisher,pubDate,price,format,total_copy,summary);
+                    bookAddProcess(uniqueId, title, author, publisher, pubDate, price, format, total_copy, summary);
 
                 } else {
 
@@ -91,24 +87,24 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
 
     }
 
-    private void registerProcess(String uniqueId, String title, String author,String publisher,String pubDate,String price,String format,String totalCopy,String summary) {
-        int finalTotatlCopy = Integer.parseInt(totalCopy);
+    private void bookAddProcess(String uniqueId, String title, String author, String publisher, String pubDate, String price, String format, String totalCopy, String summary) {
+        //  int finalTotalCopy = Integer.parseInt(totalCopy);
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(AppConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         RequestInterface requestInterface = retrofit.create(RequestInterface.class);
-        int finalPrice=Integer.parseInt(price);
-        Book book=new Book();
+        //  int finalPrice = Integer.parseInt(price);
+        Book book = new Book();
         book.setUniqueId(uniqueId);
         book.setTitle(title);
         book.setAuthorId(author);
         book.setPublisherId(publisher);
         book.setPubDate(pubDate);
-        book.setPrice(finalPrice);
+        book.setPrice(price);
         book.setFormat(format);
-        book.setTotalCopy(finalTotatlCopy);
+        book.setTotalCopy(totalCopy);
         book.setSummary(summary);
         ServerRequest request = new ServerRequest();
         request.setOperation(AppConfig.ADD_BOOK_OPERATION);
@@ -136,11 +132,11 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
         });
     }
 
-    private void goToLibrary() {
-
-        Fragment library = new LibraryFragment();
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, library);
-        ft.commit();
-    }
+//    private void goToLibrary() {
+//
+//        Fragment library = new LibraryFragment();
+//        FragmentTransaction ft = getFragmentManager().beginTransaction();
+//        ft.replace(R.id.fragment_frame, library);
+//        ft.commit();
+//    }
 }

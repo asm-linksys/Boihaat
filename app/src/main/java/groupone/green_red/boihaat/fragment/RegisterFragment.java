@@ -25,12 +25,10 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterFragment extends Fragment implements View.OnClickListener {
-    private AppCompatButton btn_register;
     // private AppCompatButton btn_select_image;
 
 
     private EditText et_email, et_password, et_name, et_age, et_address;
-    private TextView tv_login;
     private ProgressBar progress;
 
 
@@ -44,14 +42,14 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
 
     private void initViews(View view) {
 
-        btn_register = (AppCompatButton) view.findViewById(R.id.btn_register);
-        tv_login = (TextView) view.findViewById(R.id.tv_login);
-        et_name = (EditText) view.findViewById(R.id.et_name);
-        et_email = (EditText) view.findViewById(R.id.et_email);
-        et_password = (EditText) view.findViewById(R.id.et_password);
-        et_age = (EditText) view.findViewById(R.id.et_age);
-        et_address = (EditText) view.findViewById(R.id.et_address);
-        progress = (ProgressBar) view.findViewById(R.id.progress);
+        AppCompatButton btn_register = view.findViewById(R.id.btn_register);
+        TextView tv_login = view.findViewById(R.id.tv_login);
+        et_name = view.findViewById(R.id.et_name);
+        et_email = view.findViewById(R.id.et_email);
+        et_password = view.findViewById(R.id.et_password);
+        et_age = view.findViewById(R.id.et_age);
+        et_address = view.findViewById(R.id.et_address);
+        progress = view.findViewById(R.id.progress);
 //        btn_select_image = (AppCompatButton) view.findViewById(R.id.btn_upload_image);
 //        btn_select_image.setOnClickListener(this);
         btn_register.setOnClickListener(this);
@@ -82,6 +80,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
 
                 } else {
 
+                    //noinspection ConstantConditions
                     Snackbar.make(getView(), "Fields are empty !", Snackbar.LENGTH_LONG).show();
                 }
                 break;
@@ -116,6 +115,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
             public void onResponse(Call<ServerResponse> call, retrofit2.Response<ServerResponse> response) {
 
                 ServerResponse resp = response.body();
+                //noinspection ConstantConditions
                 Snackbar.make(getView(), resp.getMessage(), Snackbar.LENGTH_LONG).show();
                 progress.setVisibility(View.INVISIBLE);
             }
@@ -125,6 +125,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
 
                 progress.setVisibility(View.INVISIBLE);
                 Log.d(AppConfig.TAG, "failed");
+                //noinspection ConstantConditions
                 Snackbar.make(getView(), t.getLocalizedMessage(), Snackbar.LENGTH_LONG).show();
 
 

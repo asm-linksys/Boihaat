@@ -14,8 +14,6 @@ import android.widget.TextView;
 
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.app.AppConfig;
-import groupone.green_red.boihaat.models.Book;
-import groupone.green_red.boihaat.models.User;
 
 
 public class BookDetailsFragment extends Fragment implements View.OnClickListener {
@@ -37,8 +35,8 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        User user = new User();
-        Book book = new Book();
+//        User user = new User();
+//        Book book = new Book();
         pref = getActivity().getPreferences(0);
 
 
@@ -48,7 +46,7 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
 
     }
 
-    public void goToDetails() {
+    private void goToDetails() {
         Fragment bookDetailsComments = new BookComments();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.fragment_frame, bookDetailsComments);
@@ -56,7 +54,7 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
 
     }
 
-    public void goToExchange() {
+    private void goToExchange() {
         Fragment exchange = new ExchangeFragment();
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragment_frame, exchange);
@@ -65,26 +63,26 @@ public class BookDetailsFragment extends Fragment implements View.OnClickListene
 
     private void initViews(View view) {
 
-        tv_title = (TextView) view.findViewById(R.id.tv_title);
-        tv_author = (TextView) view.findViewById(R.id.tv_author);
-        tv_publisher = (TextView) view.findViewById(R.id.tv_publisher);
-        tv_pubDate = (TextView) view.findViewById(R.id.tv_pub_date);
-        tv_price = (TextView) view.findViewById(R.id.tv_price);
-        tv_format = (TextView) view.findViewById(R.id.tv_format);
-        tv_total_copy = (TextView) view.findViewById(R.id.tv_total_copy);
-        tv_rating = (TextView) view.findViewById(R.id.tv_rating);
-        tv_uploader_id = (TextView) view.findViewById(R.id.tv_uploader_id);
-        btn_comment = (Button) view.findViewById(R.id.btn_add_comment);
-        btn_read = (AppCompatButton) view.findViewById(R.id.btn_read);
-        btn_exchange = (AppCompatButton) view.findViewById(R.id.btn_exchange);
-        btn_details = (AppCompatButton) view.findViewById(R.id.btn_details_comment);
+        tv_title = view.findViewById(R.id.tv_title);
+        tv_author = view.findViewById(R.id.tv_author);
+        tv_publisher = view.findViewById(R.id.tv_publisher);
+        tv_pubDate = view.findViewById(R.id.tv_pub_date);
+        tv_price = view.findViewById(R.id.tv_price);
+        tv_format = view.findViewById(R.id.tv_format);
+        tv_total_copy = view.findViewById(R.id.tv_total_copy);
+        tv_rating = view.findViewById(R.id.tv_rating);
+        tv_uploader_id = view.findViewById(R.id.tv_uploader_id);
+        btn_comment = view.findViewById(R.id.btn_add_comment);
+        btn_read = view.findViewById(R.id.btn_read);
+        btn_exchange = view.findViewById(R.id.btn_exchange);
+        btn_details = view.findViewById(R.id.btn_details_comment);
         btn_read.setOnClickListener(this);
         btn_exchange.setOnClickListener(this);
         btn_details.setOnClickListener(this);
 
     }
 
-    public void commentView() {
+    private void commentView() {
         btn_comment.setVisibility(View.VISIBLE);
     }
     @Override

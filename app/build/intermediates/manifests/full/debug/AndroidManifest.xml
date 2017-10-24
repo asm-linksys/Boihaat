@@ -28,6 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name="groupone.green_red.boihaat.activity.AboutUsActivity" />
+        <activity android:name="groupone.green_red.boihaat.activity.DrawerActivity" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

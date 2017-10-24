@@ -7,9 +7,9 @@ public class Book {
     private String authorId;
     private String publisherId;
     private String pubDate;
-    private int price;
+    private String price;
     private String format;
-    private int totalCopy;
+    private String totalCopy;
     private String summary;
 
     public String getSummary() {
@@ -60,11 +60,11 @@ public class Book {
         this.pubDate = pubDate;
     }
 
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
@@ -76,11 +76,11 @@ public class Book {
         this.format = format;
     }
 
-    public int getTotalCopy() {
+    public String getTotalCopy() {
         return totalCopy;
     }
 
-    public void setTotalCopy(int totalCopy) {
+    public void setTotalCopy(String totalCopy) {
         this.totalCopy = totalCopy;
     }
 }

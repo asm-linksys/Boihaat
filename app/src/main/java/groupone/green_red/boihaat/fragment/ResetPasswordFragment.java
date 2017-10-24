@@ -45,16 +45,16 @@ public class ResetPasswordFragment extends Fragment implements View.OnClickListe
 
     private void initViews(View view) {
 
-        btn_reset = (AppCompatButton) view.findViewById(R.id.btn_reset);
-        tv_timer = (TextView) view.findViewById(R.id.timer);
-        et_code = (EditText) view.findViewById(R.id.et_code);
-        et_email = (EditText) view.findViewById(R.id.et_email);
-        et_password = (EditText) view.findViewById(R.id.et_password);
+        btn_reset = view.findViewById(R.id.btn_reset);
+        tv_timer = view.findViewById(R.id.timer);
+        et_code = view.findViewById(R.id.et_code);
+        et_email = view.findViewById(R.id.et_email);
+        et_password = view.findViewById(R.id.et_password);
         et_password.setVisibility(View.GONE);
         et_code.setVisibility(View.GONE);
         tv_timer.setVisibility(View.GONE);
         btn_reset.setOnClickListener(this);
-        progress = (ProgressBar) view.findViewById(R.id.progress);
+        progress = view.findViewById(R.id.progress);
 
 
     }

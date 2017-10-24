@@ -1,5 +1,6 @@
 package groupone.green_red.boihaat.fragment;
 
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
@@ -31,7 +32,6 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
 
     private TextView tv_name, tv_email, tv_message, tv_age;
     private SharedPreferences pref;
-    private AppCompatButton btn_change_password, btn_logout;
     private EditText et_old_password, et_new_password;
     private android.app.AlertDialog dialog;
     private ProgressBar progress;
@@ -45,9 +45,10 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         return view;
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        User user = new User();
+        //User user = new User();
         pref = getActivity().getPreferences(0);
         tv_name.setText("Welcome : " + pref.getString(AppConfig.NAME, ""));
         tv_email.setText("Email :  : " + pref.getString(AppConfig.EMAIL, ""));
@@ -58,11 +59,11 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
 
     private void initViews(View view) {
 
-        tv_name = (TextView) view.findViewById(R.id.tv_name);
-        tv_email = (TextView) view.findViewById(R.id.tv_email);
-        tv_age = (TextView) view.findViewById(R.id.tv_age);
-        btn_change_password = (AppCompatButton) view.findViewById(R.id.btn_chg_password);
-        btn_logout = (AppCompatButton) view.findViewById(R.id.btn_logout);
+        tv_name = view.findViewById(R.id.tv_name);
+        tv_email = view.findViewById(R.id.tv_email);
+        tv_age = view.findViewById(R.id.tv_age);
+        AppCompatButton btn_change_password = view.findViewById(R.id.btn_chg_password);
+        AppCompatButton btn_logout = view.findViewById(R.id.btn_logout);
         btn_change_password.setOnClickListener(this);
         btn_logout.setOnClickListener(this);
 
@@ -72,11 +73,11 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
 
         android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(getActivity());
         LayoutInflater inflater = getActivity().getLayoutInflater();
-        View view = inflater.inflate(R.layout.dialog_change_password, null);
-        et_old_password = (EditText) view.findViewById(R.id.et_old_password);
-        et_new_password = (EditText) view.findViewById(R.id.et_new_password);
-        tv_message = (TextView) view.findViewById(R.id.tv_message);
-        progress = (ProgressBar) view.findViewById(R.id.progress);
+        @SuppressLint("InflateParams") View view = inflater.inflate(R.layout.dialog_change_password, null);
+        et_old_password = view.findViewById(R.id.et_old_password);
+        et_new_password = view.findViewById(R.id.et_new_password);
+        tv_message = view.findViewById(R.id.tv_message);
+        progress = view.findViewById(R.id.progress);
         builder.setView(view);
         builder.setTitle("Change Password");
         builder.setPositiveButton("Change Password", new DialogInterface.OnClickListener() {
@@ -94,6 +95,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         dialog = builder.create();
         dialog.show();
         dialog.getButton(android.app.AlertDialog.BUTTON_POSITIVE).setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 String old_password = et_old_password.getText().toString();
@@ -170,6 +172,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
                     progress.setVisibility(View.GONE);
                     tv_message.setVisibility(View.GONE);
                     dialog.dismiss();
+                    //noinspection ConstantConditions
                     Snackbar.make(getView(), resp.getMessage(), Snackbar.LENGTH_LONG).show();
 
                 } else {

@@ -2,6 +2,7 @@ package groupone.green_red.boihaat.fragment;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import groupone.green_red.boihaat.R;
+import groupone.green_red.boihaat.activity.DrawerActivity;
 import groupone.green_red.boihaat.app.AppConfig;
 import groupone.green_red.boihaat.app.RequestInterface;
 import groupone.green_red.boihaat.app.ServerRequest;
@@ -28,9 +30,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LoginFragment extends Fragment implements View.OnClickListener {
 
-    private AppCompatButton btn_login;
     private EditText et_email, et_password;
-    private TextView tv_register;
     private ProgressBar progress;
     private SharedPreferences pref;
 
@@ -47,17 +47,18 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
         pref = getActivity().getPreferences(0);
 
-        btn_login = (AppCompatButton) view.findViewById(R.id.btn_login);
-        tv_register = (TextView) view.findViewById(R.id.tv_register);
-        et_email = (EditText) view.findViewById(R.id.et_email);
-        et_password = (EditText) view.findViewById(R.id.et_password);
+        AppCompatButton btn_login = view.findViewById(R.id.btn_login);
+        TextView tv_register = view.findViewById(R.id.tv_register);
+        et_email = view.findViewById(R.id.et_email);
+        et_password = view.findViewById(R.id.et_password);
 
-        progress = (ProgressBar) view.findViewById(R.id.progress);
+        progress = view.findViewById(R.id.progress);
 
         btn_login.setOnClickListener(this);
         tv_register.setOnClickListener(this);
     }
 
+    @SuppressWarnings("ConstantConditions")
     @Override
     public void onClick(View v) {
 
@@ -103,6 +104,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         Call<ServerResponse> response = requestInterface.operation(request);
 
         response.enqueue(new Callback<ServerResponse>() {
+            @SuppressWarnings("ConstantConditions")
             @Override
             public void onResponse(Call<ServerResponse> call, retrofit2.Response<ServerResponse> response) {
 
@@ -116,12 +118,13 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
                     editor.putString(AppConfig.NAME, resp.getUser().getName());
                     editor.putString(AppConfig.UNIQUE_ID, resp.getUser().getUnique_id());
                     editor.apply();
-                    goToProfile();
+                    goToHome();
 
                 }
                 progress.setVisibility(View.INVISIBLE);
             }
 
+            @SuppressWarnings("ConstantConditions")
             @Override
             public void onFailure(Call<ServerResponse> call, Throwable t) {
 
@@ -141,11 +144,14 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         ft.commit();
     }
 
-    private void goToProfile() {
-
-        Fragment profile = new ProfileFragment();
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_frame, profile);
-        ft.commit();
+    private void goToHome() {
+        Intent intentHome = new Intent(getActivity(), DrawerActivity.class);
+        startActivity(intentHome);
+        getActivity().overridePendingTransition(0, 0);
+//
+//        Fragment profile = new ProfileFragment();
+//        FragmentTransaction ft = getFragmentManager().beginTransaction();
+//        ft.replace(R.id.fragment_frame, profile);
+//        ft.commit();
     }
 }

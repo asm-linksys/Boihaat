@@ -23,13 +23,13 @@ public class TestFragment extends Fragment implements View.OnClickListener {
         return view;
     }
 
-    public void initView(View view) {
-        profile = (AppCompatButton) view.findViewById(R.id.btn_profile_fragment);
-        bookDetails = (AppCompatButton) view.findViewById(R.id.btn_book_details_fragment);
-        addBook = (AppCompatButton) view.findViewById(R.id.btn_add_book_fragment);
-        exchange = (AppCompatButton) view.findViewById(R.id.btn_book_exchange_fragment);
-        home = (AppCompatButton) view.findViewById(R.id.btn_book_home_fragment);
-        library = (AppCompatButton) view.findViewById(R.id.btn_book_library_fragment);
+    private void initView(View view) {
+        profile = view.findViewById(R.id.btn_profile_fragment);
+        bookDetails = view.findViewById(R.id.btn_book_details_fragment);
+        addBook = view.findViewById(R.id.btn_add_book_fragment);
+        exchange = view.findViewById(R.id.btn_book_exchange_fragment);
+        home = view.findViewById(R.id.btn_book_home_fragment);
+        library = view.findViewById(R.id.btn_book_library_fragment);
         profile.setOnClickListener(this);
         bookDetails.setOnClickListener(this);
         addBook.setOnClickListener(this);

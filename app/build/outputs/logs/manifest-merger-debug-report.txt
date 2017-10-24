@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManif
 	android:name
 		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:10:5-25:19
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:10:5-28:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-cache\cea3366e6b195a6d011a9272b6a6b823a26e1925\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kh3la\.android\build-cache\b0945d903eae19e7da2eda24b5e64f75da20de9b\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kh3la\.android\build-cache\f0fb2cf7472721523535515de940026ddac3103d\output\AndroidManifest.xml:22:5-26:19
@@ -79,6 +79,10 @@ activity#groupone.green_red.boihaat.activity.AboutUsActivity
 ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:24:9-62
 	android:name
 		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:24:19-59
+activity#groupone.green_red.boihaat.activity.DrawerActivity
+ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:25:9-27:20
+	android:name
+		ADDED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml:25:19-58
 uses-sdk
 INJECTED from D:\Files\Personal\MobileApplication\BoiHaat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:26.1.0] C:\Users\kh3la\.android\build-cache\cea3366e6b195a6d011a9272b6a6b823a26e1925\output\AndroidManifest.xml:21:5-23:62
