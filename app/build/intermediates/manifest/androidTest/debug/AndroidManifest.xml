@@ -13,7 +13,7 @@
         android:label="Tests for green_red.groupone.boihaat"
         android:targetPackage="green_red.groupone.boihaat" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

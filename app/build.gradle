@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "green_red.groupone.boihaat"
         minSdkVersion 24
@@ -28,21 +28,43 @@ android {
             path "CMakeLists.txt"
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
+//flavorDimensions 'tier'
+//productFlavors {
+//    paid {
+//        dimension 'tier'
+//        // Because the dependency already includes a "paid" flavor in its
+//        // "tier" dimension, you don't need to provide a list of fallbacks
+//        // for the "paid" flavor.
+//    }
+//    free {
+//        dimension 'tier'
+//        // Specifies a sorted list of fallback flavors that the plugin
+//        // should try to use when a dependency's matching dimension does
+//        // not include a "free" flavor. You may specify as many
+//        // fallbacks as you like, and the plugin selects the first flavor
+//        // that's available in the dependency's "tier" dimension.
+//        matchingFallbacks = ['demo', 'trial']
+//    }
+//}
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
+    androidTestUtil 'com.android.support.test:orchestrator:1.0.0'
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support:design:26.1.0'
     compile 'com.squareup.retrofit2:retrofit:2.0.0'
     compile 'com.squareup.retrofit2:converter-gson:2.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:support-v4:26.+'
-    compile 'com.google.android.gms:play-services-plus:11.0.4'
+    compile 'com.google.android.gms:play-services-plus:11.4.2'
     compile 'com.android.support:recyclerview-v7:26.+'
     compile 'com.google.code.gson:gson:2.8.2'
     testCompile 'junit:junit:4.12'
