@@ -1,9 +1,5 @@
 package groupone.green_red.boihaat.models;
 
-/**
- * User Model Class for receive and send information
- */
-
 public class User {
 
     private String name;

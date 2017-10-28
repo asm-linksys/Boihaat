@@ -1,5 +1,6 @@
 package groupone.green_red.boihaat.app;
 
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -9,7 +10,24 @@ import android.widget.BaseAdapter;
  */
 
 @SuppressWarnings("DefaultFileTemplate")
-public class AppHomeAdapter extends BaseAdapter {
+public class HomeListViewAdapter extends BaseAdapter {
+    private int[] image;
+    String[] bookName;
+    private int[] rating;
+    Context context;
+
+    HomeListViewAdapter(Context context, String[] bookName, int[] image, int[] rating) {
+        this.context = context;
+        this.bookName = bookName;
+        this.image = image;
+        this.rating = rating;
+
+
+    }
+
+
+
+
     @Override
     public int getCount() {
         return 0;
