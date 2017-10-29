@@ -3,6 +3,7 @@ package groupone.green_red.boihaat.app;
 
 public class AppConfig {
     public static final String BASE_URL = "http://27.147.172.213:8050/";
+    public static final String SHARED_PREF_NAME = "boihaat";
     public static final String REGISTER_OPERATION = "register";
     public static final String LOGIN_OPERATION = "login";
     public static final String CHANGE_PASSWORD_OPERATION = "chgPass";
@@ -16,21 +17,25 @@ public class AppConfig {
 
 
     // User Table Information
-
+    public static final String ID = "id";
     public static final String NAME = "name";
     public static final String EMAIL = "email";
-    public static final String UNIQUE_ID = "unique_id";
+    // public static final String UNIQUE_ID = "unique_id";
+    public static final String GENDER = "gender";
     public static final String AGE = "age";
+    public static final String ADDRESS = "address";
 
     //Book Table Information
-
+    public static final String BOOKID = "book_id";
+    public static final String UNIQUEID = "unique_id";
     public static final String TITLE = "title";
-    public static final String AUTHOR = "author_id";
+    public static final String AUTHOR = "authors";
     public static final String PUBLISHER = "publisher_id";
     public static final String PUBDATE = "pub_date";
     public static final String PRICE = "price";
     public static final String FORMAT = "format";
     public static final String TOTALCOPY = "total_copy";
+    public static final String SUMMARY = "summary";
     public static final String RATING = "rating";
 
     //Comment Table Information

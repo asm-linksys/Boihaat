@@ -14,11 +14,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import groupone.green_red.boihaat.R;
-import groupone.green_red.boihaat.fragment.AddBookFragment;
 import groupone.green_red.boihaat.fragment.ExchangeFragment;
 import groupone.green_red.boihaat.fragment.HomeFragment;
 import groupone.green_red.boihaat.fragment.LibraryFragment;
-import groupone.green_red.boihaat.fragment.ProfileFragment;
+
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -121,14 +120,7 @@ public class DrawerActivity extends AppCompatActivity
                 fragment = new LibraryFragment();
                 title = "Library";
                 break;
-            case R.id.profile_fragment:
-                fragment = new ProfileFragment();
-                title = "Profile";
-                break;
-            case R.id.add_book_fragment:
-                fragment = new AddBookFragment();
-                title = "Add Book";
-                break;
+
             case R.id.exchange_book_fragment:
                 fragment = new ExchangeFragment();
                 title = "Exchange";

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -79,6 +83,30 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <RadioGroup
+        android:id="@+id/radioGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -95,13 +123,6 @@
 
     </android.support.design.widget.TextInputLayout>
 
-    <android.support.v7.widget.AppCompatImageButton
-        android:id="@+id/btn_upload_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_menu_camera"
-        android:text="Choose Image"
-        android:textColor="@android:color/white" />
 
     <Space
         android:layout_width="match_parent"
@@ -124,7 +145,7 @@
         android:textColor="@color/colorAccent" />
 
     <ProgressBar
-        android:id="@+id/progress"
+        android:id="@+id/progress_register"
         style="@style/Base.Widget.AppCompat.ProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -133,3 +154,4 @@
         android:visibility="invisible" />
 
 </LinearLayout>
+</ScrollView>

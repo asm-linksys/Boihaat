@@ -2,15 +2,44 @@ package groupone.green_red.boihaat.models;
 
 public class User {
 
+    private int user_id;
     private String name;
     private String email;
-    private String unique_id;
     private String password;
     private String old_password;
     private String new_password;
     private String code;
     private String age;
+    private String gender;
     private String address;
+
+    public User(int user_id, String name, String email, String age, String gender, String address) {
+        this.user_id = user_id;
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.gender = gender;
+        this.address = address;
+    }
+
+    public User() {
+    }
+
+    public int getId() {
+        return user_id;
+    }
+
+    public void setId(int id) {
+        this.user_id = user_id;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     public String getCode() {
         return code;
@@ -50,14 +79,6 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getUnique_id() {
-        return unique_id;
-    }
-
-    public void setUnique_id(String unique_id) {
-        this.unique_id = unique_id;
     }
 
     public String getPassword() {

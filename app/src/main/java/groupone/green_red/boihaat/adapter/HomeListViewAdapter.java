@@ -1,4 +1,4 @@
-package groupone.green_red.boihaat.app;
+package groupone.green_red.boihaat.adapter;
 
 import android.content.Context;
 import android.view.View;
