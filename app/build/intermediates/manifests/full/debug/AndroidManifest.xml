@@ -38,7 +38,7 @@
         </activity>
         <activity android:name="groupone.green_red.boihaat.activity.AboutUsActivity" />
         <activity android:name="groupone.green_red.boihaat.activity.DrawerActivity" />
-        <activity android:name="groupone.green_red.boihaat.activity.MainActivity" />
+        <activity android:name="groupone.green_red.boihaat.activity.RegisterActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

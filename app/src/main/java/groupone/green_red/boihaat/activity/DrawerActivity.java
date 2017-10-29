@@ -2,6 +2,7 @@ package groupone.green_red.boihaat.activity;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -12,20 +13,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import groupone.green_red.boihaat.R;
+import groupone.green_red.boihaat.app.SharedPrefManager;
 import groupone.green_red.boihaat.fragment.ExchangeFragment;
 import groupone.green_red.boihaat.fragment.HomeFragment;
 import groupone.green_red.boihaat.fragment.LibraryFragment;
+import groupone.green_red.boihaat.models.User;
 
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    private TextView tv_user_name, tv_user_email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawer);
+        if (!SharedPrefManager.getInstance(this).isLoggedIn()) {
+            finish();
+            startActivity(new Intent(this, LoginActivity.class));
+        }
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -47,6 +56,15 @@ public class DrawerActivity extends AppCompatActivity
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        tv_user_name = findViewById(R.id.user_nav_name);
+        tv_user_email = findViewById(R.id.user_nav_email);
+        User user = SharedPrefManager.getInstance(this).getUser();
+        Bundle b = getIntent().getExtras();
+        tv_user_name = navigationView.getHeaderView(0).findViewById(R.id.user_nav_name);
+        tv_user_email = navigationView.getHeaderView(0).findViewById(R.id.user_nav_email);
+        tv_user_email.setText(user.getEmail());
+        tv_user_name.setText(String.valueOf(user.getName()));
     }
 
     @Override
@@ -77,6 +95,8 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.action_about_us) {
             return true;
         } else if (id == R.id.action_logout) {
+            finish();
+            SharedPrefManager.getInstance(getApplicationContext()).logout();
 
         }
 
@@ -108,6 +128,17 @@ public class DrawerActivity extends AppCompatActivity
 
     }
 
+    //    private void logout() {
+//
+//          SharedPreferences.Editor editor=preferences.edit();
+//          editor.remove(AppConfig.EMAIL);
+//          editor.commit();
+////        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(AppConfig.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+////        SharedPreferences.Editor editor = sharedPreferences.edit();
+////        editor.clear();
+////        editor.apply();
+////        mCtx.startActivity(new Intent(mCtx, LoginActivity.class));
+//    }
     private void displayView(int viewID) {
         Fragment fragment = null;
         String title = getString(R.string.app_name);

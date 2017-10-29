@@ -20,7 +20,7 @@ public class SharedPrefManager {
     @SuppressLint("StaticFieldLeak")
     private static Context mCtx;
 
-    private SharedPrefManager(Context context) {
+    public SharedPrefManager(Context context) {
         mCtx = context;
     }
 
@@ -37,12 +37,16 @@ public class SharedPrefManager {
         SharedPreferences sharedPreferences = mCtx.getSharedPreferences(AppConfig.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt(AppConfig.ID, user.getId());
+        editor.putString(AppConfig.NAME, user.getName());
         editor.putString(AppConfig.EMAIL, user.getEmail());
         editor.putString(AppConfig.AGE, user.getAge());
         editor.putString(AppConfig.GENDER, user.getGender());
         editor.putString(AppConfig.ADDRESS, user.getAddress());
         editor.apply();
     }
+
+    // Store Book Information
+
 
     //this method will checker whether user is already logged in or not
     public boolean isLoggedIn() {

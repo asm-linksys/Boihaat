@@ -31,7 +31,7 @@ import groupone.green_red.boihaat.app.SharedPrefManager;
 import groupone.green_red.boihaat.app.URLs;
 import groupone.green_red.boihaat.models.User;
 
-public class MainActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     private EditText et_name;
     private EditText et_email;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_register);
+        setContentView(R.layout.activity_register);
 
         progressBar = findViewById(R.id.progress_register);
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             //if user pressed on login
             //we will open the login screen
             finish();
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
         });
 
     }
