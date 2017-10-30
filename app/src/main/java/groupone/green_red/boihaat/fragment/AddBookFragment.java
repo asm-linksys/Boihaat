@@ -148,9 +148,9 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
                                 Toast.makeText(getActivity().getApplicationContext(), obj.getString("message"), Toast.LENGTH_SHORT).show();
 
                                 //getting the user from the response
-                                JSONObject bookJson = obj.getJSONObject("user");
+                                JSONObject bookJson = obj.getJSONObject("book");
 
-                                //creating a new user object
+                                //creating a new book object
                                 Book book = new Book(
                                         bookJson.getInt("book_id"),
                                         bookJson.getString("unique_id"),
