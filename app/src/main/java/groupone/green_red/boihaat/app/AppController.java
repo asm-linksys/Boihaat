@@ -17,6 +17,12 @@ public class AppController {
         mRequestQueue = getRequestQueue();
     }
 
+    //    public static synchronized AppController getInstance(AddBookFragment context){
+//        if (mInstance==null){
+//            mInstance=new AppController(context);
+//        }
+//        return mInstance;
+//    }
     public static synchronized AppController getInstance(Context context) {
         if (mInstance == null) {
             mInstance = new AppController(context);

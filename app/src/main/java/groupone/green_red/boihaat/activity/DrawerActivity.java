@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.app.SharedPrefManager;
+import groupone.green_red.boihaat.fragment.AddBookFragment;
 import groupone.green_red.boihaat.fragment.ExchangeFragment;
 import groupone.green_red.boihaat.fragment.HomeFragment;
 import groupone.green_red.boihaat.fragment.LibraryFragment;
@@ -155,6 +156,10 @@ public class DrawerActivity extends AppCompatActivity
             case R.id.exchange_book_fragment:
                 fragment = new ExchangeFragment();
                 title = "Exchange";
+                break;
+            case R.id.add_book_fragment:
+                fragment = new AddBookFragment();
+                title = "Add Book";
         }
         if (fragment != null) {
             FragmentTransaction ft = getFragmentManager().beginTransaction();

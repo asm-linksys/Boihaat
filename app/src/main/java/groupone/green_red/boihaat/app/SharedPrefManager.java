@@ -9,11 +9,9 @@ import groupone.green_red.boihaat.activity.LoginActivity;
 import groupone.green_red.boihaat.models.Book;
 import groupone.green_red.boihaat.models.User;
 
-
 public class SharedPrefManager {
 
     //the constants
-
 
     @SuppressLint("StaticFieldLeak")
     private static SharedPrefManager mInstance;
@@ -46,7 +44,23 @@ public class SharedPrefManager {
     }
 
     // Store Book Information
+    public void addBook(Book book) {
+        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(AppConfig.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(AppConfig.BOOKID, book.getBook_id());
+        editor.putString(AppConfig.UNIQUEID, book.getUnique_id());
+        editor.putString(AppConfig.TITLE, book.getTitle());
+        editor.putString(AppConfig.AUTHOR, book.getAuthors());
+        editor.putString(AppConfig.PUBLISHER, book.getPublishers());
+        editor.putString(AppConfig.PUBDATE, book.getPub_date());
+        editor.putString(AppConfig.PRICE, book.getPrice());
+        editor.putString(AppConfig.FORMAT, book.getFormat());
+        editor.putString(AppConfig.TOTALCOPY, book.getFormat());
+        editor.putString(AppConfig.SUMMARY, book.getSummary());
+        editor.apply();
 
+
+    }
 
     //this method will checker whether user is already logged in or not
     public boolean isLoggedIn() {
@@ -54,6 +68,7 @@ public class SharedPrefManager {
         return sharedPreferences.getString(AppConfig.EMAIL, null) != null;
     }
 
+    //Get Book Information
     private Book getBook() {
         SharedPreferences sharedPreferences = mCtx.getSharedPreferences(AppConfig.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         return new Book(

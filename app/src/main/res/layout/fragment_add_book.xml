@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="Register New Book"
+        android:text="Add New Book"
         android:textAlignment="center"
         android:textSize="22sp" />
 
@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_title"
+            android:id="@+id/et_title_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_person"
@@ -42,7 +42,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_unique_id"
+            android:id="@+id/et_unique_id_isbn_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_email"
@@ -57,7 +57,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_author"
+            android:id="@+id/et_author_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_email"
@@ -73,7 +73,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_publisher"
+            android:id="@+id/et_publisher_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -88,7 +88,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_pubdate"
+            android:id="@+id/et_pubdate_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -103,7 +103,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_price"
+            android:id="@+id/et_price_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -119,7 +119,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_total_copy"
+            android:id="@+id/et_total_copy_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -135,7 +135,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_format"
+            android:id="@+id/et_format_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -151,7 +151,7 @@
         android:layout_marginTop="8dp">
 
         <EditText
-            android:id="@+id/et_summary"
+            android:id="@+id/et_summary_book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_key"
@@ -161,14 +161,14 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btn_add"
+        android:id="@+id/btn_add_book"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:text="Add"
         android:textColor="@android:color/white" />
     <ProgressBar
-        android:id="@+id/progress"
+        android:id="@+id/progress_book"
         style="@style/Base.Widget.AppCompat.ProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
