@@ -21,6 +21,7 @@ import groupone.green_red.boihaat.fragment.AddBookFragment;
 import groupone.green_red.boihaat.fragment.ExchangeFragment;
 import groupone.green_red.boihaat.fragment.HomeFragment;
 import groupone.green_red.boihaat.fragment.LibraryFragment;
+import groupone.green_red.boihaat.fragment.ProfileFragment;
 import groupone.green_red.boihaat.models.User;
 
 
@@ -129,6 +130,10 @@ public class DrawerActivity extends AppCompatActivity
             case R.id.exchange_book_fragment:
                 fragment = new ExchangeFragment();
                 title = "Exchange";
+                break;
+            case R.id.profile_fragment:
+                fragment = new ProfileFragment();
+                title = "Profile";
                 break;
             case R.id.add_book_fragment:
                 fragment = new AddBookFragment();

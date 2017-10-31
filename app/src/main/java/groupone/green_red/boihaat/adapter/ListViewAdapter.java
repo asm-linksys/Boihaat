@@ -22,11 +22,13 @@ public class ListViewAdapter extends BaseAdapter {
     private Activity activity;
     private LayoutInflater inflater;
     private List<BookList> book_items;
+
     private ImageLoader imageLoader = ListViewController.getInstance().getImageLoader();
 
     public ListViewAdapter(Activity activity, List<BookList> book_items) {
         this.activity = activity;
         this.book_items = book_items;
+
     }
 
     @Override
@@ -58,7 +60,7 @@ public class ListViewAdapter extends BaseAdapter {
             imageLoader = ListViewController.getInstance().getImageLoader();
         NetworkImageView thumbNail = convertView
                 .findViewById(R.id.thumbnail);
-        TextView title = convertView.findViewById(R.id.title);
+        TextView title = convertView.findViewById(R.id.title_book_list);
         //   TextView rating = convertView.findViewById(R.id.book_rating_list);
         TextView authors = convertView.findViewById(R.id.book_authors_list);
         TextView price = convertView.findViewById(R.id.book_price_list);
@@ -67,7 +69,8 @@ public class ListViewAdapter extends BaseAdapter {
         BookList bookList = book_items.get(position);
 
         // thumbnail image
-        thumbNail.setImageUrl(bookList.getImage(), imageLoader);
+        //thumbNail.setImageUrl(bookList.getImage(), imageLoader);
+        // imageLoader.get(bookList.getImage(),listener);
 
         // title
         title.setText(bookList.getTitle());

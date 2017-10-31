@@ -15,7 +15,7 @@
         app:srcCompat="@android:color/background_light" />
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/tv_title_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -23,49 +23,56 @@
         android:textSize="22sp" />
 
     <TextView
-        android:id="@+id/tv_author"
+        android:id="@+id/tv_author_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_publisher"
+        android:id="@+id/tv_publisher_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_pub_date"
+        android:id="@+id/tv_pub_date_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_price"
+        android:id="@+id/tv_price_details_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_format"
+        android:id="@+id/tv_format_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_total_copy"
+        android:id="@+id/tv_total_copy_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/tv_rating"
+        android:id="@+id/tv_rating_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_summary_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

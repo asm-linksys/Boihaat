@@ -56,11 +56,19 @@ public class HomeFragment extends Fragment {
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, URLs.URL_BOOK_DETAILS, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
+//                final String [] book_title=new String[response.length()];
+//                final String [] book_author=new String[response.length()];
                 hidePDialog();
                 try {
                     JSONArray jsonArray = response.getJSONArray("result");
                     for (int i = 0; i < jsonArray.length(); i++) {
+
                         JSONObject object = jsonArray.getJSONObject(i);
+                        // Storeing data for book Details
+//                        book_title[i]=object.getString("Title");
+//                        book_author[i]=object.getString("Author");
+
+
                         BookList bookList = new BookList();
                         bookList.setUnique_id(object.getString("unique_id"));
                         bookList.setTitle(object.getString("title"));
@@ -72,13 +80,25 @@ public class HomeFragment extends Fragment {
                         bookList.setTotal_copy(object.getString("total_copy"));
                         bookList.setSummary(object.getString("summary"));
                         bookList.setImage_url(object.getString("image"));
-
+                        bookLists.add(bookList);
                     }
                 } catch (JSONException e) {
                     System.out.println("Error");
                     e.printStackTrace();
                 }
                 adapter.notifyDataSetChanged();
+//                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//                    @Override
+//                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                        Fragment bookDetailsFragment=new BookDetailsFragment();
+//                      //  FragmentTransaction ft=getFragmentManager().beginTransaction();
+//                        Bundle b=new Bundle();
+//                        b.putStringArray("Book Title",book_title);
+//                        b.putStringArray("Book Author",book_author);
+//                        bookDetailsFragment.setArguments(b);
+//                        getFragmentManager().beginTransaction().add(R.id.frame,bookDetailsFragment).commit();
+//                    }
+//                });
             }
         }, new Response.ErrorListener() {
             @Override
@@ -88,6 +108,7 @@ public class HomeFragment extends Fragment {
             }
         });
         ListViewController.getInstance().addToRequestQueue(jsonObjectRequest, TAG);
+
         return view;
     }
 
