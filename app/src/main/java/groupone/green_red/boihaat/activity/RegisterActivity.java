@@ -26,9 +26,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import groupone.green_red.boihaat.R;
-import groupone.green_red.boihaat.app.AppController;
 import groupone.green_red.boihaat.app.SharedPrefManager;
 import groupone.green_red.boihaat.app.URLs;
+import groupone.green_red.boihaat.app.VolleyController;
 import groupone.green_red.boihaat.models.User;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -187,7 +187,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         };
 
-        AppController.getInstance(this).addToRequestQueue(stringRequest);
+        VolleyController.getInstance(this).addToRequestQueue(stringRequest);
 
     }
 

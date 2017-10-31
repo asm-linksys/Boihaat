@@ -26,9 +26,9 @@ import java.util.Map;
 
 import groupone.green_red.boihaat.R;
 import groupone.green_red.boihaat.activity.DrawerActivity;
-import groupone.green_red.boihaat.app.AppController;
 import groupone.green_red.boihaat.app.SharedPrefManager;
 import groupone.green_red.boihaat.app.URLs;
+import groupone.green_red.boihaat.app.VolleyController;
 import groupone.green_red.boihaat.models.Book;
 
 
@@ -200,7 +200,7 @@ public class AddBookFragment extends Fragment implements View.OnClickListener {
             }
         };
 
-        AppController.getInstance(getActivity()).addToRequestQueue(stringRequest);
+        VolleyController.getInstance(getActivity()).addToRequestQueue(stringRequest);
 
     }
 

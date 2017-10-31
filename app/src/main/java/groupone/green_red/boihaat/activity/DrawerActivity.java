@@ -110,41 +110,14 @@ public class DrawerActivity extends AppCompatActivity
         displayView(item.getItemId());
 
         return true;
-//        // Handle navigation view item clicks here.
-//        int id = item.getItemId();
-//
-//        if (id == R.id.home_fragment) {
-//            // Handle the camera action
-//        } else if (id == R.id.profile_fragment) {
-//
-//        } else if (id == R.id.library_fragment) {
-//
-//        } else if (id == R.id.add_book_fragment) {
-//
-//        } else if (id == R.id.exchange_book) {
-//
-//        }
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        drawer.closeDrawer(GravityCompat.START);
-
     }
-
-    //    private void logout() {
-//
-//          SharedPreferences.Editor editor=preferences.edit();
-//          editor.remove(AppConfig.EMAIL);
-//          editor.commit();
-////        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(AppConfig.SHARED_PREF_NAME, Context.MODE_PRIVATE);
-////        SharedPreferences.Editor editor = sharedPreferences.edit();
-////        editor.clear();
-////        editor.apply();
-////        mCtx.startActivity(new Intent(mCtx, LoginActivity.class));
-//    }
     private void displayView(int viewID) {
         Fragment fragment = null;
         String title = getString(R.string.app_name);
         switch (viewID) {
             case R.id.home_fragment:
+//              Intent intent=new Intent(getApplicationContext(),ListActivity.class);
+//                        startActivity(intent);
                 fragment = new HomeFragment();
                 title = "Home";
                 break;
